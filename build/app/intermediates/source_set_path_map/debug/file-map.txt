@@ -1,0 +1,54 @@
+com.islamic_rewards_tracker.app-transition-1.4.1-0 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\10d052a0aaefaa3b0a1c6ebb5495e418\transformed\transition-1.4.1\res
+com.islamic_rewards_tracker.app-activity-1.8.1-1 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\157e96593ec426e2b527536db722ae9d\transformed\activity-1.8.1\res
+com.islamic_rewards_tracker.app-drawerlayout-1.1.1-2 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\1a2621961354a1d26bfa985e4a262f31\transformed\drawerlayout-1.1.1\res
+com.islamic_rewards_tracker.app-datastore-preferences-release-3 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2182d8b95d9b55938a63be866dde0fcf\transformed\datastore-preferences-release\res
+com.islamic_rewards_tracker.app-material-1.9.0-4 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\25351e5d426719a83fc51794ee2aa35e\transformed\material-1.9.0\res
+com.islamic_rewards_tracker.app-coordinatorlayout-1.1.0-5 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2ebdab3881d2528bd55f18d7024b52d9\transformed\coordinatorlayout-1.1.0\res
+com.islamic_rewards_tracker.app-savedstate-ktx-1.2.1-6 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\34da987e45e9f8645ad9a0b75dfb2413\transformed\savedstate-ktx-1.2.1\res
+com.islamic_rewards_tracker.app-core-1.13.1-7 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3ac622b549f8133ebf0a32b46b02c78d\transformed\core-1.13.1\res
+com.islamic_rewards_tracker.app-constraintlayout-2.0.1-8 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3f5fc7a3626f9870d9e4189a6bef19fe\transformed\constraintlayout-2.0.1\res
+com.islamic_rewards_tracker.app-window-java-1.2.0-9 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\5b71b723ddce858e7fde600e9dc30301\transformed\window-java-1.2.0\res
+com.islamic_rewards_tracker.app-datastore-core-release-10 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\619be584ea55f30804f2065c3a8a50f9\transformed\datastore-core-release\res
+com.islamic_rewards_tracker.app-activity-ktx-1.8.1-11 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\68526251839bba7f8f2b7acfb97421d4\transformed\activity-ktx-1.8.1\res
+com.islamic_rewards_tracker.app-lifecycle-viewmodel-2.7.0-12 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\6d191dff4e3f2e471bdd9a058206a686\transformed\lifecycle-viewmodel-2.7.0\res
+com.islamic_rewards_tracker.app-slidingpanelayout-1.2.0-13 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\7151aa22d04a5f3b2109846f1e33e657\transformed\slidingpanelayout-1.2.0\res
+com.islamic_rewards_tracker.app-lifecycle-viewmodel-ktx-2.7.0-14 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\75c51703f8d122a2e59e1e406940893d\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.islamic_rewards_tracker.app-core-ktx-1.13.1-15 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\7e5d2ccd285022c7235c22c91d7fcc8c\transformed\core-ktx-1.13.1\res
+com.islamic_rewards_tracker.app-recyclerview-1.1.0-16 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\7eb0c6cd7a1563bcf9ca50f6011ae59f\transformed\recyclerview-1.1.0\res
+com.islamic_rewards_tracker.app-preference-1.2.1-17 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\89120d04882e497dce91d2a420327379\transformed\preference-1.2.1\res
+com.islamic_rewards_tracker.app-fragment-1.7.1-18 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\8d46fb419c395318100d3b6451058ab8\transformed\fragment-1.7.1\res
+com.islamic_rewards_tracker.app-lifecycle-livedata-core-ktx-2.7.0-19 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\923935d2fc3bb266bc6361b91298ee46\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.islamic_rewards_tracker.app-viewpager2-1.0.0-20 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\94027b4d50a58ef7e9b0fa62718bd3c9\transformed\viewpager2-1.0.0\res
+com.islamic_rewards_tracker.app-lifecycle-runtime-ktx-2.7.0-21 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\9c15cd7c2ce701f39676972f69eb39e6\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.islamic_rewards_tracker.app-core-1.0.0-22 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\9e8700b97f6072552927c74a97c881c8\transformed\core-1.0.0\res
+com.islamic_rewards_tracker.app-tracing-1.2.0-23 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\a361d99ffb73a38bdf3338ccf75b84f8\transformed\tracing-1.2.0\res
+com.islamic_rewards_tracker.app-profileinstaller-1.3.1-24 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\res
+com.islamic_rewards_tracker.app-cardview-1.0.0-25 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\b5039f03a73c2d4b3adb7f97e9213931\transformed\cardview-1.0.0\res
+com.islamic_rewards_tracker.app-savedstate-1.2.1-26 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\b9c610093eecd2e6c3b3506ca6368f39\transformed\savedstate-1.2.1\res
+com.islamic_rewards_tracker.app-lifecycle-livedata-2.7.0-27 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\bf2e8e3e037e90be6f840457bc5e7b81\transformed\lifecycle-livedata-2.7.0\res
+com.islamic_rewards_tracker.app-appcompat-resources-1.5.0-28 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\c8a2bb6709fcb639ad7b4b9ae347d0e1\transformed\appcompat-resources-1.5.0\res
+com.islamic_rewards_tracker.app-emoji2-1.2.0-29 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\cebd5409b287bcd6b98ca1da4b482c28\transformed\emoji2-1.2.0\res
+com.islamic_rewards_tracker.app-window-1.2.0-30 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\daf7201beefb9d49c7d07f297bd11aaa\transformed\window-1.2.0\res
+com.islamic_rewards_tracker.app-lifecycle-livedata-core-2.7.0-31 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\df1cb3f39367546336e5aa1d5e30bc49\transformed\lifecycle-livedata-core-2.7.0\res
+com.islamic_rewards_tracker.app-appcompat-1.5.0-32 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\df7090db9f9622c994f5676b1032d5ae\transformed\appcompat-1.5.0\res
+com.islamic_rewards_tracker.app-annotation-experimental-1.4.0-33 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e6b7a2d6050e1094fc343a26c3499cd7\transformed\annotation-experimental-1.4.0\res
+com.islamic_rewards_tracker.app-emoji2-views-helper-1.2.0-34 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e76d8e92597f92a71f7480a7e100b905\transformed\emoji2-views-helper-1.2.0\res
+com.islamic_rewards_tracker.app-startup-runtime-1.1.1-35 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e994189fd1ac0e31991384941ff5bd5a\transformed\startup-runtime-1.1.1\res
+com.islamic_rewards_tracker.app-core-runtime-2.2.0-36 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ec9882ffbda015f0957b655fc4c1628b\transformed\core-runtime-2.2.0\res
+com.islamic_rewards_tracker.app-lifecycle-process-2.7.0-37 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ed50057e744e41dee40cc1fadcc87ca7\transformed\lifecycle-process-2.7.0\res
+com.islamic_rewards_tracker.app-lifecycle-runtime-2.7.0-38 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\f12d510af7a8320168953f95aea5c61a\transformed\lifecycle-runtime-2.7.0\res
+com.islamic_rewards_tracker.app-fragment-ktx-1.7.1-39 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\f90e987d1e26a275a90f6bee69b44fd9\transformed\fragment-ktx-1.7.1\res
+com.islamic_rewards_tracker.app-datastore-release-40 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\fe384816b30f233987a46411b1d96f3b\transformed\datastore-release\res
+com.islamic_rewards_tracker.app-lifecycle-viewmodel-savedstate-2.7.0-41 C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ffd2eae48ea2c858425107b96802bc5c\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.islamic_rewards_tracker.app-debug-42 C:\dev\projects\islamic_rewards_tracker-main\android\app\src\debug\res
+com.islamic_rewards_tracker.app-main-43 C:\dev\projects\islamic_rewards_tracker-main\android\app\src\main\res
+com.islamic_rewards_tracker.app-pngs-44 C:\dev\projects\islamic_rewards_tracker-main\build\app\generated\res\pngs\debug
+com.islamic_rewards_tracker.app-resValues-45 C:\dev\projects\islamic_rewards_tracker-main\build\app\generated\res\resValues\debug
+com.islamic_rewards_tracker.app-packageDebugResources-46 C:\dev\projects\islamic_rewards_tracker-main\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.islamic_rewards_tracker.app-packageDebugResources-47 C:\dev\projects\islamic_rewards_tracker-main\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.islamic_rewards_tracker.app-merged_res-48 C:\dev\projects\islamic_rewards_tracker-main\build\app\intermediates\merged_res\debug
+com.islamic_rewards_tracker.app-packaged_res-49 C:\dev\projects\islamic_rewards_tracker-main\build\connectivity_plus\intermediates\packaged_res\debug
+com.islamic_rewards_tracker.app-packaged_res-50 C:\dev\projects\islamic_rewards_tracker-main\build\fluttertoast\intermediates\packaged_res\debug
+com.islamic_rewards_tracker.app-packaged_res-51 C:\dev\projects\islamic_rewards_tracker-main\build\path_provider_android\intermediates\packaged_res\debug
+com.islamic_rewards_tracker.app-packaged_res-52 C:\dev\projects\islamic_rewards_tracker-main\build\shared_preferences_android\intermediates\packaged_res\debug
+com.islamic_rewards_tracker.app-packaged_res-53 C:\dev\projects\islamic_rewards_tracker-main\build\sqflite_android\intermediates\packaged_res\debug
