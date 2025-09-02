@@ -1,0 +1,32 @@
+<variant
+    name="release"
+    package="com.dexterous.flutterlocalnotifications"
+    minSdkVersion="16"
+    targetSdkVersion="16"
+    mergedManifest="C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml"
+    proguardFiles="C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\flutter_local_notifications\intermediates\default_proguard_files\global\proguard-android.txt-8.2.1"
+    partialResultsDir="C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\flutter_local_notifications\intermediates\lint_vital_partial_results\release\out"
+    desugaredMethodsFiles="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\41ae5954348e3d626eabbd65539b16e6\transformed\desugar_jdk_libs_configuration-1.2.2-desugar-lint.txt;C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\458d6b28bc0947656a3bdeff52affb78\transformed\D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      coreLibraryDesugaring="true"
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\release\java;src\main\kotlin;src\release\kotlin"
+        resDirectories="src\main\res;src\release\res"
+        assetsDirectories="src\main\assets;src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\flutter_local_notifications\intermediates\javac\release\classes;C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\flutter_local_notifications\intermediates\compile_r_class_jar\release\R.jar"
+      type="MAIN"
+      applicationId="com.dexterous.flutterlocalnotifications"
+      generatedSourceFolders="C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\flutter_local_notifications\generated\ap_generated_sources\release\out"
+      generatedResourceFolders="C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\flutter_local_notifications\generated\res\resValues\release"
+      desugaredMethodsFiles="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\41ae5954348e3d626eabbd65539b16e6\transformed\desugar_jdk_libs_configuration-1.2.2-desugar-lint.txt;C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\458d6b28bc0947656a3bdeff52affb78\transformed\D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

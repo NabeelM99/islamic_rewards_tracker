@@ -1,0 +1,1078 @@
+<libraries>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.8.22\4dabb8248310d833bb6a8b516024a91fd3d275c\kotlin-stdlib-jdk7-1.8.22.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22"/>
+  <library
+      name="androidx.datastore:datastore-preferences-core-jvm:1.1.3@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.datastore\datastore-preferences-core-jvm\1.1.3\fb991f11389ccf2a5d5d4c99783ff958bc400\datastore-preferences-core-jvm-1.1.3.jar"
+      resolved="androidx.datastore:datastore-preferences-core-jvm:1.1.3"/>
+  <library
+      name="androidx.datastore:datastore-core-okio-jvm:1.1.3@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.datastore\datastore-core-okio-jvm\1.1.3\ce08f132812044a9778547b299fd812e34dbd602\datastore-core-okio-jvm-1.1.3.jar"
+      resolved="androidx.datastore:datastore-core-okio-jvm:1.1.3"/>
+  <library
+      name="androidx.datastore:datastore-core-android:1.1.3@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\619be584ea55f30804f2065c3a8a50f9\transformed\datastore-core-release\jars\classes.jar"
+      resolved="androidx.datastore:datastore-core-android:1.1.3"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\619be584ea55f30804f2065c3a8a50f9\transformed\datastore-core-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.datastore:datastore-preferences-android:1.1.3@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2182d8b95d9b55938a63be866dde0fcf\transformed\datastore-preferences-release\jars\classes.jar"
+      resolved="androidx.datastore:datastore-preferences-android:1.1.3"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2182d8b95d9b55938a63be866dde0fcf\transformed\datastore-preferences-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.datastore:datastore-android:1.1.3@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\fe384816b30f233987a46411b1d96f3b\transformed\datastore-release\jars\classes.jar"
+      resolved="androidx.datastore:datastore-android:1.1.3"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\fe384816b30f233987a46411b1d96f3b\transformed\datastore-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.preference:preference:1.2.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\89120d04882e497dce91d2a420327379\transformed\preference-1.2.1\jars\classes.jar"
+      resolved="androidx.preference:preference:1.2.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\89120d04882e497dce91d2a420327379\transformed\preference-1.2.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="io.flutter:flutter_embedding_release:1.0.0-cb4b5fff73850b2e42bd4de7cb9a4310a78ac40d@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\io.flutter\flutter_embedding_release\1.0.0-cb4b5fff73850b2e42bd4de7cb9a4310a78ac40d\df73e65ae682c635df1524a146b7d0dcb41f1460\flutter_embedding_release-1.0.0-cb4b5fff73850b2e42bd4de7cb9a4310a78ac40d.jar"
+      resolved="io.flutter:flutter_embedding_release:1.0.0-cb4b5fff73850b2e42bd4de7cb9a4310a78ac40d"/>
+  <library
+      name="androidx.appcompat:appcompat:1.1.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\8b5e07624418128a9092cc6f24364245\transformed\appcompat-1.1.0\jars\classes.jar"
+      resolved="androidx.appcompat:appcompat:1.1.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\8b5e07624418128a9092cc6f24364245\transformed\appcompat-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.recyclerview:recyclerview:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\081617344de976b9d6748b4a7254a7a7\transformed\recyclerview-1.0.0\jars\classes.jar"
+      resolved="androidx.recyclerview:recyclerview:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\081617344de976b9d6748b4a7254a7a7\transformed\recyclerview-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.appcompat:appcompat-resources:1.1.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2f0698191b764ca20d47af3c3799d453\transformed\appcompat-resources-1.1.0\jars\classes.jar"
+      resolved="androidx.appcompat:appcompat-resources:1.1.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2f0698191b764ca20d47af3c3799d453\transformed\appcompat-resources-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.legacy:legacy-support-core-ui:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\48ebc369500a40f7cdf49f8701f433a7\transformed\legacy-support-core-ui-1.0.0\jars\classes.jar"
+      resolved="androidx.legacy:legacy-support-core-ui:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\48ebc369500a40f7cdf49f8701f433a7\transformed\legacy-support-core-ui-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.drawerlayout:drawerlayout:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\191cd71926fa707f3af4f3f590e3a766\transformed\drawerlayout-1.0.0\jars\classes.jar"
+      resolved="androidx.drawerlayout:drawerlayout:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\191cd71926fa707f3af4f3f590e3a766\transformed\drawerlayout-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.fragment:fragment:1.7.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\8d46fb419c395318100d3b6451058ab8\transformed\fragment-1.7.1\jars\classes.jar"
+      resolved="androidx.fragment:fragment:1.7.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\8d46fb419c395318100d3b6451058ab8\transformed\fragment-1.7.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.fragment:fragment-ktx:1.7.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\f90e987d1e26a275a90f6bee69b44fd9\transformed\fragment-ktx-1.7.1\jars\classes.jar"
+      resolved="androidx.fragment:fragment-ktx:1.7.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\f90e987d1e26a275a90f6bee69b44fd9\transformed\fragment-ktx-1.7.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.activity:activity-ktx:1.8.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\68526251839bba7f8f2b7acfb97421d4\transformed\activity-ktx-1.8.1\jars\classes.jar"
+      resolved="androidx.activity:activity-ktx:1.8.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\68526251839bba7f8f2b7acfb97421d4\transformed\activity-ktx-1.8.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.activity:activity:1.8.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\157e96593ec426e2b527536db722ae9d\transformed\activity-1.8.1\jars\classes.jar"
+      resolved="androidx.activity:activity:1.8.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\157e96593ec426e2b527536db722ae9d\transformed\activity-1.8.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.legacy:legacy-support-core-utils:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\622aa0b46f6b19cb657b10122a8965fb\transformed\legacy-support-core-utils-1.0.0\jars\classes.jar"
+      resolved="androidx.legacy:legacy-support-core-utils:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\622aa0b46f6b19cb657b10122a8965fb\transformed\legacy-support-core-utils-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.loader:loader:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3a52f44b63fdc87dfc21ddf09add78de\transformed\loader-1.0.0\jars\classes.jar"
+      resolved="androidx.loader:loader:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3a52f44b63fdc87dfc21ddf09add78de\transformed\loader-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-livedata:2.7.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\bf2e8e3e037e90be6f840457bc5e7b81\transformed\lifecycle-livedata-2.7.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-livedata:2.7.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\bf2e8e3e037e90be6f840457bc5e7b81\transformed\lifecycle-livedata-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-viewmodel:2.7.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\6d191dff4e3f2e471bdd9a058206a686\transformed\lifecycle-viewmodel-2.7.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel:2.7.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\6d191dff4e3f2e471bdd9a058206a686\transformed\lifecycle-viewmodel-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-livedata-core:2.7.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\df1cb3f39367546336e5aa1d5e30bc49\transformed\lifecycle-livedata-core-2.7.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-livedata-core:2.7.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\df1cb3f39367546336e5aa1d5e30bc49\transformed\lifecycle-livedata-core-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\923935d2fc3bb266bc6361b91298ee46\transformed\lifecycle-livedata-core-ktx-2.7.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\923935d2fc3bb266bc6361b91298ee46\transformed\lifecycle-livedata-core-ktx-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\75c51703f8d122a2e59e1e406940893d\transformed\lifecycle-viewmodel-ktx-2.7.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\75c51703f8d122a2e59e1e406940893d\transformed\lifecycle-viewmodel-ktx-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-runtime-ktx:2.7.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\9c15cd7c2ce701f39676972f69eb39e6\transformed\lifecycle-runtime-ktx-2.7.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-runtime-ktx:2.7.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\9c15cd7c2ce701f39676972f69eb39e6\transformed\lifecycle-runtime-ktx-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-process:2.7.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ed50057e744e41dee40cc1fadcc87ca7\transformed\lifecycle-process-2.7.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-process:2.7.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ed50057e744e41dee40cc1fadcc87ca7\transformed\lifecycle-process-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-common-java8:2.7.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common-java8\2.7.0\2ad14aed781c4a73ed4dbb421966d408a0a06686\lifecycle-common-java8-2.7.0.jar"
+      resolved="androidx.lifecycle:lifecycle-common-java8:2.7.0"/>
+  <library
+      name="androidx.lifecycle:lifecycle-common:2.7.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common\2.7.0\85334205d65cca70ed0109c3acbd29e22a2d9cb1\lifecycle-common-2.7.0.jar"
+      resolved="androidx.lifecycle:lifecycle-common:2.7.0"/>
+  <library
+      name="androidx.lifecycle:lifecycle-runtime:2.7.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\f12d510af7a8320168953f95aea5c61a\transformed\lifecycle-runtime-2.7.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-runtime:2.7.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\f12d510af7a8320168953f95aea5c61a\transformed\lifecycle-runtime-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ffd2eae48ea2c858425107b96802bc5c\transformed\lifecycle-viewmodel-savedstate-2.7.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ffd2eae48ea2c858425107b96802bc5c\transformed\lifecycle-viewmodel-savedstate-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.core:core-ktx:1.13.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\7e5d2ccd285022c7235c22c91d7fcc8c\transformed\core-ktx-1.13.1\jars\classes.jar"
+      resolved="androidx.core:core-ktx:1.13.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\7e5d2ccd285022c7235c22c91d7fcc8c\transformed\core-ktx-1.13.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.slidingpanelayout:slidingpanelayout:1.2.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\7151aa22d04a5f3b2109846f1e33e657\transformed\slidingpanelayout-1.2.0\jars\classes.jar"
+      resolved="androidx.slidingpanelayout:slidingpanelayout:1.2.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\7151aa22d04a5f3b2109846f1e33e657\transformed\slidingpanelayout-1.2.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.viewpager:viewpager:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\7545f9f82e4edd7b85a6f58bc67e82ad\transformed\viewpager-1.0.0\jars\classes.jar"
+      resolved="androidx.viewpager:viewpager:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\7545f9f82e4edd7b85a6f58bc67e82ad\transformed\viewpager-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.coordinatorlayout:coordinatorlayout:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\4101e7658437c3c543e823326fdff25a\transformed\coordinatorlayout-1.0.0\jars\classes.jar"
+      resolved="androidx.coordinatorlayout:coordinatorlayout:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\4101e7658437c3c543e823326fdff25a\transformed\coordinatorlayout-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.customview:customview:1.1.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e82489d4abbb622c51e36ea0f925c8f5\transformed\customview-1.1.0\jars\classes.jar"
+      resolved="androidx.customview:customview:1.1.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e82489d4abbb622c51e36ea0f925c8f5\transformed\customview-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.vectordrawable:vectordrawable-animated:1.1.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\c8a86477078ed734af8c04903bb16a22\transformed\vectordrawable-animated-1.1.0\jars\classes.jar"
+      resolved="androidx.vectordrawable:vectordrawable-animated:1.1.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\c8a86477078ed734af8c04903bb16a22\transformed\vectordrawable-animated-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.vectordrawable:vectordrawable:1.1.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\1b6d67eff721e47414cef36662e60235\transformed\vectordrawable-1.1.0\jars\classes.jar"
+      resolved="androidx.vectordrawable:vectordrawable:1.1.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\1b6d67eff721e47414cef36662e60235\transformed\vectordrawable-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e9a98d0819528e6077cc3908f2e8f572\transformed\swiperefreshlayout-1.0.0\jars\classes.jar"
+      resolved="androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e9a98d0819528e6077cc3908f2e8f572\transformed\swiperefreshlayout-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\bcddb53bfd6868c37b417ffc21ac0527\transformed\asynclayoutinflater-1.0.0\jars\classes.jar"
+      resolved="androidx.asynclayoutinflater:asynclayoutinflater:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\bcddb53bfd6868c37b417ffc21ac0527\transformed\asynclayoutinflater-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.core:core:1.13.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3ac622b549f8133ebf0a32b46b02c78d\transformed\core-1.13.1\jars\classes.jar"
+      resolved="androidx.core:core:1.13.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3ac622b549f8133ebf0a32b46b02c78d\transformed\core-1.13.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.window:window:1.2.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\daf7201beefb9d49c7d07f297bd11aaa\transformed\window-1.2.0\jars\classes.jar"
+      resolved="androidx.window:window:1.2.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\daf7201beefb9d49c7d07f297bd11aaa\transformed\window-1.2.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.window:window-java:1.2.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\5b71b723ddce858e7fde600e9dc30301\transformed\window-java-1.2.0\jars\classes.jar"
+      resolved="androidx.window:window-java:1.2.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\5b71b723ddce858e7fde600e9dc30301\transformed\window-java-1.2.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.cursoradapter:cursoradapter:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\eb1ae29ca7791a79670d9e4e23057861\transformed\cursoradapter-1.0.0\jars\classes.jar"
+      resolved="androidx.cursoradapter:cursoradapter:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\eb1ae29ca7791a79670d9e4e23057861\transformed\cursoradapter-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\24e5ce9cf434a8202dea92fefc3fb26d\transformed\versionedparcelable-1.1.1\jars\classes.jar"
+      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\24e5ce9cf434a8202dea92fefc3fb26d\transformed\versionedparcelable-1.1.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.collection:collection-ktx:1.1.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.collection\collection-ktx\1.1.0\f807b2f366f7b75142a67d2f3c10031065b5168\collection-ktx-1.1.0.jar"
+      resolved="androidx.collection:collection-ktx:1.1.0"/>
+  <library
+      name="androidx.collection:collection:1.1.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.collection\collection\1.1.0\1f27220b47669781457de0d600849a5de0e89909\collection-1.1.0.jar"
+      resolved="androidx.collection:collection:1.1.0"/>
+  <library
+      name="androidx.arch.core:core-runtime:2.2.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ec9882ffbda015f0957b655fc4c1628b\transformed\core-runtime-2.2.0\jars\classes.jar"
+      resolved="androidx.arch.core:core-runtime:2.2.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ec9882ffbda015f0957b655fc4c1628b\transformed\core-runtime-2.2.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.arch.core:core-common:2.2.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.2.0\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\core-common-2.2.0.jar"
+      resolved="androidx.arch.core:core-common:2.2.0"/>
+  <library
+      name="androidx.savedstate:savedstate-ktx:1.2.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\34da987e45e9f8645ad9a0b75dfb2413\transformed\savedstate-ktx-1.2.1\jars\classes.jar"
+      resolved="androidx.savedstate:savedstate-ktx:1.2.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\34da987e45e9f8645ad9a0b75dfb2413\transformed\savedstate-ktx-1.2.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.savedstate:savedstate:1.2.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\b9c610093eecd2e6c3b3506ca6368f39\transformed\savedstate-1.2.1\jars\classes.jar"
+      resolved="androidx.savedstate:savedstate:1.2.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\b9c610093eecd2e6c3b3506ca6368f39\transformed\savedstate-1.2.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.interpolator:interpolator:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\c2bab00d6d22050f44ba69159eda466b\transformed\interpolator-1.0.0\jars\classes.jar"
+      resolved="androidx.interpolator:interpolator:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\c2bab00d6d22050f44ba69159eda466b\transformed\interpolator-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.documentfile:documentfile:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\951ae76d4d4fa1b1bca5ad7e6d7d43a1\transformed\documentfile-1.0.0\jars\classes.jar"
+      resolved="androidx.documentfile:documentfile:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\951ae76d4d4fa1b1bca5ad7e6d7d43a1\transformed\documentfile-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\a2ba7f0dba76c7e66f4be66ec8935264\transformed\localbroadcastmanager-1.0.0\jars\classes.jar"
+      resolved="androidx.localbroadcastmanager:localbroadcastmanager:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\a2ba7f0dba76c7e66f4be66ec8935264\transformed\localbroadcastmanager-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.print:print:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e116686556fd08799deae8e3871ed9d8\transformed\print-1.0.0\jars\classes.jar"
+      resolved="androidx.print:print:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e116686556fd08799deae8e3871ed9d8\transformed\print-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.annotation:annotation-jvm:1.8.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation-jvm\1.8.0\b8a16fe526014b7941c1debaccaf9c5153692dbb\annotation-jvm-1.8.0.jar"
+      resolved="androidx.annotation:annotation-jvm:1.8.0"/>
+  <library
+      name="androidx.annotation:annotation-experimental:1.4.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e6b7a2d6050e1094fc343a26c3499cd7\transformed\annotation-experimental-1.4.0\jars\classes.jar"
+      resolved="androidx.annotation:annotation-experimental:1.4.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e6b7a2d6050e1094fc343a26c3499cd7\transformed\annotation-experimental-1.4.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.squareup.okio:okio-jvm:3.4.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio-jvm\3.4.0\4e8bd78a52ab935ce383d0092646922154295e54\okio-jvm-3.4.0.jar"
+      resolved="com.squareup.okio:okio-jvm:3.4.0"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\1.8.22\b25c86d47d6b962b9cf0f8c3f320c8a10eea3dd1\kotlin-stdlib-jdk8-1.8.22.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"/>
+  <library
+      name="org.jetbrains:annotations:23.0.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\23.0.0\8cc20c07506ec18e0834947b84a864bfc094484e\annotations-23.0.0.jar"
+      resolved="org.jetbrains:annotations:23.0.0"/>
+  <library
+      name="androidx.startup:startup-runtime:1.1.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e994189fd1ac0e31991384941ff5bd5a\transformed\startup-runtime-1.1.1\jars\classes.jar"
+      resolved="androidx.startup:startup-runtime:1.1.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e994189fd1ac0e31991384941ff5bd5a\transformed\startup-runtime-1.1.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.tracing:tracing:1.2.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\a361d99ffb73a38bdf3338ccf75b84f8\transformed\tracing-1.2.0\jars\classes.jar"
+      resolved="androidx.tracing:tracing:1.2.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\a361d99ffb73a38bdf3338ccf75b84f8\transformed\tracing-1.2.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.getkeepsafe.relinker:relinker:1.4.5@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\edd67b39141ba22def964ca9713d1a95\transformed\relinker-1.4.5\jars\classes.jar"
+      resolved="com.getkeepsafe.relinker:relinker:1.4.5"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\edd67b39141ba22def964ca9713d1a95\transformed\relinker-1.4.5"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.datastore:datastore-preferences-external-protobuf:1.1.3@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.datastore\datastore-preferences-external-protobuf\1.1.3\ddd0a2d64e3c928359c993d1291e535d5d7fc9a3\datastore-preferences-external-protobuf-1.1.3.jar"
+      resolved="androidx.datastore:datastore-preferences-external-protobuf:1.1.3"/>
+  <library
+      name="androidx.datastore:datastore-preferences-proto:1.1.3@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.datastore\datastore-preferences-proto\1.1.3\6d7430ed8d2b5f2b8675dad8d196ba5dd710921b\datastore-preferences-proto-1.1.3.jar"
+      resolved="androidx.datastore:datastore-preferences-proto:1.1.3"/>
+  <library
+      name="androidx.transition:transition:1.4.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\10d052a0aaefaa3b0a1c6ebb5495e418\transformed\transition-1.4.1\jars\classes.jar"
+      resolved="androidx.transition:transition:1.4.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\10d052a0aaefaa3b0a1c6ebb5495e418\transformed\transition-1.4.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.profileinstaller:profileinstaller:1.3.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\jars\classes.jar"
+      resolved="androidx.profileinstaller:profileinstaller:1.3.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.window.extensions.core:core:1.0.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\9e8700b97f6072552927c74a97c881c8\transformed\core-1.0.0\jars\classes.jar"
+      resolved="androidx.window.extensions.core:core:1.0.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\9e8700b97f6072552927c74a97c881c8\transformed\core-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.22@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-parcelize-runtime\1.9.22\de4a21d6560cadd035c69ba3af3ad1afecc95299\kotlin-parcelize-runtime-1.9.22.jar"
+      resolved="org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.22"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.9.22@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-android-extensions-runtime\1.9.22\ee3bc0c3b55cb516ac92d6a093e1b939166b86a2\kotlin-android-extensions-runtime-1.9.22.jar"
+      resolved="org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.9.22"/>
+  <library
+      name=":@@:shared_preferences_android::release"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\4e0c9ee88db165b05740b4d33ccd51fa\transformed\out\jars\classes.jar;C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\4e0c9ee88db165b05740b4d33ccd51fa\transformed\out\jars\libs\R.jar"
+      resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\4e0c9ee88db165b05740b4d33ccd51fa\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.test:core-ktx:1.7.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\de1100dbee42cb8d26a6f0ea48c202cf\transformed\core-ktx-1.7.0\jars\classes.jar"
+      resolved="androidx.test:core-ktx:1.7.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\de1100dbee42cb8d26a6f0ea48c202cf\transformed\core-ktx-1.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.test.ext:junit-ktx:1.2.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\f7cb29ac13a5c7790c91381ccb970b71\transformed\junit-ktx-1.2.1\jars\classes.jar"
+      resolved="androidx.test.ext:junit-ktx:1.2.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\f7cb29ac13a5c7790c91381ccb970b71\transformed\junit-ktx-1.2.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.test.ext:junit:1.2.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\51178b3a4f7b463db7e59dccb25986cb\transformed\junit-1.2.1\jars\classes.jar"
+      resolved="androidx.test.ext:junit:1.2.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\51178b3a4f7b463db7e59dccb25986cb\transformed\junit-1.2.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.test:core:1.7.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\7cbd3caff6ba9fea126adb47304395b6\transformed\core-1.7.0\jars\classes.jar"
+      resolved="androidx.test:core:1.7.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\7cbd3caff6ba9fea126adb47304395b6\transformed\core-1.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="org.robolectric:robolectric:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\robolectric\4.15.1\7ebe3e497d9934cda84613cfddfd945ba2572a24\robolectric-4.15.1.jar"
+      resolved="org.robolectric:robolectric:4.15.1"/>
+  <library
+      name="org.robolectric:shadows-framework:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\shadows-framework\4.15.1\9892fab474ea03b95edab6f92c358c6500ce6d1e\shadows-framework-4.15.1.jar"
+      resolved="org.robolectric:shadows-framework:4.15.1"/>
+  <library
+      name="androidx.test.services:storage:1.5.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\4257451e55659648ad509f156511f6a9\transformed\storage-1.5.0\jars\classes.jar"
+      resolved="androidx.test.services:storage:1.5.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\4257451e55659648ad509f156511f6a9\transformed\storage-1.5.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.test:monitor:1.8.0@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\bd4b261e669d3d52382164d93af2d9f0\transformed\monitor-1.8.0\jars\classes.jar"
+      resolved="androidx.test:monitor:1.8.0"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\bd4b261e669d3d52382164d93af2d9f0\transformed\monitor-1.8.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="io.mockk:mockk-jvm:1.14.5@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\io.mockk\mockk-jvm\1.14.5\d4d0a39318eb6fcf726187004fb037bccdde67f8\mockk-jvm-1.14.5.jar"
+      resolved="io.mockk:mockk-jvm:1.14.5"/>
+  <library
+      name="androidx.concurrent:concurrent-futures-ktx:1.2.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.concurrent\concurrent-futures-ktx\1.2.0\13b49fdb58c74bdfb12eb131b5e22d6d09683e30\concurrent-futures-ktx-1.2.0.jar"
+      resolved="androidx.concurrent:concurrent-futures-ktx:1.2.0"/>
+  <library
+      name="androidx.concurrent:concurrent-futures:1.2.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.concurrent\concurrent-futures\1.2.0\6a1dfd69226e148898410721f4b14315343d1429\concurrent-futures-1.2.0.jar"
+      resolved="androidx.concurrent:concurrent-futures:1.2.0"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-core-jvm\1.10.1\fe066928754beda3d59c8282e04289546465a360\kotlinx-coroutines-core-jvm-1.10.1.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.1"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-android\1.10.1\864006e2e42ed4d76150651c635d038a060c20a2\kotlinx-coroutines-android-1.10.1.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1"/>
+  <library
+      name="io.mockk:mockk-dsl-jvm:1.14.5@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\io.mockk\mockk-dsl-jvm\1.14.5\f23a3fe360fe7f8afac1f4f91602355cfd0e2517\mockk-dsl-jvm-1.14.5.jar"
+      resolved="io.mockk:mockk-dsl-jvm:1.14.5"/>
+  <library
+      name="io.mockk:mockk-agent-jvm:1.14.5@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\io.mockk\mockk-agent-jvm\1.14.5\b1a1a2942efaf18762176a525ecb6350dca51c12\mockk-agent-jvm-1.14.5.jar"
+      resolved="io.mockk:mockk-agent-jvm:1.14.5"/>
+  <library
+      name="io.mockk:mockk-agent-api-jvm:1.14.5@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\io.mockk\mockk-agent-api-jvm\1.14.5\4e92555e63eb400f5d37b344ed9130a899aba1bb\mockk-agent-api-jvm-1.14.5.jar"
+      resolved="io.mockk:mockk-agent-api-jvm:1.14.5"/>
+  <library
+      name="io.mockk:mockk-core-jvm:1.14.5@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\io.mockk\mockk-core-jvm\1.14.5\34b1f8ab00f1b294cd17661e154258e4040ba1bd\mockk-core-jvm-1.14.5.jar"
+      resolved="io.mockk:mockk-core-jvm:1.14.5"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib:2.1.20@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\2.1.20\aa8ca79cd50578314f6d1180c47cbe14c0fee567\kotlin-stdlib-2.1.20.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib:2.1.20"/>
+  <library
+      name="junit:junit:4.13.2@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar"
+      resolved="junit:junit:4.13.2"/>
+  <library
+      name="org.hamcrest:hamcrest-core:1.3@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+      resolved="org.hamcrest:hamcrest-core:1.3"/>
+  <library
+      name="org.robolectric:junit:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\junit\4.15.1\2f3b8efa38362690e3faa16f45c5332356433142\junit-4.15.1.jar"
+      resolved="org.robolectric:junit:4.15.1"/>
+  <library
+      name="org.robolectric:resources:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\resources\4.15.1\28ebb91428dc5ba7d76df977b2df5e9527050ec9\resources-4.15.1.jar"
+      resolved="org.robolectric:resources:4.15.1"/>
+  <library
+      name="org.robolectric:sandbox:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\sandbox\4.15.1\9bd24b21e16e61e2f319aed06a9c8f110c98a81b\sandbox-4.15.1.jar"
+      resolved="org.robolectric:sandbox:4.15.1"/>
+  <library
+      name="org.robolectric:utils-reflector:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\utils-reflector\4.15.1\dfa53cbc44f5ad05078d14003bead19d55f5d6b2\utils-reflector-4.15.1.jar"
+      resolved="org.robolectric:utils-reflector:4.15.1"/>
+  <library
+      name="org.robolectric:plugins-maven-dependency-resolver:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\plugins-maven-dependency-resolver\4.15.1\75349d145f81404a2cf57a52b60d7d650ca5c6d8\plugins-maven-dependency-resolver-4.15.1.jar"
+      resolved="org.robolectric:plugins-maven-dependency-resolver:4.15.1"/>
+  <library
+      name="org.robolectric:nativeruntime:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\nativeruntime\4.15.1\726b1324aa6d519146889abe2d227c0508c3ca95\nativeruntime-4.15.1.jar"
+      resolved="org.robolectric:nativeruntime:4.15.1"/>
+  <library
+      name="org.robolectric:shadowapi:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\shadowapi\4.15.1\378663fde270abc0150cba224d18f9d00a3af2da\shadowapi-4.15.1.jar"
+      resolved="org.robolectric:shadowapi:4.15.1"/>
+  <library
+      name="org.robolectric:utils:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\utils\4.15.1\942890eb63488019cc2e142507ebf4e9dd973440\utils-4.15.1.jar"
+      resolved="org.robolectric:utils:4.15.1"/>
+  <library
+      name="org.robolectric:pluginapi:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\pluginapi\4.15.1\7ced907b456aeceb7c31a5c2ce69ba005d3f6042\pluginapi-4.15.1.jar"
+      resolved="org.robolectric:pluginapi:4.15.1"/>
+  <library
+      name="com.google.guava:guava:33.4.8-jre@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\33.4.8-jre\cb7510a733595f02fe633ffff62d40cfc3056e9\guava-33.4.8-android.jar"
+      resolved="com.google.guava:guava:33.4.8-jre"/>
+  <library
+      name="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+      resolved="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"/>
+  <library
+      name="org.robolectric:annotations:4.15.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\annotations\4.15.1\8da3e5136bc09c98b67059dcf9ab837a614672ca\annotations-4.15.1.jar"
+      resolved="org.robolectric:annotations:4.15.1"/>
+  <library
+      name="com.google.guava:failureaccess:1.0.3@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.3\aeaffd00d57023a2c947393ed251f0354f0985fc\failureaccess-1.0.3.jar"
+      resolved="com.google.guava:failureaccess:1.0.3"/>
+  <library
+      name="org.jspecify:jspecify:1.0.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.jspecify\jspecify\1.0.0\7425a601c1c7ec76645a78d22b8c6a627edee507\jspecify-1.0.0.jar"
+      resolved="org.jspecify:jspecify:1.0.0"/>
+  <library
+      name="com.google.errorprone:error_prone_annotations:2.36.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.36.0\227d4d4957ccc3dc5761bd897e3a0ee587e750a7\error_prone_annotations-2.36.0.jar"
+      resolved="com.google.errorprone:error_prone_annotations:2.36.0"/>
+  <library
+      name="com.google.j2objc:j2objc-annotations:3.0.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\3.0.0\7399e65dd7e9ff3404f4535b2f017093bdb134c7\j2objc-annotations-3.0.0.jar"
+      resolved="com.google.j2objc:j2objc-annotations:3.0.0"/>
+  <library
+      name="javax.inject:javax.inject:1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+      resolved="javax.inject:javax.inject:1"/>
+  <library
+      name="javax.annotation:javax.annotation-api:1.3.2@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.3.2\934c04d3cfef185a8008e7bf34331b79730a9d43\javax.annotation-api-1.3.2.jar"
+      resolved="javax.annotation:javax.annotation-api:1.3.2"/>
+  <library
+      name="org.ow2.asm:asm-commons:9.8@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.8\36e4d212970388e5bd2c5180292012502df461bb\asm-commons-9.8.jar"
+      resolved="org.ow2.asm:asm-commons:9.8"/>
+  <library
+      name="org.ow2.asm:asm-tree:9.8@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.8\18419ca5b77a2f81097c741e7872e6ab8d2f40d\asm-tree-9.8.jar"
+      resolved="org.ow2.asm:asm-tree:9.8"/>
+  <library
+      name="org.ow2.asm:asm:9.8@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.8\dc19ecb3f7889b7860697215cae99c0f9b6f6b4b\asm-9.8.jar"
+      resolved="org.ow2.asm:asm:9.8"/>
+  <library
+      name="com.google.auto.value:auto-value-annotations:1.11.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\com.google.auto.value\auto-value-annotations\1.11.0\f0d047931d07cfbc6fa4079854f181ff62891d6f\auto-value-annotations-1.11.0.jar"
+      resolved="com.google.auto.value:auto-value-annotations:1.11.0"/>
+  <library
+      name="com.almworks.sqlite4java:sqlite4java:1.0.392@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\com.almworks.sqlite4java\sqlite4java\1.0.392\d6234e08ff4e1607ff5321da2579571f05ff778d\sqlite4java-1.0.392.jar"
+      resolved="com.almworks.sqlite4java:sqlite4java:1.0.392"/>
+  <library
+      name="com.ibm.icu:icu4j:77.1@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\77.1\38693cf0b1d7362a8b726af74dc06026a7c23809\icu4j-77.1.jar"
+      resolved="com.ibm.icu:icu4j:77.1"/>
+  <library
+      name="org.bouncycastle:bcprov-jdk18on:1.80@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcprov-jdk18on\1.80\e22100b41042decf09cab914a5af8d2c57b5ac4a\bcprov-jdk18on-1.80.jar"
+      resolved="org.bouncycastle:bcprov-jdk18on:1.80"/>
+  <library
+      name="org.mockito:mockito-inline:5.2.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.mockito\mockito-inline\5.2.0\3d1dffee9a8a1998ec782383ca2f818848f2d5f1\mockito-inline-5.2.0.jar"
+      resolved="org.mockito:mockito-inline:5.2.0"/>
+  <library
+      name="org.mockito:mockito-core:5.2.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.mockito\mockito-core\5.2.0\bc22d2ee9596a5fd2d9f9f7c49599f71aac5a88a\mockito-core-5.2.0.jar"
+      resolved="org.mockito:mockito-core:5.2.0"/>
+  <library
+      name="net.bytebuddy:byte-buddy:1.15.11@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.15.11\f61886478e0f9ee4c21d09574736f0ff45e0a46c\byte-buddy-1.15.11.jar"
+      resolved="net.bytebuddy:byte-buddy:1.15.11"/>
+  <library
+      name="net.bytebuddy:byte-buddy-agent:1.15.11@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar"
+      resolved="net.bytebuddy:byte-buddy-agent:1.15.11"/>
+  <library
+      name="org.objenesis:objenesis:3.3@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\3.3\1049c09f1de4331e8193e579448d0916d75b7631\objenesis-3.3.jar"
+      resolved="org.objenesis:objenesis:3.3"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-reflect:2.1.20@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\2.1.20\3c1003045c4f2a72f987a147abac8e7058be1183\kotlin-reflect-2.1.20.jar"
+      resolved="org.jetbrains.kotlin:kotlin-reflect:2.1.20"/>
+  <library
+      name="org.conscrypt:conscrypt-openjdk-uber:2.5.2@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.conscrypt\conscrypt-openjdk-uber\2.5.2\d858f142ea189c62771c505a6548d8606ac098fe\conscrypt-openjdk-uber-2.5.2.jar"
+      resolved="org.conscrypt:conscrypt-openjdk-uber:2.5.2"/>
+  <library
+      name="org.yaml:snakeyaml:2.4@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\2.4\e0666b825b796f85521f02360e77f4c92c5a7a07\snakeyaml-2.4.jar"
+      resolved="org.yaml:snakeyaml:2.4"/>
+  <library
+      name="androidx.test.espresso:espresso-idling-resource:3.6.1@aar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\4743e3dcc0b86fcfaacac930a1e17523\transformed\espresso-idling-resource-3.6.1\jars\classes.jar"
+      resolved="androidx.test.espresso:espresso-idling-resource:3.6.1"
+      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\4743e3dcc0b86fcfaacac930a1e17523\transformed\espresso-idling-resource-3.6.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.testparameterinjector:test-parameter-injector:1.18@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\com.google.testparameterinjector\test-parameter-injector\1.18\5da02ca88c55bab58071a33e3f5fb6cfcf5df270\test-parameter-injector-1.18.jar"
+      resolved="com.google.testparameterinjector:test-parameter-injector:1.18"/>
+  <library
+      name="com.google.errorprone:error_prone_annotation:2.38.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotation\2.38.0\afc352500eb8c43e83ac5b1a6cf5bd46ed12c0fe\error_prone_annotation-2.38.0.jar"
+      resolved="com.google.errorprone:error_prone_annotation:2.38.0"/>
+  <library
+      name="org.junit.jupiter:junit-jupiter-params:5.12.2@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-params\5.12.2\ff1434a66d1fb84c2c709cde2e2d56d5c8f4fad3\junit-jupiter-params-5.12.2.jar"
+      resolved="org.junit.jupiter:junit-jupiter-params:5.12.2"/>
+  <library
+      name="org.junit.jupiter:junit-jupiter-engine:5.12.2@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-engine\5.12.2\b8df7575b8cd3a94dbe27b481d1cd52c57864559\junit-jupiter-engine-5.12.2.jar"
+      resolved="org.junit.jupiter:junit-jupiter-engine:5.12.2"/>
+  <library
+      name="org.junit.jupiter:junit-jupiter-api:5.12.2@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-api\5.12.2\6de3a3256c5d90f4a439edcb6c2e8dc5180907b0\junit-jupiter-api-5.12.2.jar"
+      resolved="org.junit.jupiter:junit-jupiter-api:5.12.2"/>
+  <library
+      name="org.junit.platform:junit-platform-engine:1.12.2@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-engine\1.12.2\8519ece93f91b8115705d36be2c36d49808935cd\junit-platform-engine-1.12.2.jar"
+      resolved="org.junit.platform:junit-platform-engine:1.12.2"/>
+  <library
+      name="org.junit.platform:junit-platform-commons:1.12.2@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-commons\1.12.2\b89e88a89ee009937374a4c96912e007b34c8e35\junit-platform-commons-1.12.2.jar"
+      resolved="org.junit.platform:junit-platform-commons:1.12.2"/>
+  <library
+      name="org.junit.jupiter:junit-jupiter:5.12.2@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter\5.12.2\64d3ec64ae06517bc14b7faaaec7c996b0d05bea\junit-jupiter-5.12.2.jar"
+      resolved="org.junit.jupiter:junit-jupiter:5.12.2"/>
+  <library
+      name="org.robolectric:nativeruntime-dist-compat:1.0.17@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.robolectric\nativeruntime-dist-compat\1.0.17\5ff6a2000db468c5ef09ba40783ea3d92759d8f0\nativeruntime-dist-compat-1.0.17.jar"
+      resolved="org.robolectric:nativeruntime-dist-compat:1.0.17"/>
+  <library
+      name="org.opentest4j:opentest4j:1.3.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.opentest4j\opentest4j\1.3.0\152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e\opentest4j-1.3.0.jar"
+      resolved="org.opentest4j:opentest4j:1.3.0"/>
+</libraries>

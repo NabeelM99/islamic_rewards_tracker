@@ -1,0 +1,16 @@
+# Notification Sound Files
+# 
+# This directory should contain the following sound files:
+# - notification_sound.wav (for task reminders)
+# - dhikr_sound.wav (for dhikr reminders)  
+# - dua_sound.wav (for dua reminders)
+#
+# These files should be short (1-3 seconds) and respectful.
+# You can use Islamic adhan sounds or gentle notification tones.
+#
+# File formats supported: .wav, .mp3, .ogg
+#
+# Example file names:
+# - notification_sound.wav
+# - dhikr_sound.wav
+# - dua_sound.wav 

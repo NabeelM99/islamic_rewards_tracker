@@ -1,0 +1,1 @@
+ C:\\dev\\projects\\islamic_rewards_tracker-main3\\islamic_rewards_tracker-main3\\.dart_tool\\flutter_build\\d8ddbcc4fa70e2f0ef3dd46a24a45a77\\native_assets.yaml: 
