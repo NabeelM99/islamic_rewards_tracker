@@ -23403,8 +23403,6 @@ com.google.gson.stream.MalformedJsonException:
     private static final long serialVersionUID
     public void <init>(java.lang.String,java.lang.Throwable)
     public void <init>(java.lang.Throwable)
-com.islamic_rewards_tracker.app.AlarmScheduler$Companion:
-    public final void scheduleCompletionNotificationStatic(android.content.Context)
 com.islamic_rewards_tracker.app.AlarmScheduler:
     private static final int DAILY_RESCHEDULER_ID
     private static final int DAILY_RESET_HOUR
@@ -23413,7 +23411,6 @@ com.islamic_rewards_tracker.app.AlarmScheduler:
     private static final java.lang.String KEY_LAST_SCHEDULED_DATE
     private static final java.lang.String PREFS_NAME
     private static final java.lang.String TAG
-    public final void scheduleCompletionNotification()
 com.islamic_rewards_tracker.app.BootCompletedReceiver:
     private static final java.lang.String TAG
 com.islamic_rewards_tracker.app.DailyRescheduleReceiver:
@@ -23425,7 +23422,8 @@ com.islamic_rewards_tracker.app.MainActivity:
     private static final java.lang.String TAG
 com.islamic_rewards_tracker.app.R$color
 com.islamic_rewards_tracker.app.R$drawable
-com.islamic_rewards_tracker.app.R$mipmap
+com.islamic_rewards_tracker.app.R$mipmap:
+    private void <init>()
 com.islamic_rewards_tracker.app.R$raw
 com.islamic_rewards_tracker.app.R$string
 com.islamic_rewards_tracker.app.R$style
@@ -42648,6 +42646,7 @@ com.islamic_rewards_tracker.app.AlarmScheduler:
     public final void clearDailyDedupeFlag()
     public static java.util.List getScheduledAlarms()
     public static java.lang.String getTodayKey()
+    public static void scheduleCompletionNotification()
 com.islamic_rewards_tracker.app.BootCompletedReceiver$Companion
 com.islamic_rewards_tracker.app.BootCompletedReceiver:
     public static final androidx.window.layout.adapter.extensions.ExtensionWindowBackend$Companion Companion
@@ -42667,6 +42666,7 @@ com.islamic_rewards_tracker.app.MainActivity:
     public static void scheduleTaskReminders()
     public static void startAlarmScheduler()
     public static void stopAlarmScheduler()
+com.islamic_rewards_tracker.app.R$mipmap
 com.islamic_rewards_tracker.app.ReminderReceiver$Companion
 com.islamic_rewards_tracker.app.ReminderReceiver:
     public static final androidx.window.layout.adapter.extensions.ExtensionWindowBackend$Companion Companion

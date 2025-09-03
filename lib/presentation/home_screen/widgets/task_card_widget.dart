@@ -10,6 +10,8 @@ class TaskCardWidget extends StatefulWidget {
   final Function(String taskId, bool isCompleted) onTaskToggle;
   final Function(String taskId, int count) onCounterUpdate;
   final VoidCallback onTaskDetails;
+  final bool isCustomTask;
+  final Function(String taskId)? onDeleteCustomTask;
 
   const TaskCardWidget({
     Key? key,
@@ -17,6 +19,8 @@ class TaskCardWidget extends StatefulWidget {
     required this.onTaskToggle,
     required this.onCounterUpdate,
     required this.onTaskDetails,
+    this.isCustomTask = false,
+    this.onDeleteCustomTask,
   }) : super(key: key);
 
   @override
@@ -105,6 +109,33 @@ class _TaskCardWidgetState extends State<TaskCardWidget>
     });
   }
 
+  void _maybeDeleteCustomTask() {
+    if (!(widget.isCustomTask && widget.onDeleteCustomTask != null)) return;
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Delete Custom Task'),
+        content: Text('Are you sure you want to delete "${widget.task['englishName']}"? This action cannot be undone.'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              widget.onDeleteCustomTask!(widget.task['id']?.toString() ?? '');
+            },
+            style: TextButton.styleFrom(
+              foregroundColor: Colors.red,
+            ),
+            child: const Text('Delete'),
+          ),
+        ],
+      ),
+    );
+  }
+
   void _handleTaskToggle() {
     _handleTap();
     // Update cached values immediately for instant UI feedback
@@ -165,6 +196,7 @@ class _TaskCardWidgetState extends State<TaskCardWidget>
               ),
               child: InkWell(
                 onTap: widget.onTaskDetails,
+                onLongPress: _maybeDeleteCustomTask,
                 borderRadius: BorderRadius.circular(16),
                 child: Padding(
                   padding: EdgeInsets.all(4.w),
@@ -181,16 +213,16 @@ class _TaskCardWidgetState extends State<TaskCardWidget>
                                 // Arabic Name
                                 if (widget.task['arabicName'] != null &&
                                     (widget.task['arabicName'] as String).isNotEmpty) ...[
-                                                                  Text(
-                                  widget.task['arabicName'] ?? '',
-                                  style: IndoPakFonts.getUthmaniTextStyle(
-                                    fontSize: 12.sp,
-                                    fontWeight: FontWeight.w600,
-                                    color: AppTheme.lightTheme.colorScheme.onSurface.withValues(alpha: 0.7),
+                                  Text(
+                                    widget.task['arabicName'] ?? '',
+                                    style: IndoPakFonts.getUthmaniTextStyle(
+                                      fontSize: 12.sp,
+                                      fontWeight: FontWeight.w600,
+                                      color: AppTheme.lightTheme.colorScheme.onSurface.withValues(alpha: 0.7),
+                                    ),
+                                    textAlign: TextAlign.right,
+                                    textDirection: TextDirection.rtl,
                                   ),
-                                  textAlign: TextAlign.right,
-                                  textDirection: TextDirection.rtl,
-                                ),
                                   SizedBox(height: 0.5.h),
                                 ],
                                 // English Translation
@@ -232,6 +264,26 @@ class _TaskCardWidgetState extends State<TaskCardWidget>
                                 ),
                               ),
                             ),
+                          // Custom Task Badge
+                          if (widget.isCustomTask) ...[
+                            SizedBox(width: 1.w),
+                            Container(
+                              padding: EdgeInsets.symmetric(
+                                  horizontal: 2.w, vertical: 0.5.h),
+                              decoration: BoxDecoration(
+                                color: Colors.orange.withValues(alpha: 0.2),
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                              child: Text(
+                                'Custom',
+                                style: AppTheme.lightTheme.textTheme.labelSmall
+                                    ?.copyWith(
+                                  color: Colors.orange,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                            ),
+                          ],
                         ],
                       ),
                       SizedBox(height: 2.h),

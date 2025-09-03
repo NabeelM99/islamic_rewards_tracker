@@ -4,6 +4,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sizer/sizer.dart';
 
 import '../../core/app_export.dart';
+import '../../core/services/localization_service.dart';
+import '../../core/localization/app_localizations.dart';
 import './widgets/confirmation_dialog_widget.dart';
 import './widgets/settings_item_widget.dart';
 import './widgets/settings_section_widget.dart';
@@ -175,12 +177,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
   }
 
   void _showLanguageSettings() {
-    final languages = ['English', 'Arabic', 'Urdu', 'Turkish', 'Malay'];
+    final languages = LocalizationService.supportedLanguages.keys.toList();
 
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Select Language'),
+        title: Text(AppLocalizations.of(context).selectLanguage),
         content: SingleChildScrollView(
           child: Column(
             mainAxisSize: MainAxisSize.min,
@@ -189,14 +191,16 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 title: Text(language),
                 value: language,
                 groupValue: _selectedLanguage,
-                onChanged: (value) {
+                onChanged: (value) async {
                   if (value != null) {
+                    final localizationService = LocalizationService();
+                    await localizationService.changeLanguage(value);
                     setState(() {
                       _selectedLanguage = value;
                     });
                     _saveSettings();
                     Navigator.of(context).pop();
-                    _showToast('Language changed to $value');
+                    _showToast(AppLocalizations.of(context).trf('languageChanged', {'language': value}));
                   }
                 },
               );
@@ -206,7 +210,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Cancel'),
+            child: Text(AppLocalizations.of(context).cancel),
           ),
         ],
       ),
@@ -507,191 +511,191 @@ class _SettingsScreenState extends State<SettingsScreen> {
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
       body: SafeArea(
-        child: Column(
-          children: [
-            // Header
-            Container(
-              padding: EdgeInsets.symmetric(horizontal: 4.w, vertical: 2.h),
-              child: Row(
-                children: [
-                  Text(
-                    'Settings',
-                    style: theme.textTheme.headlineSmall?.copyWith(
-                      fontWeight: FontWeight.w700,
+        child: SingleChildScrollView(
+          padding: EdgeInsets.symmetric(horizontal: 4.w, vertical: 2.h),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              // Header
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 4.w, vertical: 2.h),
+                child: Row(
+                  children: [
+                    Text(
+                      'Settings',
+                      style: theme.textTheme.headlineSmall?.copyWith(
+                        fontWeight: FontWeight.w700,
+                      ),
                     ),
-                  ),
-                  const Spacer(),
-                  Icon(
-                    Icons.settings_rounded,
-                    size: 7.w,
-                    color: theme.colorScheme.primary,
-                  ),
-                ],
-              ),
-            ),
-
-            // Settings Content
-            Expanded(
-              child: SingleChildScrollView(
-                child: Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 4.w),
-                  child: Column(
-                    children: [
-                      // Theme Settings
-                      SettingsSectionWidget(
-                        title: 'Theme',
-                        children: [
-                          ThemeToggleWidget(
-                            isDarkMode: _isDarkMode,
-                            onChanged: _toggleTheme,
-                          ),
-                        ],
-                      ),
-
-                      SizedBox(height: 2.h),
-
-                      // Notification Settings
-                      const NotificationSettingsWidget(),
-
-                      SizedBox(height: 2.h),
-
-                      // Language Settings
-                      SettingsSectionWidget(
-                        title: 'Language',
-                        children: [
-                          SettingsItemWidget(
-                            title: 'Language',
-                            subtitle: _selectedLanguage,
-                            leading: Icon(Icons.language_rounded),
-                            trailing: Icon(
-                              Icons.chevron_right_rounded,
-                              size: 6.w,
-                              color: theme.colorScheme.onSurface
-                                  .withValues(alpha: 0.6),
-                            ),
-                            onTap: _showLanguageSettings,
-                          ),
-                        ],
-                      ),
-
-                      SizedBox(height: 2.h),
-
-                      // Font Settings
-                      SettingsSectionWidget(
-                        title: 'Arabic Font',
-                        children: [
-                          SettingsItemWidget(
-                            title: 'Test Arabic Fonts',
-                            subtitle: 'Compare diacritical mark rendering',
-                            leading: Icon(Icons.font_download_rounded),
-                            trailing: Icon(
-                              Icons.chevron_right_rounded,
-                              size: 6.w,
-                              color: theme.colorScheme.onSurface
-                                  .withValues(alpha: 0.6),
-                            ),
-                            onTap: _showFontTest,
-                          ),
-                          SettingsItemWidget(
-                            title: 'Current Font',
-                            subtitle: IndoPakFonts.currentFont,
-                            leading: Icon(Icons.text_fields_rounded),
-                            trailing: Icon(
-                              Icons.info_outline_rounded,
-                              size: 6.w,
-                              color: theme.colorScheme.primary,
-                            ),
-                          ),
-                        ],
-                      ),
-
-                      SizedBox(height: 2.h),
-
-                      // App Settings
-                      SettingsSectionWidget(
-                        title: 'App',
-                        children: [
-                          SettingsItemWidget(
-                            title: 'Backup & Sync',
-                            subtitle: 'Backup your progress',
-                            leading: Icon(Icons.backup_rounded),
-                            trailing: Icon(
-                              Icons.chevron_right_rounded,
-                              size: 6.w,
-                              color: theme.colorScheme.onSurface
-                                  .withValues(alpha: 0.6),
-                            ),
-                            onTap: _showBackupSettings,
-                          ),
-                          SettingsItemWidget(
-                            title: 'Help & Support',
-                            subtitle: 'Get help and support',
-                            leading: Icon(Icons.help_outline_rounded),
-                            trailing: Icon(
-                              Icons.chevron_right_rounded,
-                              size: 6.w,
-                              color: theme.colorScheme.onSurface
-                                  .withValues(alpha: 0.6),
-                            ),
-                            onTap: _showHelpScreen,
-                          ),
-                          SettingsItemWidget(
-                            title: 'About',
-                            subtitle: 'App version and info',
-                            leading: Icon(Icons.info_outline_rounded),
-                            trailing: Icon(
-                              Icons.chevron_right_rounded,
-                              size: 6.w,
-                              color: theme.colorScheme.onSurface
-                                  .withValues(alpha: 0.6),
-                            ),
-                            onTap: _showAboutDialog,
-                          ),
-                        ],
-                      ),
-
-                      SizedBox(height: 2.h),
-
-                      // Reset Settings
-                      SettingsSectionWidget(
-                        title: 'Reset',
-                        children: [
-                          SettingsItemWidget(
-                            title: 'Reset All Settings',
-                            subtitle: 'Reset app to default settings',
-                            leading: Icon(Icons.refresh_rounded),
-                            trailing: Icon(
-                              Icons.chevron_right_rounded,
-                              size: 6.w,
-                              color: theme.colorScheme.error,
-                            ),
-                            onTap: _showResetConfirmation,
-                          ),
-                          SettingsItemWidget(
-                            title: 'Clear All Data',
-                            subtitle: 'Delete all app data permanently',
-                            leading: Icon(Icons.delete_forever_rounded),
-                            trailing: Icon(
-                              Icons.chevron_right_rounded,
-                              size: 6.w,
-                              color: theme.colorScheme.error,
-                            ),
-                            onTap: _showClearDataConfirmation,
-                          ),
-                        ],
-                      ),
-
-                      // Bottom padding for navigation bar
-                      SizedBox(height: 12.h),
-                    ],
-                  ),
+                    const Spacer(),
+                    Icon(
+                      Icons.settings_rounded,
+                      size: 7.w,
+                      color: theme.colorScheme.primary,
+                    ),
+                  ],
                 ),
               ),
-            ),
-          ],
+
+              // Settings Content
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 4.w),
+                child: Column(
+                  children: [
+                        // Theme Settings
+                        SettingsSectionWidget(
+                          title: 'Theme',
+                          children: [
+                            ThemeToggleWidget(
+                              isDarkMode: _isDarkMode,
+                              onChanged: _toggleTheme,
+                            ),
+                          ],
+                        ),
+
+                        SizedBox(height: 2.h),
+
+                        // Notification Settings
+                        const NotificationSettingsWidget(),
+
+                        SizedBox(height: 2.h),
+
+                        // Language Settings
+                        SettingsSectionWidget(
+                          title: AppLocalizations.of(context).language,
+                          children: [
+                            SettingsItemWidget(
+                              title: AppLocalizations.of(context).language,
+                              subtitle: _selectedLanguage,
+                              leading: Icon(Icons.language_rounded),
+                              trailing: Icon(
+                                Icons.chevron_right_rounded,
+                                size: 6.w,
+                                color: theme.colorScheme.onSurface
+                                    .withValues(alpha: 0.6),
+                              ),
+                              onTap: _showLanguageSettings,
+                            ),
+                          ],
+                        ),
+
+                        SizedBox(height: 2.h),
+
+                        // Font Settings
+                        SettingsSectionWidget(
+                          title: 'Arabic Font',
+                          children: [
+                            SettingsItemWidget(
+                              title: 'Test Arabic Fonts',
+                              subtitle: 'Compare diacritical mark rendering',
+                              leading: Icon(Icons.font_download_rounded),
+                              trailing: Icon(
+                                Icons.chevron_right_rounded,
+                                size: 6.w,
+                                color: theme.colorScheme.onSurface
+                                    .withValues(alpha: 0.6),
+                              ),
+                              onTap: _showFontTest,
+                            ),
+                            SettingsItemWidget(
+                              title: 'Current Font',
+                              subtitle: IndoPakFonts.currentFont,
+                              leading: Icon(Icons.text_fields_rounded),
+                              trailing: Icon(
+                                Icons.info_outline_rounded,
+                                size: 6.w,
+                                color: theme.colorScheme.primary,
+                              ),
+                            ),
+                          ],
+                        ),
+
+                        SizedBox(height: 2.h),
+
+                        // App Settings
+                        SettingsSectionWidget(
+                          title: 'App',
+                          children: [
+                            SettingsItemWidget(
+                              title: 'Backup & Sync',
+                              subtitle: 'Backup your progress',
+                              leading: Icon(Icons.backup_rounded),
+                              trailing: Icon(
+                                Icons.chevron_right_rounded,
+                                size: 6.w,
+                                color: theme.colorScheme.onSurface
+                                    .withValues(alpha: 0.6),
+                              ),
+                              onTap: _showBackupSettings,
+                            ),
+                            SettingsItemWidget(
+                              title: 'Help & Support',
+                              subtitle: 'Get help and support',
+                              leading: Icon(Icons.help_outline_rounded),
+                              trailing: Icon(
+                                Icons.chevron_right_rounded,
+                                size: 6.w,
+                                color: theme.colorScheme.onSurface
+                                    .withValues(alpha: 0.6),
+                              ),
+                              onTap: _showHelpScreen,
+                            ),
+                            SettingsItemWidget(
+                              title: 'About',
+                              subtitle: 'App version and info',
+                              leading: Icon(Icons.info_outline_rounded),
+                              trailing: Icon(
+                                Icons.chevron_right_rounded,
+                                size: 6.w,
+                                color: theme.colorScheme.onSurface
+                                    .withValues(alpha: 0.6),
+                              ),
+                              onTap: _showAboutDialog,
+                            ),
+                          ],
+                        ),
+
+                        SizedBox(height: 2.h),
+
+                        // Reset Settings
+                        SettingsSectionWidget(
+                          title: 'Reset',
+                          children: [
+                            SettingsItemWidget(
+                              title: 'Reset All Settings',
+                              subtitle: 'Reset app to default settings',
+                              leading: Icon(Icons.refresh_rounded),
+                              trailing: Icon(
+                                Icons.chevron_right_rounded,
+                                size: 6.w,
+                                color: theme.colorScheme.error,
+                              ),
+                              onTap: _showResetConfirmation,
+                            ),
+                            SettingsItemWidget(
+                              title: 'Clear All Data',
+                              subtitle: 'Delete all app data permanently',
+                              leading: Icon(Icons.delete_forever_rounded),
+                              trailing: Icon(
+                                Icons.chevron_right_rounded,
+                                size: 6.w,
+                                color: theme.colorScheme.error,
+                              ),
+                              onTap: _showClearDataConfirmation,
+                            ),
+                          ],
+                        ),
+
+                        // Bottom padding for navigation bar
+                        SizedBox(height: 12.h),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
       ),
-      bottomNavigationBar: FooterNavigationWidget(
+      bottomNavigationBar: const FooterNavigationWidget(
         currentRoute: AppRoutes.settings,
       ),
     );

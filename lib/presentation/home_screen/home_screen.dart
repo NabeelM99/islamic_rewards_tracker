@@ -39,6 +39,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
   bool _areAllTasksCompleted = false;
   int _completedTasksCount = 0;
   int _totalTasksCount = 0;
+  int _customTasksCount = 0;
 
   // Mock Islamic tasks data - moved to static const for better performance
   static const List<Map<String, dynamic>> _mockTasks = [
@@ -245,15 +246,21 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
     final newTotalTasksCount = _tasks.length;
     final newCompletedTasksCount = _tasks.where((task) => task['isCompleted'] == true).length;
     final newAreAllTasksCompleted = newTotalTasksCount > 0 && newCompletedTasksCount == newTotalTasksCount;
+    final newCustomTasksCount = _tasks.where((task) {
+      final taskId = task['id']?.toString();
+      return !_mockTasks.any((defaultTask) => defaultTask['id'] == taskId);
+    }).length;
     
     // Only update if values have changed to avoid unnecessary rebuilds
     if (_totalTasksCount != newTotalTasksCount || 
         _completedTasksCount != newCompletedTasksCount || 
-        _areAllTasksCompleted != newAreAllTasksCompleted) {
+        _areAllTasksCompleted != newAreAllTasksCompleted ||
+        _customTasksCount != newCustomTasksCount) {
       setState(() {
         _totalTasksCount = newTotalTasksCount;
         _completedTasksCount = newCompletedTasksCount;
         _areAllTasksCompleted = newAreAllTasksCompleted;
+        _customTasksCount = newCustomTasksCount;
       });
     }
   }
@@ -309,6 +316,38 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
     });
     
     // Update statistics after state change
+    _updateTaskStatistics();
+  }
+
+  void _handleDeleteCustomTask(String taskId) async {
+    final shouldDelete = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Delete Custom Task'),
+        content: const Text('Are you sure you want to delete this custom task? This action cannot be undone.'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(false),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(true),
+            style: TextButton.styleFrom(
+              foregroundColor: Colors.red,
+            ),
+            child: const Text('Delete'),
+          ),
+        ],
+      ),
+    );
+
+    if (shouldDelete != true) return;
+
+    setState(() {
+      _tasks.removeWhere((task) => (task['id']?.toString()) == taskId);
+    });
+    TaskStorage.saveTodayTasks(_tasks);
+    TaskStorage.saveHistorySnapshot(DateTime.now(), _tasks);
     _updateTaskStatistics();
   }
 
@@ -524,6 +563,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
               islamicGreeting: _islamicGreeting,
               onNavigate: _handleNavigation,
               onReset: _resetTodayTasks,
+              customTasksCount: _customTasksCount,
             ),
 
             // Main Content
@@ -557,6 +597,8 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
                                       onTaskToggle: _handleTaskToggle,
                                       onCounterUpdate: _handleCounterUpdate,
                                       onTaskDetails: () => _showTaskDetails(task),
+                                      onDeleteCustomTask: (id) => _handleDeleteCustomTask(id),
+                                      isCustomTask: !_mockTasks.any((defaultTask) => defaultTask['id'] == task['id']),
                                     );
                                   },
                                   childCount: _tasks.length,

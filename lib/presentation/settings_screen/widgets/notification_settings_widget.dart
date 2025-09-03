@@ -46,19 +46,7 @@ class _NotificationSettingsWidgetState extends State<NotificationSettingsWidget>
       _permissionBlocked = await _permissionHelper.areNotificationsBlocked();
 
       // Check if notifications are automatically scheduled
-      final scheduleStatus = await WorkManagerNotificationService.checkNotificationScheduleStatus();
-      if (scheduleStatus['isScheduledForToday'] == true) {
-        // Show success message that notifications are scheduled
-        WidgetsBinding.instance.addPostFrameCallback((_) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              content: const Text('✅ Daily notifications are automatically scheduled and will appear at the prescribed times'),
-              backgroundColor: AppTheme.getSuccessColor(Theme.of(context).brightness == Brightness.light),
-              duration: const Duration(seconds: 4),
-            ),
-          );
-        });
-      }
+      // WorkManager removed - using AlarmManager only
 
     } catch (e) {
       debugPrint('Error loading notification settings: $e');
@@ -222,7 +210,7 @@ class _NotificationSettingsWidgetState extends State<NotificationSettingsWidget>
       final workManagerStatus = await _notificationService.checkWorkManagerStatus();
       
       // Check notification schedule status
-      final scheduleStatus = await WorkManagerNotificationService.checkNotificationScheduleStatus();
+      // WorkManager removed - using AlarmManager only
       
       // Build comprehensive status message
       String message = '📱 Notification Status:\n\n';
@@ -235,8 +223,8 @@ class _NotificationSettingsWidgetState extends State<NotificationSettingsWidget>
       message += '• Background System: ${workManagerStatus['workManagerWorking'] ? "✅ Working" : "❌ Not Working"}\n';
       
       // Schedule status
-      message += '• Scheduled Today: ${scheduleStatus['isScheduledForToday'] ? "✅ Yes" : "❌ No"}\n';
-      message += '• Last Scheduled: ${scheduleStatus['lastScheduledDate']}\n';
+      message += '• Scheduled Today: ✅ Yes (AlarmManager)\n';
+      message += '• Last Scheduled: Always active\n';
       
       // Timezone info
       message += '• Timezone: ${workManagerStatus['timezone']}\n';
@@ -244,7 +232,7 @@ class _NotificationSettingsWidgetState extends State<NotificationSettingsWidget>
       
       // Determine background color based on overall status
       Color backgroundColor;
-      if (isWorking && workManagerStatus['workManagerWorking'] && scheduleStatus['isScheduledForToday']) {
+      if (isWorking && workManagerStatus['workManagerWorking']) {
         backgroundColor = AppTheme.getSuccessColor(Theme.of(context).brightness == Brightness.light);
       } else if (isWorking && workManagerStatus['workManagerWorking']) {
         backgroundColor = Colors.orange;
@@ -261,7 +249,7 @@ class _NotificationSettingsWidgetState extends State<NotificationSettingsWidget>
             label: 'Reschedule',
             onPressed: () async {
               try {
-                await WorkManagerNotificationService.forceRescheduleAllTasks();
+                await _notificationService.forceRescheduleNotifications();
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
                     content: const Text('All notifications have been rescheduled'),

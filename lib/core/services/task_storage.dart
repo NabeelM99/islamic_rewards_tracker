@@ -36,16 +36,38 @@ class TaskStorage {
     return isNewDay;
   }
 
-  // Reset tasks for a new day
+  // Reset tasks for a new day (preserve custom tasks)
   static Future<void> _resetForNewDay(List<Map<String, dynamic>> defaultTasks) async {
     final prefs = await SharedPreferences.getInstance();
     final today = DateTime.now();
     
+    // Get yesterday's tasks to preserve custom ones
+    final yesterday = today.subtract(const Duration(days: 1));
+    final yesterdayKey = _todayKey(yesterday);
+    final yesterdayData = prefs.getString(yesterdayKey);
+    
+    List<Map<String, dynamic>> customTasks = [];
+    if (yesterdayData != null) {
+      try {
+        final List<dynamic> list = jsonDecode(yesterdayData) as List<dynamic>;
+        final yesterdayTasks = list.map((e) => Map<String, dynamic>.from(e as Map)).toList();
+        
+        // Extract custom tasks (those not in default tasks by id)
+        final defaultIds = defaultTasks.map((t) => t['id']?.toString()).toSet();
+        customTasks = yesterdayTasks.where((task) {
+          final taskId = task['id']?.toString();
+          return taskId == null || !defaultIds.contains(taskId);
+        }).toList();
+      } catch (_) {
+        // ignore parse errors
+      }
+    }
+    
     // Clear any existing tasks for today
     await prefs.remove(_todayKey(today));
     
-    // Initialize with fresh tasks
-    final freshTasks = defaultTasks.map((task) {
+    // Initialize with fresh default tasks
+    final freshDefaultTasks = defaultTasks.map((task) {
       return {
         ...task,
         'currentCount': 0,
@@ -54,7 +76,19 @@ class TaskStorage {
       };
     }).toList();
     
-    await saveTodayTasks(freshTasks);
+    // Reset and include custom tasks
+    final freshCustomTasks = customTasks.map((task) {
+      return {
+        ...task,
+        'currentCount': 0,
+        'isCompleted': false,
+        'dateCreated': today.toIso8601String(),
+      };
+    }).toList();
+    
+    final allTasks = [...freshDefaultTasks, ...freshCustomTasks];
+    
+    await saveTodayTasks(allTasks);
   }
 
   static Future<void> saveTodayTasks(List<Map<String, dynamic>> tasks) async {

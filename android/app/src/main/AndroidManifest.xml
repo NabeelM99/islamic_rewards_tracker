@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
 
     <application
-            android:label="islamic_rewards_tracker"
+            android:label="@string/app_name"
             android:name="${applicationName}"
             android:icon="@mipmap/ic_launcher"
             android:enableOnBackInvokedCallback="true">
@@ -68,7 +68,28 @@
             </intent-filter>
         </receiver>
         
-        <!-- Boot Receiver for rescheduling notifications -->
+        <!-- Custom Boot Receiver for rescheduling notifications -->
+        <receiver
+            android:name=".BootCompletedReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        
+        <!-- Daily Rescheduler Receiver (fires at 23:59) -->
+        <receiver
+            android:name=".DailyRescheduleReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="DAILY_RESCHEDULER" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- Existing plugin boot receiver (kept) -->
         <receiver
             android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
             android:enabled="true"

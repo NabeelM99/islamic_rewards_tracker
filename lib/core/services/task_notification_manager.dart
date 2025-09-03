@@ -16,6 +16,9 @@ class TaskNotificationManager {
   static const String _tasksCompletedTodayKey = 'tasks_completed_today';
   static const String _lastNotificationDateKey = 'last_notification_date';
 
+  // Prevent duplicate initialization per app session
+  bool _initialized = false;
+
   /// Check if all tasks are completed for today
   Future<bool> areAllTasksCompleted() async {
     final prefs = await SharedPreferences.getInstance();
@@ -146,8 +149,13 @@ class TaskNotificationManager {
 
   /// Initialize the notification manager
   Future<void> initialize() async {
+    if (_initialized) {
+      debugPrint('✅ TaskNotificationManager already initialized, skipping');
+      return;
+    }
     await checkAndResetDailyCount();
     await _notificationService.scheduleAllNotifications();
+    _initialized = true;
   }
 
   /// Get completion percentage for today

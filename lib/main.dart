@@ -6,7 +6,8 @@ import '../core/app_export.dart';
 import '../widgets/custom_error_widget.dart';
 import '../core/utils/performance_utils.dart';
 import '../core/services/notification_service.dart';
-import '../core/services/workmanager_notification_service.dart';
+import '../core/services/localization_service.dart';
+import '../core/localization/app_localizations.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -40,10 +41,12 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
+  late LocalizationService _localizationService;
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
+    _localizationService = LocalizationService();
     
     // Handle any pending boot events
     _handleBootEvent();
@@ -155,27 +158,35 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     return Sizer(builder: (context, orientation, screenType) {
-      return MaterialApp(
-        title: 'islamic_rewards_tracker',
-        theme: _lightTheme,
-        darkTheme: _darkTheme,
-        themeMode: ThemeMode.light,
-        // 🚨 CRITICAL: NEVER REMOVE OR MODIFY
-        builder: (context, child) {
-          return MediaQuery(
-            data: MediaQuery.of(context).copyWith(
-              textScaler: const TextScaler.linear(1.0),
-            ),
-            child: ScrollConfiguration(
-              behavior: const SmoothScrollBehavior(),
-              child: child!,
-            ),
+      return ListenableBuilder(
+        listenable: _localizationService,
+        builder: (context, _) {
+          return MaterialApp(
+            title: 'islamic_rewards_tracker',
+            theme: _lightTheme,
+            darkTheme: _darkTheme,
+            themeMode: ThemeMode.light,
+            locale: _localizationService.currentLocale,
+            supportedLocales: AppLocalizations.supportedLocales,
+            localizationsDelegates: AppLocalizations.localizationsDelegates,
+            // 🚨 CRITICAL: NEVER REMOVE OR MODIFY
+            builder: (context, child) {
+              return MediaQuery(
+                data: MediaQuery.of(context).copyWith(
+                  textScaler: const TextScaler.linear(1.0),
+                ),
+                child: ScrollConfiguration(
+                  behavior: const SmoothScrollBehavior(),
+                  child: child!,
+                ),
+              );
+            },
+            // 🚨 END CRITICAL SECTION
+            debugShowCheckedModeBanner: false,
+            routes: AppRoutes.routes,
+            initialRoute: AppRoutes.initial,
           );
         },
-        // 🚨 END CRITICAL SECTION
-        debugShowCheckedModeBanner: false,
-        routes: AppRoutes.routes,
-        initialRoute: AppRoutes.initial,
       );
     });
   }

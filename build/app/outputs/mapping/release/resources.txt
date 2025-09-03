@@ -211,6 +211,7 @@ Marking drawable:material_ic_calendar_black_24dp:2131165353 reachable: reference
 Marking drawable:material_ic_edit_black_24dp:2131165355 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_picker_toggle_to_calendar_input_mode:2131755150 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_picker_toggle_to_text_input_mode:2131755152 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking mipmap:ic_launcher:2131558400 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:abc_tooltip:2131427355 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:message:2131230969 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Animation_AppCompat_Tooltip:2131820548 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -2018,6 +2019,7 @@ capabilities
 seqno
 dev.flutter.pigeon.path_provider_andr...
 androidx.view.accessibility.Accessibi...
+scheduleCompletionNotification
 label
 message
 scanCode
@@ -2635,6 +2637,7 @@ INT32_LIST
 ViewUtilsBase
 America/Argentina/Buenos_Aires
 mIsChildViewEnabled
+COMPLETION_NOTIFICATION
 android.permission.READ_PHONE_STATE
 getModule
 extent
@@ -10232,7 +10235,7 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @string/abc_shareactionprovider_share_with_application : reachable=false
 @string/abc_toolbar_collapse_description : reachable=false
 @string/androidx_startup : reachable=true
-@string/app_name : reachable=false
+@string/app_name : reachable=true
 @string/appbar_scrolling_view_behavior : reachable=false
 @string/bottom_sheet_behavior : reachable=true
 @string/bottomsheet_action_collapse : reachable=true
@@ -20255,6 +20258,7 @@ The root reachable resources are:
  string:abc_prepend_shortcut_label:2131755025
  string:abc_searchview_description_search:2131755029
  string:androidx_startup:2131755035
+ string:app_name:2131755036
  string:bottom_sheet_behavior:2131755038
  string:bottomsheet_action_collapse:2131755039
  string:bottomsheet_action_expand:2131755040
@@ -21976,7 +21980,6 @@ Unused resources are:
  string:abc_searchview_description_query:2131755028
  string:abc_shareactionprovider_share_with:2131755032
  string:abc_shareactionprovider_share_with_application:2131755033
- string:app_name:2131755036
  string:appbar_scrolling_view_behavior:2131755037
  string:expand_button_title:2131755058
  string:fab_transformation_scrim_behavior:2131755060

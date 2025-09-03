@@ -16,7 +16,14 @@ class WorkManagerNotificationService {
   
   static final FlutterLocalNotificationsPlugin _notifications = FlutterLocalNotificationsPlugin();
   
+  // Ensure we initialize WorkManager only once per app session
+  static bool _initialized = false;
+  
   static Future<void> initialize() async {
+    if (_initialized) {
+      debugPrint('✅ WorkManagerNotificationService already initialized, skipping');
+      return;
+    }
     try {
       debugPrint('🔄 Initializing WorkManager Notification Service...');
       
@@ -35,6 +42,7 @@ class WorkManagerNotificationService {
       // Schedule all background tasks silently (no immediate notifications)
       await _scheduleAllBackgroundTasksSilently();
       
+      _initialized = true;
       debugPrint('✅ WorkManager Notification Service initialized');
     } catch (e) {
       debugPrint('❌ Error initializing WorkManager Notification Service: $e');

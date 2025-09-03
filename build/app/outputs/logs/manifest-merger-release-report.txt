@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:17:5-109:19
-INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:17:5-109:19
+INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:17:5-108:19
+INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:17:5-108:19
 MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2fec3cd562ae80740eb6f9dcab436ca5\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2fec3cd562ae80740eb6f9dcab436ca5\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\25351e5d426719a83fc51794ee2aa35e\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
@@ -29,7 +29,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Na
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3ac622b549f8133ebf0a32b46b02c78d\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:18:13-32
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:18:13-45
 	android:icon
 		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:20:13-47
 	android:enableOnBackInvokedCallback
@@ -38,10 +38,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Na
 		INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml
 		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:19:13-46
 manifest
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:1:1-116:12
-INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:1:1-116:12
-INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:1:1-116:12
-INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:1:1-116:12
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:1:1-115:12
+INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:1:1-115:12
+INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:1:1-115:12
+INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:1:1-115:12
 MERGED from [:android_intent_plus] C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\android_intent_plus\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:connectivity_plus] C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_local_notifications] C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-10:12
@@ -169,17 +169,17 @@ ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker
 	android:name
 		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:15:22-92
 queries
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:110:5-115:15
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:109:5-114:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:111:9-114:18
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:110:9-113:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:112:13-72
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:111:13-72
 	android:name
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:112:21-70
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:111:21-70
 data
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:113:13-50
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:112:13-50
 	android:mimeType
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:113:19-48
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:112:19-48
 activity#com.islamic_rewards_tracker.app.MainActivity
 ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:22:9-49:20
 	android:launchMode
@@ -217,15 +217,15 @@ ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker
 	android:name
 		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:47:27-74
 receiver#com.islamic_rewards_tracker.app.ReminderReceiver
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:52:9-70:20
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:52:9-69:20
 	android:enabled
 		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:54:13-35
 	android:exported
 		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
 		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:53:13-45
-intent-filter#action:name:COMPLETION_NOTIFICATION+action:name:REMINDER_1000+action:name:REMINDER_1001+action:name:REMINDER_1002+action:name:REMINDER_1003+action:name:REMINDER_2000+action:name:REMINDER_2001+action:name:REMINDER_2002+action:name:REMINDER_2003+action:name:REMINDER_2004+action:name:REMINDER_3000+action:name:REMINDER_3001
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:56:13-69:29
+intent-filter#action:name:REMINDER_1000+action:name:REMINDER_1001+action:name:REMINDER_1002+action:name:REMINDER_1003+action:name:REMINDER_2000+action:name:REMINDER_2001+action:name:REMINDER_2002+action:name:REMINDER_2003+action:name:REMINDER_2004+action:name:REMINDER_3000+action:name:REMINDER_3001
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:56:13-68:29
 action#REMINDER_1000
 ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:57:17-56
 	android:name
@@ -270,56 +270,52 @@ action#REMINDER_3001
 ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:67:17-56
 	android:name
 		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:67:25-53
-action#COMPLETION_NOTIFICATION
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:68:17-66
-	android:name
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:68:25-63
 receiver#com.islamic_rewards_tracker.app.BootCompletedReceiver
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:73:9-81:20
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:72:9-80:20
 	android:enabled
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:75:13-35
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:74:13-35
 	android:exported
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:76:13-36
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:75:13-36
 	android:name
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:74:13-50
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:73:13-50
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:77:13-80:29
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:76:13-79:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:78:17-78
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:77:17-78
 	android:name
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:78:25-76
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:77:25-76
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:79:17-83
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:78:17-83
 	android:name
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:79:25-81
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:78:25-81
 receiver#com.islamic_rewards_tracker.app.DailyRescheduleReceiver
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:84:9-91:20
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:83:9-90:20
 	android:enabled
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:86:13-35
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:85:13-35
 	android:exported
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:87:13-37
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:86:13-37
 	android:name
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:85:13-52
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:84:13-52
 intent-filter#action:name:DAILY_RESCHEDULER
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:88:13-90:29
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:87:13-89:29
 action#DAILY_RESCHEDULER
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:89:17-60
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:88:17-60
 	android:name
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:89:25-57
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:88:25-57
 receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:94:9-102:20
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:93:9-101:20
 	android:enabled
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:96:13-35
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:95:13-35
 	android:exported
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:97:13-36
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:96:13-36
 	android:name
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:95:13-101
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:94:13-101
 meta-data#flutterEmbedding
-ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:106:9-108:36
+ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:105:9-107:36
 	android:value
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:108:17-34
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:107:17-34
 	android:name
-		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:107:17-48
+		ADDED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:106:17-48
 uses-sdk
 INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml

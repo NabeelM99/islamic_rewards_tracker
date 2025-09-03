@@ -5,7 +5,6 @@ import 'package:timezone/data/latest.dart' as tz;
 import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:android_intent_plus/android_intent.dart';
-import 'workmanager_notification_service.dart';
 import 'android_exact_alarm_service.dart';
 
 class NotificationService {
@@ -78,9 +77,6 @@ class NotificationService {
 
     // Create notification channel for Android
     await _createNotificationChannel();
-
-    // Initialize WorkManager for background notifications (only once)
-    await WorkManagerNotificationService.initialize();
 
     // Only schedule notifications if enabled AND not already scheduled today
     if (await areNotificationsEnabled()) {
@@ -207,12 +203,8 @@ class NotificationService {
     
     if (enabled) {
       await scheduleAllNotifications();
-      // Also ensure WorkManager tasks are scheduled
-      await WorkManagerNotificationService.forceRescheduleAllTasks();
     } else {
       await cancelAllNotifications();
-      // Cancel WorkManager tasks as well
-      await WorkManagerNotificationService.cancelAllTasks();
     }
   }
 
@@ -281,9 +273,6 @@ class NotificationService {
       await scheduleTaskReminders();
       await scheduleDhikrReminders();
       await scheduleDuaReminders();
-      
-      // Also ensure WorkManager tasks are scheduled
-      await WorkManagerNotificationService.forceRescheduleAllTasks();
       
       debugPrint('✅ All notifications scheduled successfully');
     } catch (e) {
@@ -418,9 +407,6 @@ class NotificationService {
       // Schedule all notifications using daily repetition
       await scheduleAllNotifications();
       
-      // Also ensure WorkManager tasks are scheduled
-      await WorkManagerNotificationService.forceRescheduleAllTasks();
-      
       debugPrint('✅ Background notifications ensured with daily repetition');
     } catch (e) {
       debugPrint('❌ Error ensuring background notifications: $e');
@@ -437,9 +423,6 @@ class NotificationService {
       
       // Schedule all notifications using daily repetition
       await scheduleAllNotifications();
-      
-      // Also force reschedule WorkManager tasks
-      await WorkManagerNotificationService.forceRescheduleAllTasks();
       
       debugPrint('✅ Notifications force rescheduled with daily repetition');
     } catch (e) {
@@ -458,7 +441,7 @@ class NotificationService {
       debugPrint('🚨 NUCLEAR OPTION: Scheduling maximum aggressive notification');
       
       // Use WorkManager nuclear method
-      await WorkManagerNotificationService.scheduleNuclearTestNotification();
+      // WorkManager completely removed - using AlarmManager only
       
       debugPrint('🚨 NUCLEAR OPTION: Deployed. Close app and wait 1 minute.');
       

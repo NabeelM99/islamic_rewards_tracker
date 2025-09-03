@@ -46,7 +46,7 @@
         android:enableOnBackInvokedCallback="true"
         android:extractNativeLibs="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Ajr" >
+        android:label="@string/app_name" >
         <activity
             android:name="com.islamic_rewards_tracker.app.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -98,11 +98,10 @@
                 <action android:name="REMINDER_2004" />
                 <action android:name="REMINDER_3000" />
                 <action android:name="REMINDER_3001" />
-                <action android:name="COMPLETION_NOTIFICATION" />
             </intent-filter>
         </receiver>
 
-        <!-- Boot Receiver for rescheduling notifications -->
+        <!-- Custom Boot Receiver for rescheduling notifications -->
         <receiver
             android:name="com.islamic_rewards_tracker.app.BootCompletedReceiver"
             android:enabled="true"

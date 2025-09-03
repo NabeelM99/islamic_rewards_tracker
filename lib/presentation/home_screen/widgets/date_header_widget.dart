@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
+import 'package:hijri/hijri_calendar.dart';
 
 import '../../../core/app_export.dart';
 import '../../../routes/app_routes.dart';
@@ -9,6 +10,7 @@ class DateHeaderWidget extends StatefulWidget {
   final String islamicGreeting;
   final Function(String) onNavigate;
   final VoidCallback? onReset;
+  final int customTasksCount;
 
   const DateHeaderWidget({
     Key? key,
@@ -16,6 +18,7 @@ class DateHeaderWidget extends StatefulWidget {
     required this.islamicGreeting,
     required this.onNavigate,
     this.onReset,
+    this.customTasksCount = 0,
   }) : super(key: key);
 
   @override
@@ -91,10 +94,10 @@ class _DateHeaderWidgetState extends State<DateHeaderWidget> {
   }
 
   String _getHijriDate() {
-    // Mock Hijri date calculation - in real app would use proper Islamic calendar
-    final hijriYear = widget.currentDate.year - 579;
-    final hijriMonth = _hijriMonths[(widget.currentDate.month - 1) % 12];
-    return '${widget.currentDate.day} $hijriMonth $hijriYear AH';
+    // Accurate Hijri date using hijri package
+    final hijri = HijriCalendar.fromDate(widget.currentDate);
+    final hijriMonth = _hijriMonths[(hijri.hMonth - 1).clamp(0, _hijriMonths.length - 1)];
+    return '${hijri.hDay} $hijriMonth ${hijri.hYear} AH';
   }
 
   String _getGregorianDate() {
@@ -340,6 +343,26 @@ class _DateHeaderWidgetState extends State<DateHeaderWidget> {
                 ),
               ],
             ),
+            if (widget.customTasksCount > 0) ...[
+              SizedBox(height: 1.h),
+              Row(
+                children: [
+                  Icon(
+                    Icons.star_rounded,
+                    color: Colors.orange.withValues(alpha: 0.8),
+                    size: 3.w,
+                  ),
+                  SizedBox(width: 1.w),
+                  Text(
+                    '${widget.customTasksCount} Custom',
+                    style: AppTheme.lightTheme.textTheme.bodySmall?.copyWith(
+                      color: Colors.orange.withValues(alpha: 0.8),
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ],
+              ),
+            ],
           ],
         ),
       ),

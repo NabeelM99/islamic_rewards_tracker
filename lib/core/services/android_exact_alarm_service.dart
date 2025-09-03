@@ -135,4 +135,15 @@ class AndroidExactAlarmService {
       return [];
     }
   }
+
+  /// Schedule completion notification a few seconds from now (when all tasks done)
+  static Future<bool> scheduleCompletionNotification() async {
+    try {
+      final result = await _channel.invokeMethod('scheduleCompletionNotification');
+      return result == true;
+    } on PlatformException catch (e) {
+      print('Error scheduling completion notification: $e');
+      return false;
+    }
+  }
 } 

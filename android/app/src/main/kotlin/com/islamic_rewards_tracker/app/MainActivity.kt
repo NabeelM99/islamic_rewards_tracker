@@ -58,6 +58,10 @@ class MainActivity: FlutterFragmentActivity() {
                     val alarms = alarmScheduler.getScheduledAlarms()
                     result.success(alarms)
                 }
+                "scheduleCompletionNotification" -> {
+                    alarmScheduler.scheduleCompletionNotification()
+                    result.success(true)
+                }
                 else -> {
                     result.notImplemented()
                 }
