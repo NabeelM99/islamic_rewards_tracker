@@ -1,0 +1,254 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.islamic_rewards_tracker.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:7:5-66
+14-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:7:22-64
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:8:5-65
+15-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:8:22-63
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:9:5-67
+16-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:9:22-65
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:10:5-80
+17-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+18-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:11:5-78
+18-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:12:5-76
+19-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:12:22-74
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:13:5-76
+20-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:13:22-74
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+21-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:14:5-88
+21-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:14:22-86
+22    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+22-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:15:5-94
+22-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:15:22-92
+23
+24    <queries>
+24-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:109:5-114:15
+25        <intent>
+25-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:110:9-113:18
+26            <action android:name="android.intent.action.PROCESS_TEXT" />
+26-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:111:13-72
+26-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:111:21-70
+27
+28            <data android:mimeType="text/plain" />
+28-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:112:13-50
+28-->C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\android\app\src\main\AndroidManifest.xml:112:19-48
+29        </intent>
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[:connectivity_plus] C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-79
+32-->[:connectivity_plus] C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-76
+33
+34    <permission
+34-->[androidx.core:core:1.13.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3ac622b549f8133ebf0a32b46b02c78d\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+35        android:name="com.islamic_rewards_tracker.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.13.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3ac622b549f8133ebf0a32b46b02c78d\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.13.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3ac622b549f8133ebf0a32b46b02c78d\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.islamic_rewards_tracker.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.13.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3ac622b549f8133ebf0a32b46b02c78d\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.13.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3ac622b549f8133ebf0a32b46b02c78d\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+39
+40    <application
+41        android:name="android.app.Application"
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.13.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\3ac622b549f8133ebf0a32b46b02c78d\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+43        android:debuggable="true"
+44        android:enableOnBackInvokedCallback="true"
+45        android:extractNativeLibs="true"
+46        android:icon="@mipmap/ic_launcher"
+47        android:label="@string/app_name" >
+48        <activity
+49            android:name="com.islamic_rewards_tracker.app.MainActivity"
+50            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+51            android:exported="true"
+52            android:hardwareAccelerated="true"
+53            android:launchMode="singleTop"
+54            android:taskAffinity=""
+55            android:theme="@style/LaunchTheme"
+56            android:usesCleartextTraffic="true"
+57            android:windowSoftInputMode="adjustResize" >
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+66                android:name="io.flutter.embedding.android.NormalTheme"
+67                android:resource="@style/NormalTheme" />
+68            <!--
+69                 Displays an Android View that continues showing the launch screen
+70                 Drawable until Flutter paints its first frame, then this splash
+71                 screen fades out. A splash screen is useful to avoid any visual
+72                 gap between the end of Android's launch screen and the painting of
+73                 Flutter's first frame.
+74            -->
+75            <intent-filter>
+76                <action android:name="android.intent.action.MAIN" />
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+79            </intent-filter>
+80        </activity>
+81
+82        <!-- Reminder Receiver for exact alarms -->
+83        <receiver
+84            android:name="com.islamic_rewards_tracker.app.ReminderReceiver"
+85            android:enabled="true"
+86            android:exported="false" >
+87            <intent-filter>
+88                <action android:name="REMINDER_1000" />
+89                <action android:name="REMINDER_1001" />
+90                <action android:name="REMINDER_1002" />
+91                <action android:name="REMINDER_1003" />
+92                <action android:name="REMINDER_2000" />
+93                <action android:name="REMINDER_2001" />
+94                <action android:name="REMINDER_2002" />
+95                <action android:name="REMINDER_2003" />
+96                <action android:name="REMINDER_2004" />
+97                <action android:name="REMINDER_3000" />
+98                <action android:name="REMINDER_3001" />
+99            </intent-filter>
+100        </receiver>
+101
+102        <!-- Custom Boot Receiver for rescheduling notifications -->
+103        <receiver
+104            android:name="com.islamic_rewards_tracker.app.BootCompletedReceiver"
+105            android:enabled="true"
+106            android:exported="true" >
+107            <intent-filter>
+108                <action android:name="android.intent.action.BOOT_COMPLETED" />
+109                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+110            </intent-filter>
+111        </receiver>
+112
+113        <!-- Daily Rescheduler Receiver (fires at 23:59) -->
+114        <receiver
+115            android:name="com.islamic_rewards_tracker.app.DailyRescheduleReceiver"
+116            android:enabled="true"
+117            android:exported="false" >
+118            <intent-filter>
+119                <action android:name="DAILY_RESCHEDULER" />
+120            </intent-filter>
+121        </receiver>
+122
+123        <!-- Existing plugin boot receiver (kept) -->
+124        <receiver
+125            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+126            android:enabled="true"
+127            android:exported="true" >
+128            <intent-filter>
+129                <action android:name="android.intent.action.BOOT_COMPLETED" />
+130                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+131            </intent-filter>
+132        </receiver>
+133
+134        <!--
+135             Don't delete the meta-data below.
+136             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+137        -->
+138        <meta-data
+139            android:name="flutterEmbedding"
+140            android:value="2" />
+141
+142        <uses-library
+142-->[androidx.window:window:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\daf7201beefb9d49c7d07f297bd11aaa\transformed\window-1.2.0\AndroidManifest.xml:23:9-25:40
+143            android:name="androidx.window.extensions"
+143-->[androidx.window:window:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\daf7201beefb9d49c7d07f297bd11aaa\transformed\window-1.2.0\AndroidManifest.xml:24:13-54
+144            android:required="false" />
+144-->[androidx.window:window:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\daf7201beefb9d49c7d07f297bd11aaa\transformed\window-1.2.0\AndroidManifest.xml:25:13-37
+145        <uses-library
+145-->[androidx.window:window:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\daf7201beefb9d49c7d07f297bd11aaa\transformed\window-1.2.0\AndroidManifest.xml:26:9-28:40
+146            android:name="androidx.window.sidecar"
+146-->[androidx.window:window:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\daf7201beefb9d49c7d07f297bd11aaa\transformed\window-1.2.0\AndroidManifest.xml:27:13-51
+147            android:required="false" />
+147-->[androidx.window:window:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\daf7201beefb9d49c7d07f297bd11aaa\transformed\window-1.2.0\AndroidManifest.xml:28:13-37
+148
+149        <provider
+149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\cebd5409b287bcd6b98ca1da4b482c28\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+150            android:name="androidx.startup.InitializationProvider"
+150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\cebd5409b287bcd6b98ca1da4b482c28\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+151            android:authorities="com.islamic_rewards_tracker.app.androidx-startup"
+151-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\cebd5409b287bcd6b98ca1da4b482c28\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+152            android:exported="false" >
+152-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\cebd5409b287bcd6b98ca1da4b482c28\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+153            <meta-data
+153-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\cebd5409b287bcd6b98ca1da4b482c28\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+154                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+154-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\cebd5409b287bcd6b98ca1da4b482c28\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+155                android:value="androidx.startup" />
+155-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\cebd5409b287bcd6b98ca1da4b482c28\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+156            <meta-data
+156-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ed50057e744e41dee40cc1fadcc87ca7\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+157                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+157-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ed50057e744e41dee40cc1fadcc87ca7\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+158                android:value="androidx.startup" />
+158-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ed50057e744e41dee40cc1fadcc87ca7\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+159            <meta-data
+159-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+160                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+161                android:value="androidx.startup" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+162        </provider>
+163
+164        <receiver
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+165            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+165-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+166            android:directBootAware="false"
+166-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+167            android:enabled="true"
+167-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+168            android:exported="true"
+168-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+169            android:permission="android.permission.DUMP" >
+169-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+170            <intent-filter>
+170-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+171                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+171-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+171-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+172            </intent-filter>
+173            <intent-filter>
+173-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+174                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+174-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+174-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+175            </intent-filter>
+176            <intent-filter>
+176-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+177                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+177-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+177-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+178            </intent-filter>
+179            <intent-filter>
+179-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+180                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+180-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+180-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\ad47ce164e32eff77d52a8974e7d6ab6\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+181            </intent-filter>
+182        </receiver>
+183    </application>
+184
+185</manifest>

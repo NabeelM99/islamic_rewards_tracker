@@ -590,12 +590,6 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "workmanager",
-      "rootUri": "file:///C:/Users/Nabeel%20Mohammed/AppData/Local/Pub/Cache/hosted/pub.dev/workmanager-0.5.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
       "name": "xdg_directories",
       "rootUri": "file:///C:/Users/Nabeel%20Mohammed/AppData/Local/Pub/Cache/hosted/pub.dev/xdg_directories-1.1.0",
       "packageUri": "lib/",
@@ -614,7 +608,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-09-03T16:17:43.838951Z",
+  "generated": "2025-09-03T21:01:33.001518Z",
   "generator": "pub",
   "generatorVersion": "3.6.0",
   "flutterRoot": "file:///C:/Users/Nabeel%20Mohammed/flutter/flutter",

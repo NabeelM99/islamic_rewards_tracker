@@ -123,7 +123,7 @@ class DhikrStorageService {
     final targetsJson = prefs.getString(_dailyTargetsKey);
     
     if (targetsJson != null) {
-      final Map<String, dynamic> targets = jsonDecode(targetsJson);
+      final Map<String, dynamic> targets = jsonDecode(targetsJson) as Map<String, dynamic>;
       return targets.map((key, value) => MapEntry(key, value as int));
     }
     

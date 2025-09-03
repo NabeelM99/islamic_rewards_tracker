@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable-v21_launch_background.xml.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable-xhdpi_ajr_logo11.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable-xhdpi/ajr_logo11.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable-mdpi_ajr_logo11.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable-mdpi/ajr_logo11.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/raw_notification_sound.txt.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/raw/notification_sound.txt"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable-xxhdpi_ajr_logo11.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable-xxhdpi/ajr_logo11.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable-xxxhdpi_ajr_logo11.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable-xxxhdpi/ajr_logo11.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable_ajr_logo11.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable/ajr_logo11.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.islamic_rewards_tracker.app-merged_res-50:/drawable-hdpi_ajr_logo11.png.flat",
+        "source": "com.islamic_rewards_tracker.app-main-44:/drawable-hdpi/ajr_logo11.png"
+    }
+]

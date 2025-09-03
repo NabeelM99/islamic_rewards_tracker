@@ -15,7 +15,7 @@ void main() async {
   // Enable performance optimizations
   PerformanceUtils.enablePerformanceOptimizations();
 
-  // Initialize notification service (this will handle WorkManager initialization)
+      // Initialize notification service (using AlarmManager only)
   await NotificationService().initialize();
   
   // 🚨 CRITICAL: Custom error handling - DO NOT REMOVE

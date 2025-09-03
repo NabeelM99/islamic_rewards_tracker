@@ -148,19 +148,7 @@
 -keep class android.app.Application { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
--keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
--keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy { <init>(); }
--keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy { <init>(); }
--keep class androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy { <init>(); }
--keep class androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy { <init>(); }
--keep class androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver { <init>(); }
--keep class androidx.work.impl.background.systemalarm.RescheduleReceiver { <init>(); }
--keep class androidx.work.impl.background.systemalarm.SystemAlarmService { <init>(); }
--keep class androidx.work.impl.background.systemjob.SystemJobService { <init>(); }
--keep class androidx.work.impl.diagnostics.DiagnosticsReceiver { <init>(); }
--keep class androidx.work.impl.foreground.SystemForegroundService { <init>(); }
--keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
 -keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver { <init>(); }
 -keep class com.islamic_rewards_tracker.app.BootCompletedReceiver { <init>(); }
 -keep class com.islamic_rewards_tracker.app.DailyRescheduleReceiver { <init>(); }
@@ -264,17 +252,6 @@
 
 
 # End of content from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
-# The proguard configuration file for the following section is C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2fec3cd562ae80740eb6f9dcab436ca5\transformed\work-runtime-2.8.1\proguard.txt
--keep class * extends androidx.work.Worker
--keep class * extends androidx.work.InputMerger
-# Keep all constructors on ListenableWorker, Worker
--keep public class * extends androidx.work.ListenableWorker {
-    public <init>(...);
-}
-# We need to keep WorkerParameters for the ListenableWorker constructor
--keep class androidx.work.WorkerParameters
-
-# End of content from C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2fec3cd562ae80740eb6f9dcab436ca5\transformed\work-runtime-2.8.1\proguard.txt
 # The proguard configuration file for the following section is C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\25351e5d426719a83fc51794ee2aa35e\transformed\material-1.9.0\proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
@@ -660,11 +637,6 @@
 }
 
 # End of content from C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\f8cba05290f6df313a4c2c830a93b434\transformed\rules\lib\META-INF\proguard\androidx.datastore_datastore-preferences-core.pro
-# The proguard configuration file for the following section is C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\fc9915dcc7bba039a661ac165c9743e1\transformed\room-runtime-2.5.0\proguard.txt
--keep class * extends androidx.room.RoomDatabase
--dontwarn androidx.room.paging.**
-
-# End of content from C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\fc9915dcc7bba039a661ac165c9743e1\transformed\room-runtime-2.5.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\24e5ce9cf434a8202dea92fefc3fb26d\transformed\versionedparcelable-1.1.1\proguard.txt
 -keep class * implements androidx.versionedparcelable.VersionedParcelable
 -keep public class android.support.**Parcelizer { *; }

@@ -1,9 +1,10 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:sizer/sizer.dart';
 import 'dart:async';
 
 import '../../core/app_export.dart';
+import '../../core/localization/app_localizations.dart';
 import '../../core/services/task_storage.dart';
 import '../../core/services/auth_service.dart';
 import '../../core/services/task_notification_manager.dart';
@@ -16,7 +17,6 @@ import './widgets/date_header_widget.dart';
 import './widgets/empty_state_widget.dart';
 import './widgets/task_card_widget.dart';
 import './widgets/task_details_bottom_sheet.dart';
-
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -48,96 +48,84 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
       "arabicName": "أذكار الصباح",
       "englishName": "Morning Adhkar",
       "transliteration": "Adhkar as-Sabah",
-      "description":
-          "Recite the morning remembrance of Allah to start your day with blessings and protection.",
-      "benefits":
-          "Provides spiritual protection, increases faith, and brings barakah to your day.",
+      "description": "Recite the morning remembrance of Allah to start your day with blessings and protection.",
+      "benefits": "Provides spiritual protection, increases faith, and brings barakah to your day.",
       "type": "checkbox",
       "targetCount": 1,
       "currentCount": 0,
       "isCompleted": false,
       "isCarryOver": false,
-      "dateCreated": null, // Will be set dynamically
+      "dateCreated": null,
     },
     {
-      "id": "2",
+      "id": "2", 
       "arabicName": "أذكار المساء",
       "englishName": "Evening Adhkar",
       "transliteration": "Adhkar al-Masa'",
-      "description":
-          "Recite the evening remembrance of Allah for protection during the night.",
-      "benefits":
-          "Seeks Allah's protection during sleep and brings peace to the heart.",
+      "description": "Recite the evening remembrance of Allah for protection during the night.",
+      "benefits": "Seeks Allah's protection during sleep and brings peace to the heart.",
       "type": "checkbox",
       "targetCount": 1,
       "currentCount": 0,
       "isCompleted": false,
       "isCarryOver": true,
-      "dateCreated": null, // Will be set dynamically
+      "dateCreated": null,
     },
     {
       "id": "3",
       "arabicName": "تلاوة القرآن",
       "englishName": "Qur'an Recitation (100 verses)",
       "transliteration": "Tilawat al-Qur'an",
-      "description":
-          "Recite 100 verses from the Holy Qur'an to earn immense rewards.",
-      "benefits":
-          "Each letter brings 10 rewards, purifies the heart, and increases knowledge.",
+      "description": "Recite 100 verses from the Holy Qur'an to earn immense rewards.",
+      "benefits": "Each letter brings 10 rewards, purifies the heart, and increases knowledge.",
       "type": "counter",
       "targetCount": 100,
       "currentCount": 0,
       "isCompleted": false,
       "isCarryOver": false,
-      "dateCreated": null, // Will be set dynamically
+      "dateCreated": null,
     },
     {
       "id": "5",
       "arabicName": "الصدقة",
       "englishName": "Daily Charity",
       "transliteration": "Sadaqah",
-      "description":
-          "Give charity, even if it's a small amount, to help those in need.",
-      "benefits":
-          "Purifies wealth, increases barakah, and earns Allah's pleasure.",
+      "description": "Give charity, even if it's a small amount, to help those in need.",
+      "benefits": "Purifies wealth, increases barakah, and earns Allah's pleasure.",
       "type": "checkbox",
       "targetCount": 1,
       "currentCount": 0,
       "isCompleted": true,
       "isCarryOver": false,
-      "dateCreated": null, // Will be set dynamically
+      "dateCreated": null,
     },
     {
       "id": "6",
       "arabicName": "قراءة كتاب إسلامي",
       "englishName": "Islamic Book Reading",
       "transliteration": "Qira'at Kitab Islami",
-      "description":
-          "Read from an Islamic book to increase your knowledge of the religion.",
-      "benefits":
-          "Increases Islamic knowledge, strengthens faith, and guides to righteous actions.",
+      "description": "Read from an Islamic book to increase your knowledge of the religion.",
+      "benefits": "Increases Islamic knowledge, strengthens faith, and guides to righteous actions.",
       "type": "checkbox",
       "targetCount": 1,
       "currentCount": 0,
       "isCompleted": false,
       "isCarryOver": false,
-      "dateCreated": null, // Will be set dynamically
+      "dateCreated": null,
     },
     {
       "id": "7",
       "arabicName": "دراسة السيرة النبوية",
       "englishName": "Seerah Study",
       "transliteration": "Dirasat as-Seerah an-Nabawiyyah",
-      "description":
-          "Study the life and teachings of Prophet Muhammad (peace be upon him).",
-      "benefits":
-          "Learn from the best example, increases love for the Prophet, and guides behavior.",
+      "description": "Study the life and teachings of Prophet Muhammad (peace be upon him).",
+      "benefits": "Learn from the best example, increases love for the Prophet, and guides behavior.",
       "type": "checkbox",
       "targetCount": 1,
       "currentCount": 0,
       "isCompleted": false,
       "isCarryOver": false,
-      "dateCreated": null, // Will be set dynamically
+      "dateCreated": null,
     },
   ];
 
@@ -147,9 +135,14 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
     WidgetsBinding.instance.addObserver(this);
     _initializeAnimations();
     _loadTasks();
-    _setIslamicGreeting();
     _startDailyResetTimer();
     _initializeNotificationManager();
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _setIslamicGreeting();
   }
 
   @override
@@ -164,7 +157,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
   void didChangeAppLifecycleState(AppLifecycleState state) {
     super.didChangeAppLifecycleState(state);
     if (state == AppLifecycleState.resumed) {
-      // App came back to foreground, check for daily reset
       _checkForDailyReset();
     }
   }
@@ -186,16 +178,15 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
   void _setIslamicGreeting() {
     final hour = DateTime.now().hour;
     if (hour < 12) {
-      _islamicGreeting = 'صباح الخير - Good Morning';
+      _islamicGreeting = 'صباح الخير - ${AppLocalizations.of(context).goodMorning}';
     } else if (hour < 17) {
-      _islamicGreeting = 'السلام عليكم - Peace be upon you';
+      _islamicGreeting = 'السلام عليكم - ${AppLocalizations.of(context).peaceBeUponYou}';
     } else {
-      _islamicGreeting = 'مساء الخير - Good Evening';
+      _islamicGreeting = 'مساء الخير - ${AppLocalizations.of(context).goodEvening}';
     }
   }
 
   void _startDailyResetTimer() {
-    // Check for daily reset every minute
     _dailyResetTimer = Timer.periodic(const Duration(minutes: 1), (timer) {
       _checkForDailyReset();
     });
@@ -210,9 +201,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
     final currentDay = DateTime(now.year, now.month, now.day);
     final storedDay = DateTime(_currentDate.year, _currentDate.month, _currentDate.day);
     
-    // If it's a new day, save current progress to history and reload tasks
     if (currentDay.isAfter(storedDay)) {
-      // Save the previous day's progress to history
       if (_tasks.isNotEmpty) {
         TaskStorage.saveHistorySnapshot(_currentDate, _tasks);
       }
@@ -223,25 +212,22 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
       _setIslamicGreeting();
       _loadTasks();
       
-      // Show notification for new day
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('New day started! Your tasks have been reset.'),
-            duration: Duration(seconds: 3),
+          SnackBar(
+            content: Text(AppLocalizations.of(context).newDayStarted),
+            duration: const Duration(seconds: 3),
             backgroundColor: Colors.green,
           ),
         );
       }
       
-      // Clean up old history data once a week (on Sundays)
       if (now.weekday == DateTime.sunday) {
         TaskStorage.cleanupOldHistory();
       }
     }
   }
 
-  // Memoized method to update task statistics
   void _updateTaskStatistics() {
     final newTotalTasksCount = _tasks.length;
     final newCompletedTasksCount = _tasks.where((task) => task['isCompleted'] == true).length;
@@ -251,7 +237,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
       return !_mockTasks.any((defaultTask) => defaultTask['id'] == taskId);
     }).length;
     
-    // Only update if values have changed to avoid unnecessary rebuilds
     if (_totalTasksCount != newTotalTasksCount || 
         _completedTasksCount != newCompletedTasksCount || 
         _areAllTasksCompleted != newAreAllTasksCompleted ||
@@ -268,35 +253,29 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
   Future<void> _loadTasks() async {
     setState(() => _isLoading = true);
 
-    // Load tasks with daily reset check
     List<Map<String, dynamic>> loadedTasks =
         await TaskStorage.loadTodayTasksWithReset(_mockTasks);
     
-    // If still empty (shouldn't happen with the new method), fallback to mock tasks
     if (loadedTasks.isEmpty) {
       loadedTasks = List<Map<String, dynamic>>.from(_mockTasks);
       await TaskStorage.saveTodayTasks(loadedTasks);
     }
 
-    // Filter out any istighfar counter tasks that might be in stored data
     loadedTasks = loadedTasks.where((task) {
       final englishName = task['englishName']?.toString().toLowerCase() ?? '';
       final arabicName = task['arabicName']?.toString() ?? '';
       final transliteration = task['transliteration']?.toString().toLowerCase() ?? '';
       final targetCount = task['targetCount'] ?? 1;
       
-      // Remove only istighfar counter tasks (1000 times), keep checkbox tasks
       if (englishName.contains('istighfar (1000)') || 
           arabicName.contains('استغفار') || 
           transliteration.contains('astaghfirullah')) {
-        // Keep if it's a checkbox task, remove if it's a counter with high target
         return task['type'] == 'checkbox' || targetCount <= 100;
       }
       
       return true;
     }).toList();
 
-    // Sort tasks: carryover first, then by completion status
     loadedTasks.sort((a, b) {
       final aCarryOver = a['isCarryOver'] ?? false;
       final bCarryOver = b['isCarryOver'] ?? false;
@@ -315,7 +294,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
       _isLoading = false;
     });
     
-    // Update statistics after state change
     _updateTaskStatistics();
   }
 
@@ -323,19 +301,19 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
     final shouldDelete = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Delete Custom Task'),
-        content: const Text('Are you sure you want to delete this custom task? This action cannot be undone.'),
+        title: Text(AppLocalizations.of(context).deleteCustomTask),
+        content: Text(AppLocalizations.of(context).deleteTaskConfirmation),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('Cancel'),
+            child: Text(AppLocalizations.of(context).cancel),
           ),
           TextButton(
             onPressed: () => Navigator.of(context).pop(true),
             style: TextButton.styleFrom(
               foregroundColor: Colors.red,
             ),
-            child: const Text('Delete'),
+            child: Text(AppLocalizations.of(context).delete),
           ),
         ],
       ),
@@ -358,25 +336,23 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
     setState(() => _currentDate = DateTime.now());
   }
 
-  // Manual reset for today's tasks (useful for testing or user preference)
   Future<void> _resetTodayTasks() async {
-    // Show confirmation dialog
     final shouldReset = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Reset Today\'s Tasks'),
-        content: const Text('Are you sure you want to reset all tasks for today? This action cannot be undone.'),
+        title: Text(AppLocalizations.of(context).resetTodayTasks),
+        content: Text(AppLocalizations.of(context).resetConfirmation),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('Cancel'),
+            child: Text(AppLocalizations.of(context).cancel),
           ),
           TextButton(
             onPressed: () => Navigator.of(context).pop(true),
             style: TextButton.styleFrom(
               foregroundColor: Colors.red,
             ),
-            child: const Text('Reset'),
+            child: Text('Reset'),
           ),
         ],
       ),
@@ -384,23 +360,18 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
 
     if (shouldReset != true) return;
 
-    // Save current progress to history first
     if (_tasks.isNotEmpty) {
       TaskStorage.saveHistorySnapshot(DateTime.now(), _tasks);
     }
     
-    // Force reset for today
     await TaskStorage.forceResetForToday(_mockTasks);
-    
-    // Reload tasks
     await _loadTasks();
     
-    // Show feedback
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Tasks reset for today'),
-          duration: Duration(seconds: 2),
+        SnackBar(
+          content: Text(AppLocalizations.of(context).tasksResetForToday),
+          duration: const Duration(seconds: 2),
         ),
       );
     }
@@ -415,7 +386,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
           HapticFeedback.mediumImpact();
         }
         
-        // Re-sort tasks after completion status changes
         _tasks.sort((a, b) {
           final aCarryOver = a['isCarryOver'] ?? false;
           final bCarryOver = b['isCarryOver'] ?? false;
@@ -433,12 +403,10 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
     TaskStorage.saveTodayTasks(_tasks);
     TaskStorage.saveHistorySnapshot(DateTime.now(), _tasks);
     
-    // Update notification schedule when task is completed
     if (isCompleted) {
       await TaskNotificationManager().markTaskCompleted(taskId);
     }
     
-    // Update statistics after state change
     _updateTaskStatistics();
   }
 
@@ -457,7 +425,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
           HapticFeedback.lightImpact();
         }
         
-        // Re-sort tasks after completion status changes
         _tasks.sort((a, b) {
           final aCarryOver = a['isCarryOver'] ?? false;
           final bCarryOver = b['isCarryOver'] ?? false;
@@ -475,7 +442,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
     TaskStorage.saveTodayTasks(_tasks);
     TaskStorage.saveHistorySnapshot(DateTime.now(), _tasks);
     
-    // Update notification schedule when task is newly completed
     final taskIndex = _tasks.indexWhere((task) => task['id'] == taskId);
     if (taskIndex != -1) {
       final wasCompleted = _tasks[taskIndex]['isCompleted'] ?? false;
@@ -486,7 +452,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
       }
     }
     
-    // Update statistics after state change
     _updateTaskStatistics();
   }
 
@@ -522,23 +487,17 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
     TaskStorage.saveTodayTasks(_tasks);
     TaskStorage.saveHistorySnapshot(DateTime.now(), _tasks);
     
-    // Update statistics after state change
     _updateTaskStatistics();
   }
 
   void _handleNavigation(String route) {
-    print('Navigation requested to: $route');
     try {
       if (route == 'favorites') {
-        // Navigate to favorites screen with smooth transition
         context.smoothPushNamed('/favorites-screen');
       } else {
         context.smoothPushNamed(route);
       }
-      print('Navigation successful');
     } catch (e) {
-      print('Navigation error: $e');
-      // Show error message to user
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text('Navigation error: $e'),
@@ -557,7 +516,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
       body: SafeArea(
         child: Column(
           children: [
-            // Date Header
             DateHeaderWidget(
               currentDate: _currentDate,
               islamicGreeting: _islamicGreeting,
@@ -566,7 +524,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
               customTasksCount: _customTasksCount,
             ),
 
-            // Main Content
             Expanded(
               child: _isLoading
                   ? _buildLoadingState()
@@ -580,19 +537,18 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
                               if (_areAllTasksCompleted)
                                 SliverToBoxAdapter(
                                   child: Padding(
-                                    padding: EdgeInsets.only(top: 2, left: 4, right: 4),
+                                    padding: const EdgeInsets.only(top: 2, left: 4, right: 4),
                                     child: EmptyStateWidget(
                                       onAddTask: _showAddTaskSheet,
                                     ),
                                   ),
                                 ),
-                              // Tasks List - Optimized with SliverList
                               SliverList(
                                 delegate: SliverChildBuilderDelegate(
                                   (context, index) {
                                     final task = _tasks[index];
                                     return TaskCardWidget(
-                                      key: ValueKey('task_${task['id']}'), // Add key for better performance
+                                      key: ValueKey('task_${task['id']}'),
                                       task: task,
                                       onTaskToggle: _handleTaskToggle,
                                       onCounterUpdate: _handleCounterUpdate,
@@ -605,7 +561,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
                                 ),
                               ),
 
-                              // Bottom padding for navigation bar
                               const SliverToBoxAdapter(
                                 child: SizedBox(height: 12),
                               ),
@@ -630,15 +585,15 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
   }
 
   Widget _buildLoadingState() {
-    return const Center(
+    return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          CircularProgressIndicator(),
-          SizedBox(height: 3),
+          const CircularProgressIndicator(),
+          const SizedBox(height: 3),
           Text(
-            'Loading your tasks...',
-            style: TextStyle(
+            AppLocalizations.of(context).loadingTasks,
+            style: const TextStyle(
               color: Colors.grey,
             ),
           ),
@@ -661,7 +616,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
             ),
             SizedBox(height: 4.h),
             Text(
-              'No Tasks Yet',
+              AppLocalizations.of(context).noTasksYet,
               style: AppTheme.lightTheme.textTheme.headlineMedium?.copyWith(
                 fontWeight: FontWeight.w600,
                 color: AppTheme.lightTheme.colorScheme.onSurface,
@@ -669,7 +624,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin, 
             ),
             SizedBox(height: 2.h),
             Text(
-              'Start your Islamic journey by adding your first daily task',
+              AppLocalizations.of(context).startIslamicJourney,
               style: AppTheme.lightTheme.textTheme.bodyLarge?.copyWith(
                 color: AppTheme.lightTheme.colorScheme.onSurface
                     .withValues(alpha: 0.6),

@@ -5,6 +5,7 @@ import 'package:timezone/data/latest.dart' as tz;
 import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:android_intent_plus/android_intent.dart';
+import 'dart:convert';
 import 'android_exact_alarm_service.dart';
 
 class NotificationService {
@@ -140,7 +141,37 @@ class NotificationService {
   void _onNotificationTapped(NotificationResponse response) {
     // Handle notification tap - navigate to appropriate screen
     debugPrint('Notification tapped: ${response.payload}');
-    // TODO: Implement navigation logic based on notification type
+    
+    try {
+      if (response.payload != null) {
+        final Map<String, dynamic> payload = Map<String, dynamic>.from(jsonDecode(response.payload!));
+        final String type = payload['type'] as String;
+        final int id = payload['id'] as int;
+        
+        debugPrint('Notification type: $type, ID: $id');
+        
+        // TODO: Implement navigation logic based on notification type
+        switch (type) {
+          case 'daily_reminder':
+            // Navigate to home screen or specific task
+            break;
+          case 'task_reminder':
+            // Navigate to task screen
+            break;
+          case 'dhikr_reminder':
+            // Navigate to dhikr screen
+            break;
+          case 'dua_reminder':
+            // Navigate to dua screen
+            break;
+          default:
+            // Default navigation
+            break;
+        }
+      }
+    } catch (e) {
+      debugPrint('Error parsing notification payload: $e');
+    }
   }
 
   // Core daily scheduling method for reliable notifications
@@ -180,7 +211,14 @@ class NotificationService {
         androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
         uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
         matchDateTimeComponents: DateTimeComponents.time, // This makes it repeat daily
-        payload: 'daily_reminder',
+        payload: jsonEncode({
+          'type': 'daily_reminder',
+          'id': id,
+          'title': title,
+          'body': body,
+          'hour': hour,
+          'minute': minute,
+        }),
       );
       
       debugPrint('✅ Daily notification scheduled for ${scheduled.hour}:${scheduled.minute.toString().padLeft(2, '0')}');
@@ -317,66 +355,7 @@ class NotificationService {
     }
   }
 
-  // Check WorkManager status
-  Future<Map<String, dynamic>> checkWorkManagerStatus() async {
-    try {
-      debugPrint('🔍 Checking WorkManager status...');
-      
-      // Check if WorkManager is initialized
-      bool workManagerInitialized = false;
-      try {
-        // Check if WorkManager can schedule tasks
-        workManagerInitialized = true;
-        debugPrint('✅ WorkManager is working and can schedule tasks');
-      } catch (e) {
-        debugPrint('❌ WorkManager test failed: $e');
-        workManagerInitialized = false;
-      }
-      
-      // Check notification permissions
-      final notificationStatus = await Permission.notification.status;
-      final notificationsEnabled = await areNotificationsEnabled();
-      
-      // Check timezone with fallback handling
-      String currentTimezone;
-      String bahrainTime;
-      
-      try {
-        currentTimezone = DateTime.now().timeZoneName;
-        final tzBahrainTime = tz.TZDateTime.now(tz.getLocation('Asia/Bahrain'));
-        bahrainTime = tzBahrainTime.toString();
-        debugPrint('✅ Timezone time retrieved successfully: $bahrainTime');
-      } catch (e) {
-        debugPrint('⚠️ Timezone time failed, using system time: $e');
-        currentTimezone = DateTime.now().timeZoneName;
-        bahrainTime = DateTime.now().toString();
-      }
-      
-      final status = {
-        'workManagerWorking': workManagerInitialized,
-        'notificationPermission': notificationStatus.toString(),
-        'notificationsEnabled': notificationsEnabled,
-        'currentTimezone': currentTimezone,
-        'bahrainTime': bahrainTime,
-        'timestamp': DateTime.now().toString(),
-      };
-      
-      debugPrint('📊 WorkManager Status: $status');
-      return status;
-      
-    } catch (e) {
-      debugPrint('❌ Error checking WorkManager status: $e');
-      return {
-        'error': e.toString(),
-        'timestamp': DateTime.now().toString(),
-        'workManagerWorking': false,
-        'notificationPermission': 'Unknown',
-        'notificationsEnabled': false,
-        'currentTimezone': 'Error',
-        'bahrainTime': 'Error',
-      };
-    }
-  }
+  // WorkManager removed - using AlarmManager only
   
   // Request exact alarm permission for Android 12+
   Future<bool> requestExactAlarmPermission() async {
@@ -404,10 +383,10 @@ class NotificationService {
         return;
       }
       
-      // Schedule all notifications using daily repetition
-      await scheduleAllNotifications();
+      // Schedule all notifications using AlarmManager
+      await AndroidExactAlarmService.scheduleAllReminders();
       
-      debugPrint('✅ Background notifications ensured with daily repetition');
+      debugPrint('✅ Background notifications ensured with AlarmManager');
     } catch (e) {
       debugPrint('❌ Error ensuring background notifications: $e');
     }
@@ -421,10 +400,10 @@ class NotificationService {
       // Cancel all existing notifications
       await cancelAllNotifications();
       
-      // Schedule all notifications using daily repetition
-      await scheduleAllNotifications();
+      // Schedule all notifications using AlarmManager
+      await AndroidExactAlarmService.scheduleAllReminders();
       
-      debugPrint('✅ Notifications force rescheduled with daily repetition');
+      debugPrint('✅ Notifications force rescheduled with AlarmManager');
     } catch (e) {
       debugPrint('❌ Error force rescheduling notifications: $e');
     }
@@ -440,10 +419,10 @@ class NotificationService {
     try {
       debugPrint('🚨 NUCLEAR OPTION: Scheduling maximum aggressive notification');
       
-      // Use WorkManager nuclear method
-      // WorkManager completely removed - using AlarmManager only
+      // Use AlarmManager nuclear method
+      await AndroidExactAlarmService.scheduleAllReminders();
       
-      debugPrint('🚨 NUCLEAR OPTION: Deployed. Close app and wait 1 minute.');
+      debugPrint('🚨 NUCLEAR OPTION: Deployed using AlarmManager. Close app and wait 1 minute.');
       
     } catch (e) {
       debugPrint('❌ Error in nuclear option: $e');

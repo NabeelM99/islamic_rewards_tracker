@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.islamic_rewards_tracker.app-mergeReleaseResources-53:/values-port/values-port.xml",
+            "outputFile": "com.islamic_rewards_tracker.app-mergeReleaseResources-48:/values-port/values-port.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Nabeel Mohammed\\.gradle\\caches\\8.10\\transforms\\df7090db9f9622c994f5676b1032d5ae\\transformed\\appcompat-1.5.0\\res\\values-port\\values-port.xml",

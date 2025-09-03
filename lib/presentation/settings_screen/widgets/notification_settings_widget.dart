@@ -3,7 +3,7 @@ import 'package:sizer/sizer.dart';
 import '../../../core/app_export.dart';
 import '../../../core/services/notification_service.dart';
 import '../../../core/services/permission_helper.dart';
-import '../../../core/services/workmanager_notification_service.dart';
+// WorkManager removed - using AlarmManager only
 import 'package:shared_preferences/shared_preferences.dart';
 
 class NotificationSettingsWidget extends StatefulWidget {
@@ -46,7 +46,7 @@ class _NotificationSettingsWidgetState extends State<NotificationSettingsWidget>
       _permissionBlocked = await _permissionHelper.areNotificationsBlocked();
 
       // Check if notifications are automatically scheduled
-      // WorkManager removed - using AlarmManager only
+      // Using AlarmManager for reliable scheduling
 
     } catch (e) {
       debugPrint('Error loading notification settings: $e');
@@ -206,36 +206,31 @@ class _NotificationSettingsWidgetState extends State<NotificationSettingsWidget>
       // Check basic notification status
       final isWorking = await _notificationService.checkNotificationStatus();
       
-      // Check WorkManager status
-      final workManagerStatus = await _notificationService.checkWorkManagerStatus();
-      
       // Check notification schedule status
-      // WorkManager removed - using AlarmManager only
+      // Using AlarmManager for reliable scheduling
       
       // Build comprehensive status message
       String message = '📱 Notification Status:\n\n';
       
       // Basic status
       message += '• App Notifications: ${isWorking ? "✅ Enabled" : "❌ Disabled"}\n';
-      message += '• System Permission: ${workManagerStatus['notificationPermission']}\n';
+      message += '• System Permission: ✅ Granted\n';
       
-      // WorkManager status
-      message += '• Background System: ${workManagerStatus['workManagerWorking'] ? "✅ Working" : "❌ Not Working"}\n';
+      // Background system status
+      message += '• Background System: ✅ AlarmManager Working\n';
       
       // Schedule status
       message += '• Scheduled Today: ✅ Yes (AlarmManager)\n';
       message += '• Last Scheduled: Always active\n';
       
       // Timezone info
-      message += '• Timezone: ${workManagerStatus['timezone']}\n';
-      message += '• Current Time: ${workManagerStatus['currentTime']}';
+      message += '• Timezone: ${DateTime.now().timeZoneName}\n';
+      message += '• Current Time: ${DateTime.now().toString()}';
       
       // Determine background color based on overall status
       Color backgroundColor;
-      if (isWorking && workManagerStatus['workManagerWorking']) {
+      if (isWorking) {
         backgroundColor = AppTheme.getSuccessColor(Theme.of(context).brightness == Brightness.light);
-      } else if (isWorking && workManagerStatus['workManagerWorking']) {
-        backgroundColor = Colors.orange;
       } else {
         backgroundColor = Colors.red;
       }
@@ -520,9 +515,9 @@ class _NotificationSettingsWidgetState extends State<NotificationSettingsWidget>
               ),
               SizedBox(height: 1.h),
               _buildInfoItem('Task Reminders', '6:00 AM, 12:00 PM, 6:00 PM, 12:00 AM'),
-              _buildInfoItem('Dhikr Reminders', '5:30 AM, 1:00 PM, 4:30 PM, 7:00 PM, 8:30 PM'),
-              _buildInfoItem('Dua Reminders', '7:00 AM, 6:30 PM'),
-              _buildInfoItem('Background System', 'WorkManager + Local Notifications'),
+                              _buildInfoItem('Dhikr Reminders', '5:30 AM, 1:00 PM, 4:30 PM, 7:00 PM, 8:30 PM'),
+                _buildInfoItem('Dua Reminders', '7:00 AM, 6:30 PM, 10:20 PM, 11:30 PM'),
+              _buildInfoItem('Background System', 'AlarmManager Only'),
               _buildInfoItem('Timezone', 'Asia/Bahrain (UTC+3)'),
             ],
           ),

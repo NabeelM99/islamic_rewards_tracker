@@ -129,7 +129,7 @@ class AndroidExactAlarmService {
   static Future<List<Map<String, dynamic>>> getScheduledAlarms() async {
     try {
       final result = await _channel.invokeMethod('getScheduledAlarms');
-      return List<Map<String, dynamic>>.from(result);
+      return List<Map<String, dynamic>>.from(result.map((item) => Map<String, dynamic>.from(item)));
     } on PlatformException catch (e) {
       print('Error getting scheduled alarms: $e');
       return [];

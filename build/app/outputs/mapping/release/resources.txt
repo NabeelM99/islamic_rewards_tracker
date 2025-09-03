@@ -1,7 +1,97 @@
-Marking id:save_overlay_view:2131231055 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:call_notification_screening_text:2131755050 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:call_notification_ongoing_text:2131755049 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:call_notification_incoming_text:2131755048 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:colorSurface:2130903309 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:colorOnSurface:2130903287 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_snackbar_background_corner_radius:2131100374 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:cancel_button:2131230816 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:confirm_button:2131230834 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:nestedScrollable:2130903860 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:visible_removing_fragment_view_tag:2131231186 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_fade_enter:2130837509 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_fade_exit:2130837510 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_close_enter:2130837507 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_close_exit:2130837508 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_open_enter:2130837511 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking animator:fragment_open_exit:2130837512 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_day_height:2131100253 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:month_grid:2131230972 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:mtrl_calendar_month_labeled:2131427407 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_Material3_SideSheet:2131821529 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:side_sheet_accessibility_pane_title:2131755175 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:textColorSearchUrl:2130904138 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:edit_query:2131230875 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:preferenceCategoryStyle:2130903909 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_dropdownitem_icon_width:2131099689 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_dropdownitem_text_padding_left:2131099690 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:toolbarStyle:2130904193 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_MaterialComponents_Toolbar:2131821678 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:fragment_container_view_tag:2131230901 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_unhandled_key_listeners:2131231140 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_min_touch_target_size:2131100328 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:bottomSheetStyle:2130903161 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Widget_Design_BottomSheet_Modal:2131821387 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:bottomsheet_action_expand_halfway:2131755041 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:design_bottom_sheet_peek_height_min:2131099757 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_on_apply_window_listener:2131231133 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_window_insets_animation_callback:2131231141 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Theme_AppCompat_Light:2131821111 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionDurationShort3:2130903827 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionEasingLinearInterpolator:2130903836 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:exposed_dropdown_menu_content_description:2131755059 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:mtrl_dropdown_arrow:2131165374 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:autoCompleteTextViewStyle:2130903104 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:actionBarSize:2130903043 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_bar_activity_content:2131230770 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_bar_container:2131230771 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:action_bar:2131230769 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionDurationLong2:2130903818 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionDurationMedium4:2130903824 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionEasingEmphasizedInterpolator:2130903834 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:dialogPreferenceStyle:2130903398 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_screen_reader_focusable:2131231136 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_accessibility_heading:2131231131 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_state_description:2131231137 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_accessibility_clickable_spans:2131231130 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:accessibility_action_clickable_span:2131230735 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tag_accessibility_actions:2131231129 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:mtrl_picker_toggle_to_year_selection:2131755153 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:mtrl_picker_toggle_to_day_selection:2131755151 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:save_overlay_view:2131231055 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:nestedScrollViewStyle:2130903859 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:design_text_input_start_icon:2131427371 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:textinput_prefix_text:2131231156 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:material_input_text_to_prefix_suffix_padding:2131100197 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:colorPrimary:2130903296 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:colorPrimaryVariant:2130903303 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:isMaterialTheme:2130903605 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:elevationOverlayEnabled:2130903440 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:elevationOverlayColor:2130903439 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:elevationOverlayAccentColor:2130903438 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:snackbar_text:2131231101 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:snackbar_action:2131231100 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:design_snackbar_padding_vertical_2lines:2131099783 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:design_snackbar_padding_vertical:2131099782 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:tooltip_precise_anchor_threshold:2131100430 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:tooltip_precise_anchor_extra_offset:2131100429 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:tooltip_y_offset_touch:2131100433 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:tooltip_y_offset_non_touch:2131100432 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:mtrl_calendar_vertical:2131427410 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:mtrl_calendar_horizontal:2131427405 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_navigation_height:2131100274 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_navigation_top_padding:2131100275 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_navigation_bottom_padding:2131100273 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_days_of_week_height:2131100258 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_month_vertical_padding:2131100272 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:mtrl_calendar_bottom_padding:2131100250 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:mtrl_calendar_days_of_week:2131230981 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:mtrl_calendar_months:2131230984 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking integer:mtrl_calendar_year_selector_span:2131296305 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:mtrl_calendar_year_selector_frame:2131230987 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:month_navigation_fragment_toggle:2131230974 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:month_navigation_previous:2131230976 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:month_navigation_next:2131230975 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:mtrl_calendar_day_selector_frame:2131230980 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_textfield_default_mtrl_alpha:2131165298 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_ab_share_pack_mtrl_alpha:2131165224 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:abc_textfield_search_default_mtrl_alpha:2131165300 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -51,92 +141,20 @@ Marking color:abc_tint_btn_checkable:2131034131 reachable: referenced from C:\de
 Marking drawable:abc_seekbar_thumb_material:2131165282 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking color:abc_tint_seek_thumb:2131034134 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking color:abc_tint_spinner:2131034135 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:cancel_button:2131230816 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:confirm_button:2131230834 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:nestedScrollable:2130903860 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:materialCalendarStyle:2130903763 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:visible_removing_fragment_view_tag:2131231186 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_fade_enter:2130837509 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_fade_exit:2130837510 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_close_enter:2130837507 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_close_exit:2130837508 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_open_enter:2130837511 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking animator:fragment_open_exit:2130837512 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_day_height:2131100253 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:month_grid:2131230972 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:mtrl_calendar_month_labeled:2131427407 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_Material3_SideSheet:2131821529 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:side_sheet_accessibility_pane_title:2131755175 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:preferenceCategoryStyle:2130903909 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:toolbarStyle:2130904193 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_MaterialComponents_Toolbar:2131821678 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:fragment_container_view_tag:2131230901 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_unhandled_key_listeners:2131231140 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionDurationShort3:2130903827 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionEasingLinearInterpolator:2130903836 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionEasingEmphasizedInterpolator:2130903834 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:clear_text_end_icon_content_description:2131755054 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:mtrl_ic_cancel:2131165377 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_min_touch_target_size:2131100328 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:bottomSheetStyle:2130903161 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Widget_Design_BottomSheet_Modal:2131821387 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:bottomsheet_action_expand_halfway:2131755041 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:design_bottom_sheet_peek_height_min:2131099757 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_on_apply_window_listener:2131231133 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_window_insets_animation_callback:2131231141 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Theme_AppCompat_Light:2131821111 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:actionBarSize:2130903043 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_bar_activity_content:2131230770 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_bar_container:2131230771 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:action_bar:2131230769 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionDurationLong2:2130903818 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionDurationMedium4:2130903824 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:dialogPreferenceStyle:2130903398 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_screen_reader_focusable:2131231136 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_accessibility_heading:2131231131 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_state_description:2131231137 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_accessibility_clickable_spans:2131231130 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:accessibility_action_clickable_span:2131230735 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_accessibility_actions:2131231129 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:nestedScrollViewStyle:2130903859 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:snackbar_text:2131231101 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:snackbar_action:2131231100 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:design_snackbar_padding_vertical_2lines:2131099783 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:design_snackbar_padding_vertical:2131099782 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:coordinatorLayoutStyle:2130903349 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:mtrl_calendar_vertical:2131427410 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:mtrl_calendar_horizontal:2131427405 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_navigation_height:2131100274 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_navigation_top_padding:2131100275 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_navigation_bottom_padding:2131100273 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_days_of_week_height:2131100258 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_month_vertical_padding:2131100272 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_calendar_bottom_padding:2131100250 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:mtrl_calendar_days_of_week:2131230981 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:mtrl_calendar_months:2131230984 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking integer:mtrl_calendar_year_selector_span:2131296305 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:mtrl_calendar_year_selector_frame:2131230987 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:month_navigation_fragment_toggle:2131230974 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:month_navigation_previous:2131230976 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:month_navigation_next:2131230975 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:mtrl_calendar_day_selector_frame:2131230980 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tag_unhandled_key_event_manager:2131231139 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:colorSurface:2130903309 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:colorOnSurface:2130903287 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:mtrl_snackbar_background_corner_radius:2131100374 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:androidx_startup:2131755035 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:view_tree_lifecycle_owner:2131231181 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:view_tree_view_model_store_owner:2131231184 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:view_tree_saved_state_registry_owner:2131231183 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:clear_text_end_icon_content_description:2131755054 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:mtrl_ic_cancel:2131165377 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:special_effects_controller_view_tag:2131231105 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:editTextPreferenceStyle:2130903435 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:edit_query:2131230875 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:text_input_error_icon:2131231150 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:text_input_end_icon:2131231149 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:error_icon_content_description:2131755057 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:textinput_suffix_text:2131231157 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:design_text_input_end_icon:2131427370 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:material_input_text_to_prefix_suffix_padding:2131100197 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:chipStyle:2130903234 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:abc_popup_menu_item_layout:2131427347 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:abc_config_prefDialogWidth:2131099671 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:abc_popup_menu_header_item_layout:2131427346 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -145,18 +163,7 @@ Marking layout:material_radial_view_group:2131427388 reachable: referenced from 
 Marking attr:checkBoxPreferenceStyle:2130903200 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:switchPreferenceStyle:2130904060 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:month_title:2131230977 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:m3_carousel_debug_keyline_width:2131099877 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:design_textinput_caption_translate_y:2131099789 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionDurationShort4:2130903828 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:motionEasingEmphasizedDecelerateInterpolator:2130903833 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:material_helper_text_font_1_3_padding_horizontal:2131100195 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:material_helper_text_default_padding_top:2131100194 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:material_helper_text_font_1_3_padding_top:2131100196 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:autoCompleteTextViewStyle:2130903104 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:tooltip_precise_anchor_threshold:2131100430 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:tooltip_precise_anchor_extra_offset:2131100429 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:tooltip_y_offset_touch:2131100433 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:tooltip_y_offset_non_touch:2131100432 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:transition_current_scene:2131231169 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:spacer:2131231104 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:material_timepicker:2131427392 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:material_clock_face:2131230949 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -165,16 +172,28 @@ Marking id:material_minute_tv:2131230959 reachable: referenced from C:\dev\proje
 Marking id:material_hour_tv:2131230956 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:material_clock_hand:2131230950 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:selection_type:2131231092 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:not_set:2131755164 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:mtrl_picker_toggle_to_year_selection:2131755153 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:mtrl_picker_toggle_to_day_selection:2131755151 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_cab_background_top_material:2131165240 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_ratingbar_material:2131165275 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_star_big:2131099707 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_ratingbar_indicator_material:2131165274 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_star_medium:2131099708 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_ratingbar_small_material:2131165276 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:abc_star_small:2131099709 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_vector_test:2131165302 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_seekbar_track_material:2131165284 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_list_divider_mtrl_alpha:2131165261 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:abc_dialog_material_background:2131165243 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:view_tree_on_back_pressed_dispatcher_owner:2131231182 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:material_time_chip:2131427390 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:material_time_input:2131427391 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:material_label:2131230957 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:theme:2130904150 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:materialThemeOverlay:2130903783 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:abc_tooltip:2131427355 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:message:2131230969 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking style:Animation_AppCompat_Tooltip:2131820548 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:dropdownPreferenceStyle:2130903430 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:abc_action_menu_item_layout:2131427330 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:dropDownListViewStyle:2130903428 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:actionModeStyle:2130903068 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:actionBarPopupTheme:2130903042 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:abc_action_mode_close_item_material:2131427333 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -182,20 +201,16 @@ Marking layout:abc_action_bar_title_item:2131427328 reachable: referenced from C
 Marking id:action_bar_title:2131230775 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:action_bar_subtitle:2131230774 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:actionBarStyle:2130903045 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:colorPrimary:2130903296 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:colorPrimaryVariant:2130903303 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:isMaterialTheme:2130903605 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:chipStyle:2130903234 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_MaterialComponents_Chip_Action:2131821592 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking bool:workmanager_test_configuration:2130968583 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:transition_current_scene:2131231169 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:design_password_eye:2131165318 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:password_toggle_content_description:2131755165 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:mtrl_chip_close_icon_content_description:2131755114 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:preferenceStyle:2130903917 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:preference:2131427442 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:textColorSearchUrl:2130904138 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_dropdownitem_icon_width:2131099689 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_dropdownitem_text_padding_left:2131099690 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:materialButtonStyle:2130903749 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:fullscreen_header:2131230902 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:mtrl_calendar_dialog_background_inset:2131100259 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:materialCalendarStyle:2130903763 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_MaterialComponents_MaterialCalendar:2131821611 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:mtrl_calendar_content_padding:2131100251 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:mtrl_calendar_day_width:2131100257 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -212,11 +227,9 @@ Marking drawable:material_ic_edit_black_24dp:2131165355 reachable: referenced fr
 Marking string:mtrl_picker_toggle_to_calendar_input_mode:2131755150 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_picker_toggle_to_text_input_mode:2131755152 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking mipmap:ic_launcher:2131558400 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:abc_tooltip:2131427355 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:message:2131230969 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking style:Animation_AppCompat_Tooltip:2131820548 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:design_password_eye:2131165318 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:password_toggle_content_description:2131755165 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:toast_custom:2131427462 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:text:2131231142 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:corner:2131165314 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:abc_cascading_menus_min_smallest_width:2131099670 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:design_navigation_menu_item:2131427369 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:design_navigation_icon_size:2131099767 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -242,6 +255,7 @@ Marking dimen:fastscroll_minimum_range:2131099794 reachable: referenced from C:\
 Marking dimen:fastscroll_margin:2131099793 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:preferenceScreenStyle:2130903916 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:actionOverflowButtonStyle:2130903071 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:m3_carousel_debug_keyline_width:2131099877 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:editTextStyle:2130903436 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_Design_TextInputEditText:2131821394 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:searchViewStyle:2130903952 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -266,17 +280,19 @@ Marking id:topPanel:2131231164 reachable: referenced from C:\dev\projects\islami
 Marking id:buttonPanel:2131230814 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:contentPanel:2131230837 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:customPanel:2131230844 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:elevationOverlayEnabled:2130903440 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:elevationOverlayColor:2130903439 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:elevationOverlayAccentColor:2130903438 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:coordinatorLayoutStyle:2130903349 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:design_textinput_caption_translate_y:2131099789 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionDurationShort4:2130903828 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:motionEasingEmphasizedDecelerateInterpolator:2130903833 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:material_helper_text_font_1_3_padding_horizontal:2131100195 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:material_helper_text_default_padding_top:2131100194 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking dimen:material_helper_text_font_1_3_padding_top:2131100196 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:toolbarNavigationButtonStyle:2130904192 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:abc_action_bar_up_description:2131755009 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:materialButtonStyle:2130903749 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:seekBarPreferenceStyle:2130903956 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking attr:dropDownListViewStyle:2130903428 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:mtrl_calendar_day_of_week:2131427403 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_picker_day_of_week_column_header:2131755127 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:design_text_input_start_icon:2131427371 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:textinput_prefix_text:2131231156 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:listMenuViewStyle:2130903725 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:abc_prepend_shortcut_label:2131755025 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:abc_menu_meta_shortcut_label:2131755021 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -332,6 +348,7 @@ Marking id:accessibility_custom_action_31:2131230761 reachable: referenced from 
 Marking id:tag_accessibility_pane_title:2131231132 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tag_on_receive_content_mime_types:2131231135 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:tag_on_receive_content_listener:2131231134 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:androidx_startup:2131755035 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:mtrl_calendar_day:2131427402 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:alpha:2130903089 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking attr:lStar:2130903640 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -366,31 +383,13 @@ Marking dimen:mtrl_textinput_counter_margin_start:2131100389 reachable: referenc
 Marking id:textinput_error:2131231153 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:textinput_helper_text:2131231154 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:textinput_placeholder:2131231155 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:not_set:2131755164 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking style:Widget_MaterialComponents_TimePicker_Clock:2131821670 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:material_clock_hand_stroke_width:2131100174 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:material_clock_hand_center_dot_radius:2131100172 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_cab_background_top_material:2131165240 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_ratingbar_material:2131165275 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_star_big:2131099707 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_ratingbar_indicator_material:2131165274 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_star_medium:2131099708 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_ratingbar_small_material:2131165276 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking dimen:abc_star_small:2131099709 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_vector_test:2131165302 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_seekbar_track_material:2131165284 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_list_divider_mtrl_alpha:2131165261 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:abc_dialog_material_background:2131165243 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:theme:2130904150 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking attr:materialThemeOverlay:2130903783 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:report_drawn:2131231045 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:compat_notification_large_icon_max_width:2131099740 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking dimen:compat_notification_large_icon_max_height:2131099739 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:mtrl_chip_close_icon_content_description:2131755114 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:exposed_dropdown_menu_content_description:2131755059 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:mtrl_dropdown_arrow:2131165374 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:toast_custom:2131427462 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:text:2131231142 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:corner:2131165314 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_picker_navigate_to_current_year_description:2131755133 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:mtrl_picker_navigate_to_year_description:2131755134 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:mtrl_calendar_year:2131427411 reachable: referenced from C:\dev\projects\islamic_rewards_tracker-main3\islamic_rewards_tracker-main3\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -417,17 +416,13 @@ valueCase_
 app_flutter
 USAGE_NOTIFICATION_COMMUNICATION_DELAYED
 android.media.metadata.ALBUM_ART_URI
-$tags
 java.lang.Integer
 deleteDatabase
 android:fade:transitionAlpha
-schedulers
 PICTURES
 YEAR
-permissionRequestInProgress
 setLayoutDirection
-work_spec_id
-ACTION_STOP_FOREGROUND
+permissionRequestInProgress
 FlutterFragmentActivity
 android.graphics.drawable.ColorStateL...
 TAKEN
@@ -441,39 +436,30 @@ BCE
 Showa
 PermissionHandler.AppSettingsManager
 JST
-requires_device_idle
 click
 keyframe
-requires_battery_not_low
 0
-1
 ACTION_PRESS_AND_HOLD
-left
 sender
 kotlinx.coroutines.DefaultExecutor
-notnull
-JvmSystemFileSystem
+left
 registerWith
+JvmSystemFileSystem
 SystemSoundType.alert
 INT_VALUE
 removeItemAt
-WorkForegroundRunnable
 setNextSelectedPositionInt
 S_RESUMING_BY_RCV
-bottomRight
 emoji2.text.DefaultEmojiConfig
+bottomRight
 BEGIN_OBJECT
 H
 DISMISS_
 M
-be.tramckrijte.workmanager/background...
-targetVersion
 result
-registerPeriodicTask
 TITLE_TEXT_RES_ID_KEY
 R
 S
-callbackHandle
 SystemUiMode.immersiveSticky
 T
 flutter/platform_views
@@ -485,29 +471,24 @@ TextCapitalization.words
 zonedSchedule
 EXTRA_BENCHMARK_OPERATION
 _
-policy
 a
 b
-SUCCESS
-address
-c
-Reminder
-user_query
 ACTION_CLEAR_ACCESSIBILITY_FOCUS
+Reminder
+c
+user_query
+address
 Infinity
 f
-g
 destroy_engine_with_activity
-cancelAllTasks
+g
 h
 DailyRescheduleReceiver
 truncated
 effectiveDirectAddress
-.canonicalName
 kotlin.String
 RESUMING_BY_EB
 m
-APPEND
 STATE_
 sidecarDeviceState
 BET
@@ -519,10 +500,7 @@ Layout
 v
 NANOS
 x
-appContext
-$newWorkSpec
 SystemUiMode.edgeToEdge
-workSpec
 standard
 androidx.core.view.inputmethod.InputC...
 areNotificationsEnabled
@@ -533,11 +511,9 @@ HourOfDay
 mimeType
 USAGE_NOTIFICATION
 isTagEnabled
-contentUriTriggers
 startIndex
 emailAddress
 payload
-KEY_FOREGROUND_SERVICE_TYPE
 drawableLeft
 QuarterOfYear
 android:style
@@ -554,15 +530,14 @@ $operation
 UNSET_PRIMARY_NAV
 java.util.stream.DoubleStream
 canResolveActivity
-timeZoneName
 flutter/keyevent
+timeZoneName
 State
 databaseExists
 maxLines
 layoutDescription
 AppLifecycleState.
 child
-cid
 android.media.metadata.WRITER
 SystemChrome.setSystemUIOverlayStyle
 androidx.view.accessibility.Accessibi...
@@ -570,9 +545,9 @@ addWindowLayoutInfoListener
 setSelectedPositionInt
 deleteNotificationChannelGroup
 repeatMode
-COMPLETING_WAITING_CHILDREN
-ContentUri
 enable_state_restoration
+ContentUri
+COMPLETING_WAITING_CHILDREN
 DEEP_COPY_VALIDATOR_KEY
 RESULT_BASELINE_PROFILE_NOT_FOUND
 _invoked
@@ -586,13 +561,12 @@ KeyEmbedderResponder
 iterator.baseContext
 dev.fluttercommunity.plus/android_intent
 provider
-android.permission.WRITE_CONTACTS
-kotlinx.coroutines.main.delay
 NaN
+kotlinx.coroutines.main.delay
+android.permission.WRITE_CONTACTS
 ALIGNED_DAY_OF_WEEK_IN_YEAR
 _delayed
 FIXED32_LIST_PACKED
-jobscheduler
 android.permission.RECEIVE_SMS
 usesChronometer
 ticker
@@ -603,14 +577,11 @@ OCTOBER
 mobile
 MOVE_CURSOR_FORWARD_BY_CHARACTER
 FlutterFragment
-ForceStopRunnable$Rcvr
-args
 action_location_source_settings
+args
 resizeUpLeft
 SearchView
-service
 TextInputType.emailAddress
-BatteryChrgTracker
 ACTION_ARGUMENT_SET_TEXT_CHARSEQUENCE
 android.view.View$AttachInfo
 androidThreadCount
@@ -619,15 +590,14 @@ Dispatchers.IO
 allowedMimeTypes
 focus
 android.settings.REQUEST_SCHEDULE_EXA...
-autoMigrationSpecs
 PAUSED
 androidx.profileinstaller.action.SAVE...
 android.os.Build$VERSION
 media_item
-android:cancelable
 executor
-androidx.window.extensions.WindowExte...
+android:cancelable
 TooltipCompatHandler
+androidx.window.extensions.WindowExte...
 fullPackage
 write
 flow
@@ -644,38 +614,31 @@ additionalFlags
 name:
 Precision
 Era
-creditCardNumber
 resizeUp
+creditCardNumber
 Europe/Paris
 CENTER_Y
 CENTER_X
-orders
-cmd
 onPostResume
-SystemJobScheduler
+cmd
 doAfterTextChanged
-long_value
-hash
-index_WorkSpec_schedule_requested_at
-foreignKeys
 wait
 FlutterActivityAndFragmentDelegate
 birthDateYear
 ACTION_SCROLL_IN_DIRECTION
-prerequisite_id
 FEBRUARY
 %s.%sParcelizer
 instant
 TypefaceCompatApi24Impl
-top
-io.flutter.embedding.android.EnableVu...
 ACTION_PAGE_UP
+io.flutter.embedding.android.EnableVu...
+top
 mNextServedView
 Unreachable
 playSound
 java.lang.String
-TextInput.setClient
 resizeDown
+TextInput.setClient
 drawableEnd
 linear
 java.util.stream.LongStream
@@ -683,25 +646,18 @@ inTransaction
 reminder
 scheduledNotificationRepeatFrequency
 ADDING
-$context
 android:support:lifecycle
 NOVEMBER
-flex_duration
 Default
 colorized
 invisible_actions
 android.media.metadata.DISPLAY_SUBTITLE
 framework
 drawableRight
-CONNECTED
 New
-onResultSend
-CANCEL_TASK_BY_TAG
-backoffPolicyType
 shortcutId
 checkedIconEnabled
 ReflectionGuard
-be.tramckrijte.workmanager.DART_TASK
 scheduled_notifications
 android.widget.CheckBox
 translateY
@@ -723,7 +679,6 @@ mOverlapAnchor
 android.car.EXTENSIONS
 chipIconVisible
 flutter_local_notifications_plugin
-REAL
 BYTES_LIST
 END_ARRAY
 android.picture
@@ -731,12 +686,12 @@ _id
 sharedElementFirstOutViews
 Asia/Kolkata
 basic
-kotlin.Throwable
 initialization_args
+kotlin.Throwable
 dev.flutter.pigeon.shared_preferences...
 parkedWorkersStack
-android.permission.GET_ACCOUNTS
 Theme.AppCompat
+android.permission.GET_ACCOUNTS
 RINGTONES
 UPPER_CAMEL_CASE
 systemNavigationBarColor
@@ -749,10 +704,8 @@ SFIXED64_LIST_PACKED
 LENIENT
 MinuteOfHour
 kotlin.Annotation
-input_merger_class_name
 REFERENCE
 android.permission.NEARBY_WIFI_DEVICES
-trigger_max_content_delay
 ClockHourOfDay
 direction
 APRIL
@@ -767,7 +720,6 @@ scheduleDhikrReminders
 STREAM
 newConfig
 rows
-initialDelaySeconds
 Array
 dev.fluttercommunity.plus/connectivity
 intrface
@@ -778,22 +730,20 @@ com.dexterous.flutterlocalnotificatio...
 SST
 Jan
 setValue
-android.permission.CAMERA
 UNKNOWN
+android.permission.CAMERA
 /proc/self/fd/
 initialExtras
 fileName
 Apr
 getByte
-ACTION_STOP_WORK
 accessibility
-endColor
 android:visibility:parent
+endColor
 JSON_ENCODED
 UINT32
 AppCompatCustomView
 onBackCancelled
-requiresCharging
 centerColor
 password
 kotlinx.coroutines.scheduler.keep.ali...
@@ -804,7 +754,6 @@ ProlepticMonth
 android.hangUpIntent
 state
 CompanionObject
-be.tramckrijte.workmanager.CALLBACK_D...
 YEAR_OF_ERA
 didReceiveNotificationResponse
 AlignedDayOfWeekInMonth
@@ -816,15 +765,12 @@ zoomIn
 ACTION_SCROLL_DOWN
 notificationTag
 android.view.ViewRootImpl
-$tmp0
-processor
 singleLine
 requestFullScreenIntentPermission
 .class
-StorageNotLowTracker
 America/Anchorage
-input
 should_attach_engine_to_activity
+input
 WEEKS
 Default_Channel_Id
 remoteInputs
@@ -833,34 +779,29 @@ anim
 actions
 getHorizontallyScrolling
 copyMemory
-on_delete
 getStateMethod
 QUARTER_YEARS
-ordersMap.values
-WorkConstraintsTracker
 CUSTOM_ACTION
 android.support.v13.view.inputmethod....
 GRID_SELECTOR_KEY
 cached_engine_id
 STANDARD
-setRemoveOnCancelPolicy
 android.permission.BODY_SENSORS_BACKG...
-MUSIC
+setRemoveOnCancelPolicy
 receive
+MUSIC
 Motion
-internalQueryExecutor
 P0D
 android.permission.READ_MEDIA_IMAGES
+forbidden
 gradient
 checkOpNoThrow
-forbidden
 FlutterBitmapAsset
 $impl
 windowToken
 onTrimMemory
 getSourceNodeId
 androidx.lifecycle.ViewModelProvider....
-dflt_value
 BigText
 channelName
 arrayIndexScale
@@ -868,11 +809,9 @@ klass.interfaces
 lib
 defaultObj
 outFragment
-dev.flutter.pigeon.path_provider_andr...
 flutter/backgesture
+dev.flutter.pigeon.path_provider_andr...
 source
-$dbRef
-android.intent.action.BATTERY_CHANGED
 removeListenerMethod
 Aug
 java.lang.Short
@@ -880,29 +819,24 @@ positionSelector
 android.widget.Button
 _closeCause
 androidx.view.accessibility.Accessibi...
-has
 androidx.recyclerview.widget.Recycler...
+has
 REPLACE
-INTEGER
-addressCity
 AvdcInflateDelegate
+addressCity
 UINT32_LIST_PACKED
-be.tramckrijte.workmanager.IS_IN_DEBU...
-androidx.datastore.preferences.protob...
 search_suggest_query
+androidx.datastore.preferences.protob...
 batch
-worker_class_name
-tableIds
 UINT64
 DIAGNOSTIC_PROFILE_IS_COMPRESSED
 NAME
 FragmentManager
 YEARS
-HandlerCompat
 phoneNumber
 Nov
-peekByte
 composingBase
+peekByte
 Pacific/Auckland
 INTERRUPTED_RCV
 MESSAGE_LIST
@@ -918,37 +852,33 @@ libcore.io.Memory
 signStyle
 tint
 LAZILY_PARSED_NUMBER
-cancelTaskByUniqueName
 SEALED
 CREATED
 android.text.DynamicLayout$ChangeWatcher
 NO_OWNER
 workManagerDisabled
-KEY_NOTIFICATION
 PermissionHandler.ServiceManager
-$workRequest
 SHOW
 androidx.content.action.LOAD_EMOJI_FONT
 DayOfWeek
 meizu
 inexactAllowWhileIdle
-EXTRA_SKIP_FILE_OPERATION
 rotation
+EXTRA_SKIP_FILE_OPERATION
 center
 AmPmOfDay
 _windowInsetsCompat
-getPosture
 pair
+getPosture
 BOOL_LIST
 getLayoutDirection
 NotifCompat
 endY
-KEY_BATTERY_NOT_LOW_PROXY_ENABLED
 endX
 MONDAY
 java.time.zone.DefaultZoneRulesProvider
-SELECT_NOTIFICATION
 getWindowExtensions
+SELECT_NOTIFICATION
 BOOL
 PASTE
 gravity
@@ -956,8 +886,8 @@ short
 FALSE
 startY
 time
-dev.fluttercommunity.plus/connectivit...
 startX
+dev.fluttercommunity.plus/connectivit...
 MINUTES
 scheduleTaskReminders
 android.intent.action.MY_PACKAGE_REPL...
@@ -971,15 +901,14 @@ android.widget.ImageView
 android.widget.RadioButton
 textCapitalization
 ACCESSIBILITY_CLICKABLE_SPAN_ID
-KEY_WORKSPEC_ID
-put
 ACTION_PAGE_LEFT
+put
 TextInputType.text
 in_progress
 conversationTitle
 shouldShowRequestPermissionRationale
-pokeLong
 FAILED
+pokeLong
 POISONED
 font_ttc_index
 SCROLL_LEFT
@@ -987,30 +916,26 @@ options
 HapticFeedbackType.heavyImpact
 drawableStart
 stopForegroundService
-android.media.metadata.ARTIST
 ACTION_SHOW_ON_SCREEN
+android.media.metadata.ARTIST
 destroy_engine_with_fragment
 flutter/platform
-inputData
 LLLL
 android.callPerson
 sizeCtl
-last_enqueue_time
 serviceActive
 com.dexterous.flutterlocalnotificatio...
 Africa/Harare
-closeHandler
 priority
+closeHandler
 allowGeneratedReplies
 removeWindowLayoutInfoListener
-flutterEngine
 strokeLineJoin
+flutterEngine
 dev.flutter.pigeon.shared_preferences...
 $callback
-index_WorkName_work_spec_id
 BUFFERED
 light
-call.method
 Wed
 .apk
 CHANNEL_CLOSED
@@ -1019,30 +944,25 @@ java.lang.Throwable
 /data/misc/profiles/cur/0/
 getActiveNotifications
 FragmentManager:
-REGISTER_ONE_OFF_TASK
 PrivateApi
 SystemSound.play
 ImageReaderSurfaceProducer
-migrationContainer
 unknown
-undefined
-android.widget.SeekBar
 android.intent.action.RUN
+android.widget.SeekBar
 android.permission.ACCESS_NOTIFICATIO...
 INITIALIZED
 android.permission.REQUEST_IGNORE_BAT...
 KeyEventChannel
-DelayedWorkTracker
 android.support.v13.view.inputmethod....
 android.messagingStyleUser
 android.callType
 producerIndex
 REMOVE
-android:changeBounds:bounds
 flutter/settings
+android:changeBounds:bounds
 addressLocality
 SETTLING
-WorkSpec
 value.stringSet.stringsList
 Feb
 ACTION_DRAG_START
@@ -1060,18 +980,14 @@ char
 None
 htmlFormatContentTitle
 TAP
-errorCode
 Update
 listen
 RESULT_INSTALL_SUCCESS
 Bytes
 wm.maximumWindowMetrics.bounds
-ConstraintTracker
 Forever
 zone
-klass
 KEY_COMPONENT_ACTIVITY_REGISTERED_KEYS
-workerParameters
 TextInputAction.commitContent
 inputType
 day
@@ -1079,11 +995,9 @@ CLOSE_HANDLER_INVOKED
 group
 java.lang.Cloneable
 getConstructorId
-KEEP
 Months
 android.speech.extra.RESULTS_PENDINGI...
 GeneratedPluginRegistrant
-ProcessUtils
 getMap
 io.flutter.embedding.android.EnableIm...
 OptionalInt.empty
@@ -1095,9 +1009,7 @@ CAT
 USAGE_ASSISTANCE_SONIFICATION
 android.permission.ACTIVITY_RECOGNITION
 PreferenceGroup
-androidx.work.impl.workers.Constraint...
 android.support.action.showsUserInter...
-ACTION_EXECUTION_COMPLETED
 getUri
 setLocale
 AudioAttributesCompat:
@@ -1105,14 +1017,12 @@ Clipboard.setData
 TextInput.sendAppPrivateCommand
 TextInputType.phone
 CLOSED
-values
 Sat
 WeekOfWeekBasedYear
-ledColorBlue
 INT32_LIST_PACKED
+ledColorBlue
 androidSetLocale
 consumerIndex
-backgroundChannelInitialized
 _removedRef
 HOUR_OF_DAY
 isImportant
@@ -1126,7 +1036,6 @@ debug
 ACTION_SHOW_TOOLTIP
 jClass
 TextInput.show
-Data
 value_
 addFontFromAssetManager
 doBeforeTextChanged
@@ -1139,27 +1048,23 @@ value.string
 CLIP_PATH
 suggestions
 classes.dex
-content_uri_triggers
 $transitioningViews
 resizeColumn
 plugins
 kotlin.Cloneable
-5181942b9ebc31ce68dacb56c16fd79f
 PlatformViewsController
 path
-EXTRA_WORK_SPEC_ID
 ViewHolder
 propertyValuesHolder
 kotlin.reflect.jvm.internal.Reflectio...
-period_count
 sender_person
 getNotificationChannels
 FOLD
 databases
 cleanedAndPointers
 CollapsingTextHelper
-RequestingFullScreenIntentPermission
 addObserver
+RequestingFullScreenIntentPermission
 NotifManCompat
 SFIXED32_LIST
 Asia/Yerevan
@@ -1167,16 +1072,14 @@ ON_ANY
 android.declineColor
 guava.concurrent.generate_cancellatio...
 GMT
-tags
 SystemNavigator.setFrameworkHandlesBack
 android.media.metadata.ALBUM
 SINT32
 RataDie
-ON_PAUSE
 route
+ON_PAUSE
 interpolator
 domain
-KEY_STORAGE_NOT_LOW_PROXY_ENABLED
 viewType
 editingValue
 allocateInstance
@@ -1184,13 +1087,10 @@ getPlatformVersion
 TraceCompat
 RESCHEDULE_NOTIFICATIONS
 Sep
-context.noBackupFilesDir
 DAY_OF_YEAR
-BackgroundWorker
 SecondOfDay
 SidecarCompat
 getResPackage
-BLOCKED
 DROP_LATEST
 _exceptionsHolder
 transparent
@@ -1202,14 +1102,13 @@ REMOVING
 Days
 defaultDisplay
 override
-ConstrntProxyUpdtRecvr
 android.permission.SEND_SMS
 RESULT_DESIRED_FORMAT_UNSUPPORTED
 Jul
 Jun
 clearFocus
-RequestingExactAlarmsPermission
 java.version
+RequestingExactAlarmsPermission
 tail
 right
 PERMIT
@@ -1219,7 +1118,6 @@ hintText
 noOffsetText
 childFragmentManager
 personNamePrefix
-flutter_workmanager_plugin
 toString
 android.permission.BLUETOOTH
 getNotificationAppLaunchDetails
@@ -1229,24 +1127,22 @@ android.media.metadata.DATE
 missingDelimiterValue
 data_store
 dev.flutter.pigeon.shared_preferences...
-listener
 NotificationManagerCompat
+listener
 soundSource
 dir
 BanParcelableUsage
-RescheduleReceiver
 NARROW
 AwaitContinuation
 free_form
 kotlin.Boolean
-RoomCursorUtil
 repeatInterval
 _queue
-setSidecarCallback
 List
+setSidecarCallback
 BigPicture
-InputConnectionCompat
 info
+InputConnectionCompat
 SORTED
 BitmapFilePath
 cancelAll
@@ -1256,7 +1152,6 @@ android.permission.RECORD_AUDIO
 Minguo
 ethernet
 exact_alarms_not_permitted
-uniqueName
 TextInputType.name
 month
 MicroOfDay
@@ -1266,30 +1161,27 @@ java.lang.annotation.Annotation
 FlutterImageView
 android.permission.BLUETOOTH_CONNECT
 font_weight
-android.permission.ACCESS_MEDIA_LOCATION
 fullScreenIntent
-REGISTER_PERIODIC_TASK
+android.permission.ACCESS_MEDIA_LOCATION
 TERMINATED
 importance
 ACTION_SET_SELECTION
 android.verificationIcon
-Localization.getStringResource
 flutter/navigation
+Localization.getStringResource
 Barrier
-WorkContinuationImpl
 title
-tint_mode
 androidx.view.accessibility.Accessibi...
+tint_mode
 mButtonDrawable
 kotlin.collections.Map
 duration
 cached_engine_group_id
 ProcessText.queryTextActions
-columnNames
 ListPopupWindow
 hashCode
-ProfileInstaller
 alpha
+ProfileInstaller
 LOWER_CASE_WITH_DOTS
 java.lang.Boolean
 selector
@@ -1297,28 +1189,23 @@ OptionalDouble.empty
 android.textLines
 %d
 owner
-classSimpleName
 strings_
-workManager.workDatabase
+classSimpleName
 pathData
 DeviceOrientation.landscapeRight
 IconCompat
 length
-androidx.work.util.preferences
 chronometerCountDown
 keydown
 trimPathStart
 activateSystemCursor
-ACTION_NOTIFY
 flutter/accessibility
-on_update
 resize
 TextEditingDelta
-sQLiteOpenHelper
 Fri
 strokeMiterLimit
-DROP_OLDEST
 android.support.allowGeneratedReplies
+DROP_OLDEST
 Oct
 America/Sao_Paulo
 android.permission.WRITE_CALENDAR
@@ -1327,12 +1214,10 @@ $container
 lastScheduledTask
 viewportHeight
 birthdayMonth
-com.tekartik.sqflite.wal_enabled
 SFIXED64_LIST
-index_WorkTag_work_spec_id
+com.tekartik.sqflite.wal_enabled
 autocorrect
 androidx.activity.result.contract.ext...
-tables
 summaryText
 HapticFeedbackType.selectionClick
 androidx.view.accessibility.Accessibi...
@@ -1340,12 +1225,9 @@ endIndex
 action
 closeIconEnabled
 text
-EXTRA_WORK_SPEC_GENERATION
 TextInput.finishAutofillContext
 Asia/Shanghai
-cookie
 primary.prof
-last_force_stop_ms
 io.flutter.embedding.android.EnableOp...
 ledOffMs
 signed
@@ -1357,18 +1239,15 @@ TOP
 field
 applicationContext
 getResId
-context.cacheDir
 messages
-MOVE_CURSOR_FORWARD_BY_WORD
 fontSize
+MOVE_CURSOR_FORWARD_BY_WORD
 androidx.datastore.preferences.protob...
 fullStreetAddress
-status
 arch_disk_io_
 AlignedDayOfWeekInYear
 sun.misc.Unsafe
 dateTime
-WorkTimer
 ACTION_CLEAR_SELECTION
 B.B.
 FRIDAY
@@ -1377,9 +1256,7 @@ should_automatically_handle_on_back_p...
 scheduleDuaReminders
 POSITIVE_BUTTON_TEXT_KEY
 skip
-APPEND_OR_REPLACE
 android.media.metadata.AUTHOR
-bindArgs
 ALWAYS
 last_scheduled_date
 groupKey
@@ -1388,32 +1265,26 @@ ALIGNED_WEEK_OF_MONTH
 fileHandle
 BYTE_STRING
 createNotificationChannelGroup
-typeConverters
 android.summaryText
 CancellableContinuation
-map
 CONCURRENT
 allowFreeFormInput
 HIDE
-java.nio.file.Files
 ACTION_PAGE_RIGHT
-KEY_NOTIFICATION_ID
-required_network_type
+java.nio.file.Files
 dev.flutter.pigeon.path_provider_andr...
 menu
 uri
 androidx.core.view.inputmethod.InputC...
 getLong
-TextInputAction.done
 fontAsset
+TextInputAction.done
 queryCursorNext
 ACTION_HIDE_TOOLTIP
-io.flutter.EntrypointUri
 onSaveInstanceState
+io.flutter.EntrypointUri
 VIRTUAL_DISPLAY_PLATFORM_VIEW
-WrkMgrInitializer
 EmojiCompat.MetadataRepo.create
-columnName
 resizeUpLeftDownRight
 KeyboardManager
 AsldcInflateDelegate
@@ -1431,7 +1302,6 @@ invalid_led_details
 amountToAdd
 onBackStarted
 Eras
-androidx.room.IMultiInstanceInvalidat...
 birthDateMonth
 interrupted
 B.E.
@@ -1444,8 +1314,8 @@ null
 font_italic
 OFFSET_SECONDS
 background
-androidx.datastore.preferences.protob...
 true
+androidx.datastore.preferences.protob...
 androidx.lifecycle.internal.SavedStat...
 dispose
 position
@@ -1458,27 +1328,23 @@ showProgress
 titleColorAlpha
 ACTION_SCROLL_RIGHT
 statusBarIconBrightness
-peekLong
 dcim
+peekLong
 sendersAndCloseStatus
 lockState
 UINT32_LIST
-NOT_ROAMING
-android.permission.BLUETOOTH_ADVERTISE
 asyncTraceEnd
-transform
+android.permission.BLUETOOTH_ADVERTISE
 getWindowLayoutComponentMethod
+transform
 hour
 theUnsafe
 STARTED
 repeat
-uniqueWorkName
 PLT
 ledColorGreen
 Chronology
 autoCancel
-timeUnit
-BrdcstRcvrCnstrntTrckr
 CST
 DONE_RCV
 android.support.v4.media.description....
@@ -1505,10 +1371,8 @@ SINT32_LIST
 CTT
 NEVER
 weekday
-TextInput.hide
 HORIZONTAL_DIMENSION
-constraints
-ae2044fb577e65ee8bb576ca48a2f06e
+TextInput.hide
 Minutes
 CENTER
 telephoneNumberNational
@@ -1543,65 +1407,53 @@ ClockHourOfAmPm
 dayOfMonth
 defaultCreationExtras
 Clipboard.hasStrings
-unique
 dev.flutter.pigeon.shared_preferences...
 androidx.datastore.preferences.protob...
 setCurrentState
-Retry
 android.media.metadata.ART_URI
 components
 StartIntentSenderForResult
 kotlin.Function
 0x
 long
-kotlinx.coroutines.channels.defaultBu...
 ACTION_PAGE_DOWN
+kotlinx.coroutines.channels.defaultBu...
 classes_to_restore
-lockFile.absolutePath
 getBoolean
 offsetBefore
 Inbox
-channelId
 FIXED64_LIST
+channelId
 android.type.verbatim
-WrkTimerRunnable
 Africa/Addis_Ababa
 SECONDS
-clipBounds
 action_application_details_settings
+clipBounds
 NANO_OF_SECOND
 androidx.core.view.inputmethod.Editor...
 android:name
-p.second
 UPPER_CAMEL_CASE_WITH_SPACES
 systemNavigationBarIconBrightness
-propertyName
 contextMenu
-METERED
+propertyName
 HOUR_OF_AMPM
-WorkProgress
 STRING
 progress
 PropertySet
 INSTANT_SECONDS
-workRequest
 autofill
 TextCapitalization.none
 operation
 android.widget.EditText
 NO_DECISION
 QUARTER_OF_YEAR
-constraintsConfig
-postalCode
 getScheduledAlarms
+postalCode
 android.isGroupConversation
 Operations:
-DESC
 DrawableDelegate
-ACTION_CANCEL_WORK
 baseCount
 android.media.metadata.COMPOSER
-android.intent.action.BATTERY_OKAY
 TextInput.setEditingState
 PRT
 Weekly
@@ -1612,18 +1464,15 @@ KEY_COMPONENT_ACTIVITY_LAUNCHED_KEYS
 ReminderReceiver
 birthDateFull
 flutterview_transparency_mode
-reschedule_needed
 kotlinx.coroutines.io.parallelism
 NUMBER
 ResourcesCompat
 UNEXPECTED_STRING
-RUNNING
 com.htc.intent.action.QUICKBOOT_POWERON
 TUESDAY
 android.resource
 TypefaceCompatApi21Impl
 collection
-SystemJobInfoConverter
 BOOLEAN
 minLines
 PST
@@ -1636,7 +1485,6 @@ _next
 IntentSender
 debugMode
 androidx.lifecycle.internal.SavedStat...
-android.intent.action.BATTERY_LOW
 StartActivityForResult
 enableVibration
 update
@@ -1645,7 +1493,6 @@ LLL
 MILLI_OF_SECOND
 ZoneOffset
 BottomSheetBehavior
-androidx.work.util.id
 onBackPressedCallback
 downloads
 textservices
@@ -1656,47 +1503,40 @@ millisecondsSinceEpoch
 Meiji
 pokeByte
 getMaxAvailableHeight
-registry
 WrappedDrawableApi21
 creditCardExpirationYear
 SystemUiMode.leanBack
 binaryMessenger
-repeatIntervalTimeUnit
-boundsOrigin
 layout
+boundsOrigin
 viewModelStoreOwner
 dev.flutter.pigeon.shared_preferences...
-index_WorkSpec_last_enqueue_time
 java.lang.Object
 comment
 SystemChrome.setSystemUIChangeListener
-LINEAR
 RequestingNotificationPermission
 dexopt/baseline.profm
 base
 canScheduleExactNotifications
-interval_duration
+kotlinx.coroutines.bufferedChannel.se...
 TextInput.setPlatformViewClient
 extendedPostalCode
-kotlinx.coroutines.bufferedChannel.se...
 androidx.core.view.inputmethod.InputC...
 prefix
 binding
 zoomOut
-Periodic
 state1
 movies
 android.showBigPictureWhenCollapsed
 getViewRootImpl
-superclass
 delimiter
+superclass
 dexterous.com/flutter/local_notificat...
 Centuries
 SATURDAY
 tel:123123
 NONE
 getActiveNotificationMessagingStyle
-last_cancel_all_time_ms
 textLookup
 androidx.core.app.NotificationCompat$...
 kotlinx.coroutines.semaphore.maxSpinC...
@@ -1704,14 +1544,12 @@ LocalTime
 viewRegistryState
 hints
 java.util.Set
-onWindowLayoutChangeListenerAdded
 keyup
+onWindowLayoutChangeListenerAdded
 subText
 DrawableResource
 unresolved
-WorkProgressUpdater
 android.conversationTitle
-Preference
 :0
 result_code
 END_OBJECT
@@ -1720,7 +1558,6 @@ newDeviceState
 DELETE_SKIP_FILE
 DETECT_WRONG_FRAGMENT_CONTAINER
 gender
-INITIALIZE
 DAY_OF_MONTH
 android.support.BIND_NOTIFICATION_SID...
 createFromFamiliesWithDefault
@@ -1729,23 +1566,21 @@ resizeRow
 mutex
 usesVirtualDisplay
 OffsetSeconds
-bigPicture
 pictures
+bigPicture
 savedStateRegistry
-ConstraintTrkngWrkr
 NO_THREAD_ELEMENTS
 INTERRUPTED_SEND
-tracker
-singleInstance
 FLAT
+singleInstance
 getDisplayInfo
 DOUBLE
 event
 SOURCE_INPUT_METHOD
 BanUncheckedReflection
 Taisho
-htmlFormatContent
 resizeDownRight
+htmlFormatContent
 _availablePermits
 mViewFlags
 MotionSpec
@@ -1754,7 +1589,6 @@ Guideline
 DARK
 COPY
 PENDING
-WorkManagerImpl
 androidx.profileinstaller.action.BENC...
 TERMINAL_OP
 nullLayouts
@@ -1762,13 +1596,11 @@ outState
 Messaging
 groupAlertBehavior
 java.lang.Comparable
-ALARMS
 ACTION_SET_TEXT
+ALARMS
 android.text
 msg
-BLOB
 android.widget.Switch
-minimum_retention_duration
 fragmentManager.specialEffectsControl...
 java.util.secureRandomSeed
 resizeUpRightDownLeft
@@ -1776,8 +1608,8 @@ isProjected
 float
 OP_SET_MAX_LIFECYCLE
 postalAddressExtended
-inFragment
 SINT64
+inFragment
 DETECT_SET_USER_VISIBLE_HINT
 java.lang.Enum
 enableIMEPersonalizedLearning
@@ -1787,7 +1619,6 @@ resolverStyle
 zoneId
 DAY_OF_QUARTER
 DETACHED
-from
 android.permission.POST_NOTIFICATIONS
 NAVIGATION_NEXT_TAG
 TextInputType.datetime
@@ -1799,30 +1630,25 @@ offset
 SUNDAY
 bottom
 androidx.core.app.NotificationCompat$...
-androidx.work.workdb
 SystemChrome.setApplicationSwitcherDe...
 startType
 failed
 groupConversation
-ledOnMs
 keyCode
+ledOnMs
 android.permission.SCHEDULE_EXACT_ALARM
 DATA
 UTF8
 androidx.core.view.inputmethod.Editor...
 file_id
 file.absoluteFile
-INSERT
-didGainFocus
 flutter/localization
-SystemFgService
+didGainFocus
 putObject
-requiresDeviceIdle
 USAGE_NOTIFICATION_COMMUNICATION_REQUEST
 $onBackInvoked
 previousFragmentId
 .font
-configuration
 ACTION_CUT
 Brightness.light
 DayOfQuarter
@@ -1831,7 +1657,6 @@ htmlFormatSummaryText
 error
 kotlin.Byte
 getBoundsMethod
-network
 HalfDays
 bufferEnd
 operations
@@ -1839,7 +1664,6 @@ RequestPermissions
 array
 ledColorRed
 unsupported_os_version
-journalMode
 postfix
 value
 REUSABLE_CLAIMED
@@ -1868,19 +1692,17 @@ year
 TextInput.requestAutofill
 suggest_intent_data
 androidx.core.view.extra.INPUT_CONTEN...
-CommandHandler
-actionIntent
 deviceId
+actionIntent
 DETECT_FRAGMENT_REUSE
 music
 verticalText
-verificationMode
 android.util.LongArray
 FlutterSharedPreferences
+verificationMode
 androidx.view.accessibility.Accessibi...
 showWhen
 getUncaughtExceptionPreHandler
-UNMETERED
 onBackPressed
 checkedIconVisible
 chipIconEnabled
@@ -1890,9 +1712,7 @@ SecondOfMinute
 _handled
 givenName
 AH
-outOfQuotaPolicy
 raw
-triggers
 MButtonToggleGroup
 onBackProgressed
 USAGE_UNKNOWN
@@ -1902,7 +1722,6 @@ notificationDetails
 kotlinx.coroutines.scheduler.default....
 onMenuKeyEvent
 android.support.useSideChannel
-WorkmanagerDebugChannelId
 TextInputClient.updateEditingStateWit...
 BB
 android.permission.READ_CONTACTS
@@ -1923,7 +1742,6 @@ MESSAGE
 RestorationChannel
 middleInitial
 PHYSICAL_DISPLAY_PLATFORM_VIEW
-$tables
 codePoint
 EmojiCompat.EmojiCompatInitializer.run
 styleInformation
@@ -1936,15 +1754,15 @@ Nanos
 invalid_big_picture
 requestExactAlarmsPermission
 createNotificationChannel
-GridLayoutManager
 androidx.lifecycle.BundlableSavedStat...
+GridLayoutManager
 package:
 hideExpandedLargeIcon
 this$0
 hourOfDay
+onNewIntent
 android:theme
 Loaders:
-onNewIntent
 initialize
 INPUT_MODE_KEY
 Startup
@@ -1960,7 +1778,6 @@ SFIXED32_LIST_PACKED
 Asia/Karachi
 addSuppressed
 decelerate
-CANCEL_TASK_BY_UNIQUE_NAME
 CSLCompat
 ACTION_SET_PROGRESS
 notificationResponse
@@ -1969,7 +1786,6 @@ androidx.core.view.inputmethod.Editor...
 dayperiod
 add
 addressCountry
-index_
 trimPathEnd
 LIGHT
 HST
@@ -1981,13 +1797,10 @@ phoneCountryCode
 telephoneNumberCountryCode
 decimal
 fragmentStateManager.fragment
-$enqueueNew
 GONE
 strokeWidth
-SystemFgDispatcher
-NOT_REQUIRED
-ROOT
 TextInput.setEditableSizeAndTransform
+ROOT
 ACTION_CLEAR_FOCUS
 android.hiddenConversationTitle
 Hijrah
@@ -1995,28 +1808,23 @@ scheduledDateTime
 getDouble
 ACTION_SCROLL_BACKWARD
 DOUBLE_VALUE
-android.permission.WRITE_EXTERNAL_STO...
 android.media.metadata.DISPLAY_TITLE
 FIXED32
+android.permission.WRITE_EXTERNAL_STO...
 androidx.core.view.inputmethod.InputC...
 TooltipPopup
 android.messages.historic
 America/St_Johns
 setFrame
 android.graphics.drawable.VectorDrawable
-SET_SELECTION
 scope
+SET_SELECTION
 strokeLineCap
-index_Dependency_work_spec_id
-next_job_scheduler_id
 lines
-ACTION_SCHEDULE_WORK
 ACTION_SCROLL_UP
 io.flutter.embedding.android.OldGenHe...
 BITMAP_MASKABLE
 24:00
-capabilities
-seqno
 dev.flutter.pigeon.path_provider_andr...
 androidx.view.accessibility.Accessibi...
 scheduleCompletionNotification
@@ -2025,17 +1833,15 @@ message
 scanCode
 FlutterJNI
 SHORT
-android:support:fragments
 java.util.function.Consumer
+android:support:fragments
 Asia/Dhaka
 ACTION_DRAG_DROP
-setDisplayFeatures
 vpn
+setDisplayFeatures
 EPOCH_DAY
 HapticFeedbackType.lightImpact
 BIG_DECIMAL
-DirectExecutor
-ROOM
 creditCardExpirationDay
 username
 AlignedWeekOfMonth
@@ -2048,13 +1854,11 @@ requestPermissions
 android.selfDisplayName
 ACTION_CONTEXT_CLICK
 number
-$inputArguments
 dexopt/baseline.prof
-KEY_GENERATION
 NEGATIVE_BUTTON_TEXT_RES_ID_KEY
-android.settings.NOTIFICATION_POLICY_...
-kotlinx.coroutines.internal.StackTrac...
 property
+kotlinx.coroutines.internal.StackTrac...
+android.settings.NOTIFICATION_POLICY_...
 America/Puerto_Rico
 androidx.view.accessibility.Accessibi...
 createSegment
@@ -2062,22 +1866,18 @@ SMART
 TextInputType.none
 UINT64_LIST_PACKED
 TextInputAction.none
-workDatabase
 should_delay_first_android_view_draw
 _rootCause
-$workDatabase
 binding.applicationContext
 datastore/
 animation
 Variant
-registerOneOffTask
 putFloat
 handle_deeplinking
 android.media.metadata.TITLE
-FLOA
 RESULT_NOT_WRITABLE
-MAP
 io.flutter.Entrypoint
+MAP
 CLIP_RECT
 .xml
 RESULT_INSTALL_SKIP_FILE_SUCCESS
@@ -2090,8 +1890,6 @@ WeekBasedYears
 JP
 android.intent.extra.TEXT
 putDouble
-CASCADE
-ProcessorForegroundLck
 cell
 CALENDAR_CONSTRAINTS_KEY
 URI
@@ -2103,30 +1901,24 @@ com.dexterous.flutterlocalnotificatio...
 alarmClock
 androidx.view.accessibility.Accessibi...
 TransitionLayout
-android.intent.action.ACTION_POWER_DI...
-queryExecutor
 era
 kotlin.Long
 androidx.view.accessibility.Accessibi...
 com.tekartik.sqflite
 Completing
-UPDATE
-networkCallback
 KARTHIK
 NOTIFICATIONS
 addressRegion
 repeatIntervalMilliseconds
-_resumed
 android.settings.APPLICATION_DETAILS_...
+_resumed
 SOURCE_APP
 android.media.metadata.RATING
 TextInputType.multiline
-Alarms
 action_view
 getChildId
 android.permission.RECEIVE_MMS
 FIXED64
-future
 fragmentStateManager
 runningWorkers
 Heisei
@@ -2136,35 +1928,30 @@ DESTROYED
 androidx.core.app.extra.COMPAT_TEMPLATE
 android.pictureIcon
 NORMAL
-$lastInEpicenterRect
 Theme.MaterialComponents
+$lastInEpicenterRect
 selectionExtent
 SystemChrome.setEnabledSystemUIOverlays
 NanoOfSecond
 kotlin.collections.Collection
 UTC
 body
-ACTION_RESCHEDULE
-schedule_requested_at
 ConstraintLayout
 scaleX
 TextInputAction.send
 scaleY
 operation.fragment.mView
-existingWorkPolicy
 onStart
 ViewDragHelper
 _isCompleting
 ResourceFileSystem::class.java.classL...
 scheduleMode
-InputMerger
 sqlite_error
 buffer
 android.media.metadata.TRACK_NUMBER
 InstantSeconds
-noDrop
 settings
-ACTION_START_FOREGROUND
+noDrop
 read
 flutter/keydata
 memoryPressure
@@ -2183,29 +1970,22 @@ startService
 CENTURIES
 kotlin.Int
 VOID
-$workSpecId
 ERAS
-requiredNetworkType
 okio.Okio
 OP_POST_NOTIFICATION
-android.permission.CALL_PHONE
-SystemAlarmScheduler
 FLOAT
 sendBroadcast
+android.permission.CALL_PHONE
 handleLifecycleEvent
 COMPLETING_ALREADY
 roc
 serializer
 MILLIS
-WMFgUpdater
 java.lang.Iterable
-WakeLocks
-workerClassName
-requiresBatteryNotLow
 androidx.appcompat.widget.LinearLayou...
 running
-readException
 android.media.metadata.BT_FOLDER_TYPE
+readException
 RATA_DIE
 Decades
 kotlinx.coroutines.DefaultExecutor.ke...
@@ -2215,52 +1995,42 @@ $activity
 NanoOfDay
 info.displayFeatures
 synchronizeToNativeViewHierarchy
-wakeLock
-dartTask
 OP
 android.answerColor
 WALL
-android.permission.RECEIVE_WAP_PUSH
 arrayBaseOffset
+android.permission.RECEIVE_WAP_PUSH
 androidx.core.view.inputmethod.InputC...
 Tue
 windowConfiguration
 resizeUpRight
 minute
-getDatabasesPath
 androidx.window.extensions.layout.Win...
+getDatabasesPath
 0.0
-android.intent.action.DEVICE_STORAGE_LOW
 REMINDER_
 flutter/lifecycle
 TextInputType.number
-backoffPolicy
 scheduleAll
 layout_inflater
-NetworkStateTracker
 stopService
 getParentNodeId
-SystemAlarmService
 PT
 android.permission.READ_PHONE_NUMBERS
 suggest_intent_extra_data
 getAppBounds
-sqLiteDatabase
-SystemChrome.setEnabledSystemUIMode
-htmlFormatBigText
 PermissionHandler.PermissionManager
+htmlFormatBigText
+SystemChrome.setEnabledSystemUIMode
 permissions_handler
-NetworkMeteredCtrlr
 ringtones
 LocalDate
 suggest_flags
-tableName
 android.widget.HorizontalScrollView
 receiveSegment
-preferences.all
 emojiCompat
+preferences.all
 MINUTE_OF_DAY
-DelayMetCommandHandler
 NO_CLOSE_CAUSE
 repeatTime
 batteryOptimizationDisabled
@@ -2268,47 +2038,38 @@ INCREASE
 androidx.datastore.preferences.protob...
 DAILY_RESCHEDULER
 EveryMinute
-KEY_NETWORK_STATE_PROXY_ENABLED
 android.media.metadata.DISC_NUMBER
-creditCardExpirationMonth
 cache
+creditCardExpirationMonth
 android.permission.BLUETOOTH_SCAN
 deltaText
 Weeks
-Dependency
 dev.flutter.pigeon.shared_preferences...
-dbObj
 MIT
 _COROUTINE.
-DROP_WORK_REQUEST
-choices
 REMOVE_FROZEN
-EXPONENTIAL
+choices
 succeeded
 .tmp
 segmentShift
 peekInt
-_Impl
 USAGE_GAME
-Processor
 PathParser
-showBadge
-kotlinx.coroutines.semaphore.segmentSize
 androidx.savedstate.Restarter
+kotlinx.coroutines.semaphore.segmentSize
+showBadge
 DROP_SHADER_CACHE
-context.applicationContext
 literal
-kotlin.collections.ListIterator
 oemFeature.bounds
+kotlin.collections.ListIterator
 GROUP
 putByte
 getKeyboardState
 TextInputClient.updateEditingStateWit...
-disabled
 objectFieldOffset
 outBundle
-timestamp
 ACTION_SELECT
+timestamp
 AMPM_OF_DAY
 viewportWidth
 blockingTasksInBuffer
@@ -2322,16 +2083,14 @@ registryState
 android.permission.READ_CALL_LOG
 streetAddress
 kotlin.Char
-LOWER_CASE_WITH_UNDERSCORES
 android:backStackId
+LOWER_CASE_WITH_UNDERSCORES
 RecyclerView
 ACTION_ARGUMENT_EXTEND_SELECTION_BOOLEAN
 flutter/isolate
-triggerType
 grab
 animator
 _decisionAndIndex
-$name
 dimen
 exact_alarm_service
 java.util.ListIterator
@@ -2344,7 +2103,6 @@ DefaultDispatcher
 closeIconVisible
 android.template
 kotlin.Double
-GreedyScheduler
 onActivityResult
 JulianDay
 view
@@ -2354,7 +2112,6 @@ NewApi
 ViewCompat
 USAGE_MEDIA
 TextInputLayout
-US
 PENALTY_DEATH
 UT
 suggest_intent_query
@@ -2362,7 +2119,6 @@ includeSubdomains
 android.support.v13.view.inputmethod....
 unreachable
 Years
-WrkDbPathHelper
 invalid_icon
 androidx.core.view.inputmethod.Editor...
 android.intent.action.CALL
@@ -2373,24 +2129,21 @@ UINT64_LIST
 context.assets
 FULL
 finalException
-initial_delay
 flutter
 startOffset
 byteString
 com.dexterous.flutterlocalnotificatio...
 DayOfYear
 name
-$this_enqueueUniquelyNamedPeriodic
 IET
-NestedScrollView
 DartExecutor
+NestedScrollView
 fields
-parameters
 getDescriptor
 allowedDataTypes
 keymap
-FlutterLoader
 string
+FlutterLoader
 bool
 cellsBusy
 deltaStart
@@ -2401,17 +2154,14 @@ show
 java.lang.module.ModuleDescriptor
 description
 nameSuffix
-sQLiteDatabase
 VISIBLE
 status_bar_height
 native_instance
 android.support.v13.view.inputmethod....
 textScaleFactor
-namePrefix
 androidx.view.accessibility.Accessibi...
-statement
+namePrefix
 SharedPreferencesPlugin
-networkType
 io.flutter.embedding.android.NormalTheme
 flutter.baseflow.com/permissions/methods
 SUSPEND_NO_WAITER
@@ -2420,21 +2170,15 @@ Dispatchers.Main
 allowWhileIdle
 FlutterSurfaceView
 WEEK_OF_WEEK_BASED_YEAR
-workSpecId
 Cancelled
-callbackName
 getEmptyRegistry
-backoffDelayInMilliseconds
 target
-.lck
 android.title.big
 enableSuggestions
 HOURS
 MONTHS_VIEW_GROUP_TAG
 USAGE_ASSISTANCE_ACCESSIBILITY
 search_results
-$command
-KEY_START_ID
 android.intent.action.VIEW
 middleName
 Seconds
@@ -2447,16 +2191,15 @@ android.media.metadata.ART
 container
 contextual
 CLOCK_HOUR_OF_AMPM
-M/d/yy
 tileMode
+M/d/yy
 MonthOfYear
 logger
 _isCompleted
 .so
-hybridFallback
 BOTTOM
+hybridFallback
 when
-WorkerFactory
 getBounds
 EmptyCoroutineContext
 android.media.metadata.COMPILATION
@@ -2468,7 +2211,6 @@ TextInputAction.search
 SINT64_LIST
 MinuteOfDay
 android:showsDialog
-generation
 SFIXED64
 item
 canvas
@@ -2478,8 +2220,8 @@ kotlinx.coroutines.scheduler.core.poo...
 kotlinx.coroutines.scheduler.max.pool...
 double
 android.messages
-INSTANCE
 newPassword
+INSTANCE
 dispatcher_handle
 audioAttributesUsage
 smsOTPCode
@@ -2492,22 +2234,18 @@ android.media.metadata.DISPLAY_DESCRI...
 phone
 showsUserInterface
 android.media.metadata.NUM_TRACKS
-$sql
 EAT
-style
 android.settings.MANAGE_UNKNOWN_APP_S...
+style
 getDisplayFeatures
-ConstraintsCmdHandler
 BOOL_LIST_PACKED
 PENALTY_LOG
-DiagnosticsRcvr
 cursorPageSize
 Dispatchers.Unconfined
 flags
 pattern
-CHAR
-SystemUiOverlay.bottom
 onPause
+SystemUiOverlay.bottom
 ViewConfigCompat
 enabled
 kotlinx.coroutines.bufferedChannel.ex...
@@ -2517,49 +2255,40 @@ resuming_sender
 stackTrace
 setDirection
 ENUM_LIST
-internalOpenHelper
 java.util.Map$Entry
 MilliOfDay
 display
-be.tramckrijte.workmanager/foreground...
 SpellCheck.initiateSpellCheck
 composingExtent
 ConstraintHelper
 MST
 BootCompletedReceiver
-KEY_NEEDS_RESCHEDULE
 birthDateDay
 libflutter.so
 ECT
 THEME_RES_ID_KEY
-width
 largeIcon
+width
 dataMimeType
 sendSegment
 _parentHandle
 SFIXED32
 BYTES
-ForceStopRunnable
 kotlinx.coroutines.fast.service.loader
-trackers
 android.callIsVideo
 DayOfMonthAndTime
-requires_storage_not_low
-completedExpandBuffersAndPauseFlag
 EmojiCompatInitializer
+completedExpandBuffersAndPauseFlag
 insets
 kotlin.Any
-ACTION_DELAY_MET
 KEY_COMPONENT_ACTIVITY_REGISTERED_RCS
 Brightness.dark
-isInDebugMode
 ThemeUtils
 listString
-out_of_quota_policy
 2
-notification
-SettingsChannel
 selectionBase
+SettingsChannel
+notification
 getWindowLayoutComponent
 plainCodePoint
 DETECT_FRAGMENT_TAG_USAGE
@@ -2581,14 +2310,12 @@ important
 CANCELLED
 SCROLL_UP
 android.support.v13.view.inputmethod....
-android.intent.action.ACTION_POWER_CO...
 FragmentStrictMode
 defaultIcon
 effect
 fromNotification
 kotlin.collections.Iterator
 CLOSED_EMPTY
-be.tramckrijte.workmanager.INPUT_DATA
 res/
 job
 TextInputClient.requestExistingInputS...
@@ -2599,16 +2326,13 @@ DETECT_WRONG_NESTED_HIERARCHY
 SystemChrome.restoreSystemUIOverlays
 unexpected
 preferencesMap
-SupportSQLite
-tint_list
 NO_RECEIVE_RESULT
+tint_list
 insert
 MainActivity
-INT
 continueOnError
+INT
 kotlin.Enum
-database
-workSpecs
 candidate
 backEvent
 fillType
@@ -2620,7 +2344,6 @@ uniqueIdentifier
 FilePath
 ACTION_PREVIOUS_HTML_ELEMENT
 move
-CLOB
 Dec
 http://schemas.android.com/apk/res/an...
 suggest_text_2_url
@@ -2630,25 +2353,24 @@ ensureImeVisible
 android.permission.ANSWER_PHONE_CALLS
 WindowInsetsCompat
 America/Los_Angeles
-PopupWindowCompatApi21
 android.intent.action.PROCESS_TEXT
 android.intent.action.VOICE_COMMAND
+PopupWindowCompatApi21
 INT32_LIST
 ViewUtilsBase
 America/Argentina/Buenos_Aires
 mIsChildViewEnabled
 COMPLETION_NOTIFICATION
 android.permission.READ_PHONE_STATE
-getModule
 extent
+getModule
 gradientRadius
 ALIGNED_DAY_OF_WEEK_IN_MONTH
-TEMPORARILY_UNMETERED
 onDestroyView
 DECEMBER
 openAppSettings
-tooltip
 textcolor
+tooltip
 dev.flutter.pigeon.shared_preferences...
 platformSpecifics
 Africa/Cairo
@@ -2657,18 +2379,18 @@ flutter/keyboard
 systemStatusBarContrastEnforced
 androidx.lifecycle.LifecycleDispatche...
 getSuppressed
-.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMIS...
 DOUBLE_LIST_PACKED
+.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMIS...
 ACTION_UNKNOWN
 DartMessenger
 defaultLifecycleObserver
 FLAG_CONVERT_TO_PLAIN_TEXT
 SOURCE_PROCESS_TEXT
-android.intent.action.QUICKBOOT_POWERON
 SHOULD_BUFFER
+android.intent.action.QUICKBOOT_POWERON
 ReceiveContent
-exact_alarms
 traceCounter
+exact_alarms
 MOVE_CURSOR_BACKWARD_BY_WORD
 kotlin.Unit
 kotlinx.coroutines.scheduler.resoluti...
@@ -2677,7 +2399,6 @@ getType
 birthdayDay
 kotlin.jvm.internal.StringCompanionOb...
 c:
-SUCCEEDED
 ACTION_CLICK
 FLTLocalNotifPlugin
 JULY
@@ -2694,21 +2415,20 @@ icon
 USAGE_NOTIFICATION_COMMUNICATION_INSTANT
 YearOfEra
 java.
-SystemSoundType.click
 resizeUpDown
-popRoute
+SystemSoundType.click
 listEncoder
+popRoute
 colorBlue
 androidx.window.extensions.WindowExte...
 RawResource
 StateSet
-seq
 android.permission.USE_SIP
 JUNE
-android.permission.READ_MEDIA_VIDEO
 completion
-java.io.tmpdir
+android.permission.READ_MEDIA_VIDEO
 androidx.view.accessibility.Accessibi...
+java.io.tmpdir
 set
 ISO
 ACTION_IME_ENTER
@@ -2725,22 +2445,17 @@ SPLITERATOR
 ACT
 MONTH_OF_YEAR
 Year
-INACTIVE
 DAY_VIEW_DECORATOR_KEY
+INACTIVE
 buddhist
-DOUB
-android.os.action.CHARGING
 USAGE_ASSISTANCE_NAVIGATION_GUIDANCE
 VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu
 ACTION_NEXT_AT_MOVEMENT_GRANULARITY
-room_fts_content_sync_
 chrono
-db
 font
 ADD
 setTouchModal
 INT64_LIST
-WorkTag
 colorAlpha
 ACTION_DRAG_CANCEL
 japanese
@@ -2760,46 +2475,39 @@ OPACITY
 en
 NonDisposableHandle
 PODCASTS
-EnqueueRunnable
 AET
 android$support$v4$app$INotificationS...
 NAVIGATION_PREV_TAG
 Dismiss
-WorkName
 actionId
 ALIGNED_WEEK_OF_YEAR
-countryName
 ACTION_ACCESSIBILITY_FOCUS
+countryName
 nodeId
 inputAction
-_preferences
 isDirectory
+_preferences
 frame
 translationAlpha
 java.util.stream.IntStream
 ACTION_LONG_CLICK
-$oldWorkSpec
-androidx.work.impl.background.gcm.Gcm...
 CustomAttribute
 fm
-origin
 android.speech.extra.LANGUAGE
 getFloat
 putLong
 extendedAddress
-DOCUMENTS
 MaterialButton
+DOCUMENTS
 wm.currentWindowMetrics.bounds
-timeout
 content
-random
+timeout
 DATE_SELECTOR_KEY
 statusBarColor
 SIZED
 VGhpcyBpcyB0aGUgcHJlZml4IGZvciBCaWdJb...
-PackageManagerHelper
-contentCommitMimeTypes
 showToast
+contentCommitMimeTypes
 requestNotificationsPermission
 class
 finalState
@@ -2807,20 +2515,16 @@ views
 sharedElementNameMapping.values
 SHORT_STANDALONE
 os.arch
-FlutterEngineCxnRegstry
 false
-RUN_AS_NON_EXPEDITED_WORK_REQUEST
-newArray
+FlutterEngineCxnRegstry
 workerCtl
 AGT
 alarmScheduler
 TextInputClient.updateEditingState
-referenceColumnNames
 obj
 io.flutter.embedding.android.LeakVM
 resizeLeft
 pushRouteInformation
-$query
 androidx.window.extensions.layout.Fol...
 ACTION_MOVE_WINDOW
 setInitialRoute
@@ -2828,10 +2532,7 @@ TextInputAction.next
 android.support.text.emoji.emojiCompa...
 MethodCallHandlerImpl
 localDateTime
-index_Dependency_prerequisite_id
 arrayArguments
-$schedulers
-TEXT
 EpochDay
 getStatus
 clipboard
@@ -2848,7 +2549,6 @@ birthdayYear
 invalid_large_icon
 ENUM
 Millennia
-$innerFuture
 surface
 android.support.v13.view.inputmethod....
 checkServiceStatus
@@ -2861,9 +2561,8 @@ getInt
 TextInputType.address
 ERA
 VST
-columnsMap.values
-TextInputType.url
 NioSystemFileSystem
+TextInputType.url
 ja
 kotlin.jvm.internal.
 isoDate
@@ -2875,22 +2574,15 @@ May
 titleColorBlue
 extras
 Uri
-BatteryNotLowTracker
 cursorId
 java.util.ArrayList
-delegate
 suggest_intent_action
 androidx.core.app.NotificationCompat$...
 PonnamKarthik/fluttertoast
-androidx.room.IMultiInstanceInvalidat...
-workManagerImpl.trackers
 RIGHT
 lifecycleImpact
-SystemIdInfo
 พุทธศักราช
 bundle
-plugged
-table
 mServedView
 androidThreadPriority
 fileSystem
@@ -2911,14 +2603,11 @@ NET
 getNotificationChannelsError
 /data/misc/profiles/ref/
 ALL
-requiresStorageNotLow
-androidx.work.impl.background.systema...
 flutter/processtext
-ACTION_CONSTRAINTS_CHANGED
 android.speech.action.RECOGNIZE_SPEECH
 newUsername
-suffix
 SELECTOR_TOGGLE_TAG
+suffix
 tintMode
 TypefaceCompatBaseImpl
 second
@@ -2938,11 +2627,10 @@ MilliOfSecond
 kotlin.Number
 pokeInt
 DeviceOrientation.portraitDown
-TOO_LATE_TO_CANCEL
 NULL
+TOO_LATE_TO_CANCEL
 Asia/Ho_Chi_Minh
 shared_preferences
-level
 android.verificationText
 ROC
 .preferences_pb
@@ -2952,8 +2640,8 @@ mv
 FlutterLocalNotificationsPluginInputR...
 dev.flutter.pigeon.shared_preferences...
 ActionBroadcastReceiver
-entry
 io.flutter.embedding.android.Impeller...
+entry
 periodicallyShowWithDuration
 android.settings.LOCATION_SOURCE_SETT...
 grabbing
@@ -2961,26 +2649,22 @@ android:changeBounds:parent
 alwaysUse24HourFormat
 ModifiedJulianDay
 AUGUST
-ConstraintProxy
 androidx.datastore.preferences.protob...
-TextInputType.visiblePassword
 nm
+TextInputType.visiblePassword
 p0
 birthday
-code
 ComplexColorCompat
+code
 bot
 MODIFIED_JULIAN_DAY
 peekByteArray
-KEY_WORKSPEC_GENERATION
 addFontFromBuffer
 ANY
 android.callPersonCompat
 ViewUtils
 sql
 head
-SupportSQLiteLock
-android.intent.action.DEVICE_STORAGE_OK
 receivers
 ACTION_SCROLL_LEFT
 android.support.v4.media.description....
@@ -2993,11 +2677,10 @@ consumer
 nativeSpellCheckServiceDefined
 baseKey
 Pacific/Apia
-android.app.ActivityThread
 currentDisplay
 longPress
-pokeByteArray
 DOUBLE_LIST
+pokeByteArray
 COROUTINE_SUSPENDED
 config_viewMinRotaryEncoderFlingVelocity
 Share.invoke
@@ -3007,10 +2690,8 @@ deleteNotificationChannel
 flutter/textinput
 io.flutter.embedding.android.EnableMe...
 _LifecycleAdapter
-pk
 thumbPos
 DCIM
-backgroundChannel
 pp
 suggest_icon_1
 valueTo
@@ -3028,10 +2709,9 @@ freeze
 java.util.Map
 /data/misc/profiles/cur/0
 SuggestionsAdapter
-ProcessCommand
+ACTION_NEXT_HTML_ELEMENT
 getObject
 drawable
-ACTION_NEXT_HTML_ELEMENT
 BOTTOM_OVERLAYS
 notification_plugin_cache
 enqIdx
@@ -3039,38 +2719,29 @@ readOnly
 invoker
 kotlin.Array
 DETECT_RETAIN_INSTANCE_USAGE
-accept
 ACTION_COLLAPSE
-DiagnosticsWrkr
+accept
 POSITIVE_BUTTON_TEXT_RES_ID_KEY
-$listenersList
 America/Indiana/Indianapolis
 MINUTE_OF_HOUR
 CONDITION_FALSE
 SOURCE_DRAG_AND_DROP
-taskName
 rm
 RESULT_CANCELED
 ART
 activity
 io.flutter.embedding.android.DisableS...
 rw
-SystemAlarmDispatcher
 INT32
 fillAlpha
 androidx.datastore.preferences.protob...
 android:dialogShowing
-OneTime
-ENUM_LIST_PACKED
 android:visibility:screenLocation
+ENUM_LIST_PACKED
 timeDefnition
 SystemUiMode.immersive
-ASC
 BASELINE
-DELETE
-current
 HALF_OPENED
-EXTRA_IS_PERIODIC
 pendingNotificationRequests
 vector
 ACTION_SCROLL_TO_POSITION
@@ -3084,12 +2755,10 @@ LONG
 RESOURCE
 MicroOfSecond
 profileinstaller_profileWrittenFor_la...
-prerequisiteId
 creditCardExpirationDate
 silent
 AST
 obscureText
-system_id
 texture
 ACTION_EXPAND
 window.decorView
@@ -3107,106 +2776,91 @@ android.speech.action.WEB_SEARCH
 handled
 MARCH
 closed
-SystemNavigator.pop
 resizeRight
+SystemNavigator.pop
 compressed
-to
 TextInputAction.newline
 io.flutter.embedding.android.EnableVu...
 _prev
 MICRO_OF_DAY
 SINT32_LIST_PACKED
 loader
-NetworkNotRoamingCtrlr
 primaryColor
 resultKey
 FULL_STANDALONE
 personGivenName
 pairs
 NEGATIVE_BUTTON_TEXT_KEY
-frequency
 vibrationPattern
-requires_charging
 up
 app_data
-TOP_OVERLAYS
 putBoolean
 BROKEN
+TOP_OVERLAYS
 android:changeBounds:windowX
-android:changeBounds:windowY
 Dispatchers.Default
+android:changeBounds:windowY
 sink
-java.util.Collection
 query
+java.util.Collection
 androidx.view.accessibility.Accessibi...
-HIDDEN
 CLOSE_HANDLER_CLOSED
+HIDDEN
 DayOfWeekAndTime
 postalAddressExtendedPostalCode
 fragment_
 NOT_IN_STACK
-TextInputAction.previous
 viewModel
+TextInputAction.previous
 it.key
 พ.ศ.
 BEFORE_BE
-desc
-trigger_content_update_delay
 removeObserver
 android.graphics.Insets
-CANCEL_AND_REENQUEUE
-ON_DESTROY
 destination
+ON_DESTROY
 enableDeltaModel
 FLOAT_LIST
 abortCreation
 ViewParentCompat
 RESULT_ALREADY_INSTALLED
 closeDatabase
-backing
-flutter/mousecursor
 getTypeMethod
+flutter/mousecursor
 TextAppearance
 FontsProvider
 cancelNotification
 timeoutAfter
 MILLI_OF_DAY
 SELECT_FOREGROUND_NOTIFICATION
-KEY_BATTERY_CHARGING_PROXY_ENABLED
 android$support$v4$os$IResultReceiver
-EMPTY
-workerParams
 text/plain
 Australia/Sydney
 INT64
-Schedulers
 flutter/system
 isRegularFile
 androidx.core.app.NotificationCompat$...
 colorGreen
 MenuPopupWindow
-onWindowLayoutChangeListenerRemoved
 View
 Dispatchers.Main.immediate
+onWindowLayoutChangeListenerRemoved
 Mon
 valueFrom
-invalidatedTablesIds
 USAGE_NOTIFICATION_RINGTONE
 java.sql.Date
 getCallbackHandle
 topLeft
 PLATFORM_ENCODED
 location
-getInstance
 CreateIfNotExists
+getInstance
 ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY
 xx
 PT0S
-android.intent.extra.PROCESS_TEXT
 INT64_LIST_PACKED
-triggerName
+android.intent.extra.PROCESS_TEXT
 Index:
-run_attempt_count
 none
 location_mode
 type
@@ -3220,10 +2874,9 @@ android.media.metadata.GENRE
 channelAction
 viewToAnimate
 HapticFeedbackType.mediumImpact
-cont
 openDatabase
+cont
 android:changeBounds:clip
-currentProcessName
 Sqflite
 getTextDirectionHeuristic
 android:savedDialogState
@@ -3237,7 +2890,6 @@ ThaiBuddhist
 config_showMenuShortcutsWhenKeyboardP...
 CONSUMED
 systemNavigationBarContrastEnforced
-refHolder
 onlyAlertOnce
 tekartik_sqflite.db
 ACTION_ARGUMENT_SELECTION_START_INT
@@ -3246,11 +2898,10 @@ push
 NST
 android.media.metadata.ALBUM_ARTIST
 transitioningViews
-dev.flutter.pigeon.shared_preferences...
 intent_extra_data_key
+dev.flutter.pigeon.shared_preferences...
 android.answerIntent
 notificationData
-input.keyValueMap
 _state
 OptionalLong.empty
 exact
@@ -3258,8 +2909,8 @@ Millis
 htmlFormatLines
 SHOW_ON_SCREEN
 bad_param
-notifications
 ACTION_FOCUS
+notifications
 getOpticalInsets
 android.permission.READ_SMS
 android.support.action.semanticAction
@@ -3269,34 +2920,31 @@ columns
 FOCUS
 android.permission.BODY_SENSORS
 binding.binaryMessenger
-flutter/spellcheck
 addListenerMethod
+flutter/spellcheck
 out
 com.android.voicemail.permission.ADD_...
 feature
 get
 dark
 oneTimeCode
-cancelTaskByTag
 initialized
-c.columnNames
-power
 copy
 precise
+power
 Optional.empty
 UPSTREAM_TERMINAL_OP
-java.lang.Number
 animatorSet
+java.lang.Number
 enableLights
-next_alarm_manager_id
 android.settings.SETTINGS
 suggest_intent_data_id
 iso8601
 offsetAfter
 SpinedBuffer:
 sharedElements
-fraction
 bigText
+fraction
 SystemChrome.setPreferredOrientations
 help
 phoneNumberDevice
@@ -3305,27 +2953,24 @@ A11yActionCompat
 flutter/deferredcomponent
 elements
 android.settings.REQUEST_IGNORE_BATTE...
-backoff_delay_duration
 strokeAlpha
+sharedPreferencesDataStore
 URI_MASKABLE
 /raw/
-sharedPreferencesDataStore
 ON_CREATE
 date
-ENQUEUED
 matchDateTimeComponents
 data
 IDENTITY_FINISH
 ON_RESUME
 sound
-android.os.action.DISCHARGING
 PROLEPTIC_MONTH
 getWindowExtensionsMethod
 segmentMask
 asyncTraceBegin
+action_voice
 TextCapitalization.characters
 titleColorRed
-action_voice
 android.permission.ACCESS_COARSE_LOCA...
 android.permission.READ_MEDIA_VISUAL_...
 Australia/Darwin
@@ -3336,20 +2981,17 @@ FIXED64_LIST_PACKED
 VERTICAL_DIMENSION
 REMOVED
 EmojiCompat.FontRequestEmojiCompatCon...
-backoff_policy
 tap
 SENSITIVE
 decimalStyle
 kotlin.jvm.internal.EnumCompanionObject
-RESULT_UNSUPPORTED_ART_VERSION
 ACTION_COPY
+RESULT_UNSUPPORTED_ART_VERSION
 HourOfAmPm
-ACTION_FORCE_STOP_RESCHEDULE
 io.flutter.InitialRoute
 controlState
 transition_animation_scale
 Active
-CANCEL_ALL
 postalAddress
 kotlin.collections.Iterable
 telephoneNumberDevice
@@ -3357,7 +2999,6 @@ standardOffset
 person
 files
 UNORDERED
-WorkerWrapper
 :00
 send
 calling_package
@@ -3365,10 +3006,9 @@ newState
 DrawableCompat
 mChildNodeIds
 kotlin.collections.Map.Entry
-StopWorkRunnable
+line
 MILLENNIA
 android.permission.SYSTEM_ALERT_WINDOW
-scale
 mAccessibilityDelegate
 MAYBE_MORE
 alarm
@@ -3380,29 +3020,25 @@ factory
 callback_handle
 Asia/Tokyo
 SHORT_CIRCUIT
-java.util.Iterator
 LONG_OR_DOUBLE
+java.util.Iterator
 org.openjdk.java.util.stream.tripwire
 onWindowFocusChanged
 TextInputClient.performAction
 org.robolectric.Robolectric
 appcompat_skip_skip
 jar:file:
-SystemJobService
 ON_STOP
 addressState
 kotlin.CharSequence
-BEGIN_ARRAY
 RESULT_IO_EXCEPTION
+BEGIN_ARRAY
 intent
-.path
 personName
-IN_PROGRESS
 fragment
 boolean
 getState
 migrations
-run_in_foreground
 FLOAT_LIST_PACKED
 trimPathOffset
 java.util.stream.Collector.Characteri...
@@ -3575,7 +3211,6 @@ Marking attr:dayStyle:2130903382 used because it matches string pool constant da
 Marking attr:dayTodayStyle:2130903383 used because it matches string pool constant day
 Marking id:group_divider:2131230908 used because it matches string pool constant group
 Marking id:groups:2131230909 used because it matches string pool constant group
-Marking attr:values:2130904229 used because it matches string pool constant values
 Marking attr:pathMotionArc:2130903890 used because it matches string pool constant path
 Marking attr:path_percent:2130903891 used because it matches string pool constant path
 Marking id:path:2131231028 used because it matches string pool constant path
@@ -3759,12 +3394,6 @@ Marking id:textinput_prefix_text:2131231156 used because it matches string pool 
 Marking id:textinput_suffix_text:2131231157 used because it matches string pool constant text
 Marking id:TOP_END:2131230732 used because it matches string pool constant TOP
 Marking id:TOP_START:2131230733 used because it matches string pool constant TOP
-Marking attr:statusBarBackground:2130904033 used because it matches string pool constant status
-Marking attr:statusBarForeground:2130904034 used because it matches string pool constant status
-Marking attr:statusBarScrim:2130904035 used because it matches string pool constant status
-Marking id:status_bar_latest_event_content:2131231122 used because it matches string pool constant status
-Marking integer:status_bar_notification_info_maxnum:2131296324 used because it matches string pool constant status
-Marking string:status_bar_notification_info_overflow:2131755177 used because it matches string pool constant status
 Marking id:skipCollapsed:2131231098 used because it matches string pool constant skip
 Marking attr:menu:2130903797 used because it matches string pool constant menu
 Marking attr:menuAlignmentMode:2130903798 used because it matches string pool constant menu
@@ -3787,7 +3416,6 @@ Marking color:background_floating_material_light:2131034142 used because it matc
 Marking color:background_material_dark:2131034143 used because it matches string pool constant background
 Marking color:background_material_light:2131034144 used because it matches string pool constant background
 Marking id:position:2131231033 used because it matches string pool constant position
-Marking attr:constraints:2130903330 used because it matches string pool constant constraints
 Marking string:character_counter_content_description:2131755051 used because it matches string pool constant character
 Marking string:character_counter_overflowed_content_description:2131755052 used because it matches string pool constant character
 Marking string:character_counter_pattern:2131755053 used because it matches string pool constant character
@@ -3868,37 +3496,6 @@ Marking id:baseline:2131230807 used because it matches string pool constant base
 Marking attr:prefixText:2130903919 used because it matches string pool constant prefix
 Marking attr:prefixTextAppearance:2130903920 used because it matches string pool constant prefix
 Marking attr:prefixTextColor:2130903921 used because it matches string pool constant prefix
-Marking style:Preference:2131820865 used because it matches string pool constant Preference
-Marking style:Preference_Category:2131820866 used because it matches string pool constant Preference
-Marking style:Preference_Category_Material:2131820867 used because it matches string pool constant Preference
-Marking style:Preference_CheckBoxPreference:2131820868 used because it matches string pool constant Preference
-Marking style:Preference_CheckBoxPreference_Material:2131820869 used because it matches string pool constant Preference
-Marking style:Preference_DialogPreference:2131820870 used because it matches string pool constant Preference
-Marking style:Preference_DialogPreference_EditTextPreference:2131820871 used because it matches string pool constant Preference
-Marking style:Preference_DialogPreference_EditTextPreference_Material:2131820872 used because it matches string pool constant Preference
-Marking style:Preference_DialogPreference_Material:2131820873 used because it matches string pool constant Preference
-Marking style:Preference_DropDown:2131820874 used because it matches string pool constant Preference
-Marking style:Preference_DropDown_Material:2131820875 used because it matches string pool constant Preference
-Marking style:Preference_Information:2131820876 used because it matches string pool constant Preference
-Marking style:Preference_Information_Material:2131820877 used because it matches string pool constant Preference
-Marking style:Preference_Material:2131820878 used because it matches string pool constant Preference
-Marking style:Preference_PreferenceScreen:2131820879 used because it matches string pool constant Preference
-Marking style:Preference_PreferenceScreen_Material:2131820880 used because it matches string pool constant Preference
-Marking style:Preference_SeekBarPreference:2131820881 used because it matches string pool constant Preference
-Marking style:Preference_SeekBarPreference_Material:2131820882 used because it matches string pool constant Preference
-Marking style:Preference_SwitchPreference:2131820883 used because it matches string pool constant Preference
-Marking style:Preference_SwitchPreference_Material:2131820884 used because it matches string pool constant Preference
-Marking style:Preference_SwitchPreferenceCompat:2131820885 used because it matches string pool constant Preference
-Marking style:Preference_SwitchPreferenceCompat_Material:2131820886 used because it matches string pool constant Preference
-Marking style:PreferenceCategoryTitleTextStyle:2131820887 used because it matches string pool constant Preference
-Marking style:PreferenceFragment:2131820888 used because it matches string pool constant Preference
-Marking style:PreferenceFragment_Material:2131820889 used because it matches string pool constant Preference
-Marking style:PreferenceFragmentList:2131820890 used because it matches string pool constant Preference
-Marking style:PreferenceFragmentList_Material:2131820891 used because it matches string pool constant Preference
-Marking style:PreferenceSummaryTextStyle:2131820892 used because it matches string pool constant Preference
-Marking style:PreferenceThemeOverlay:2131820893 used because it matches string pool constant Preference
-Marking style:PreferenceThemeOverlay_v14:2131820894 used because it matches string pool constant Preference
-Marking style:PreferenceThemeOverlay_v14_Material:2131820895 used because it matches string pool constant Preference
 Marking attr:floatingActionButtonLargePrimaryStyle:2130903505 used because it matches string pool constant float
 Marking attr:floatingActionButtonLargeSecondaryStyle:2130903506 used because it matches string pool constant float
 Marking attr:floatingActionButtonLargeStyle:2130903507 used because it matches string pool constant float
@@ -4014,8 +3611,6 @@ Marking attr:clockNumberTextColor:2130903243 used because it matches string pool
 Marking dimen:clock_face_margin_start:2131099733 used because it matches string pool constant clock
 Marking id:clockwise:2131230831 used because it matches string pool constant clock
 Marking attr:emojiCompatEnabled:2130903441 used because it matches string pool constant emojiCompat
-Marking dimen:disabled_alpha_material_dark:2131099790 used because it matches string pool constant disabled
-Marking dimen:disabled_alpha_material_light:2131099791 used because it matches string pool constant disabled
 Marking color:call_notification_answer_color:2131034153 used because it matches string pool constant call
 Marking color:call_notification_decline_color:2131034154 used because it matches string pool constant call
 Marking string:call_notification_answer_action:2131755044 used because it matches string pool constant call
@@ -4220,9 +3815,6 @@ Marking attr:enforceTextAppearance:2130903454 used because it matches string poo
 Marking attr:ensureMinTouchTargetSize:2130903455 used because it matches string pool constant en
 Marking attr:entries:2130903456 used because it matches string pool constant en
 Marking attr:entryValues:2130903457 used because it matches string pool constant en
-Marking bool:enable_system_alarm_service_default:2130968579 used because it matches string pool constant en
-Marking bool:enable_system_foreground_service_default:2130968580 used because it matches string pool constant en
-Marking bool:enable_system_job_service_default:2130968581 used because it matches string pool constant en
 Marking id:end:2131230879 used because it matches string pool constant en
 Marking id:endToStart:2131230880 used because it matches string pool constant en
 Marking id:end_padder:2131230881 used because it matches string pool constant en
@@ -4326,7 +3918,6 @@ Marking attr:activityAction:2130903076 used because it matches string pool const
 Marking attr:activityChooserViewStyle:2130903077 used because it matches string pool constant activity
 Marking attr:activityName:2130903078 used because it matches string pool constant activity
 Marking id:activity_chooser_view_content:2131230787 used because it matches string pool constant activity
-Marking attr:currentState:2130903369 used because it matches string pool constant current
 Marking attr:key:2130903636 used because it matches string pool constant key
 Marking attr:keyPositionType:2130903637 used because it matches string pool constant key
 Marking attr:keyboardIcon:2130903638 used because it matches string pool constant key
@@ -4345,38 +3936,6 @@ Marking attr:thumbStrokeWidth:2130904159 used because it matches string pool con
 Marking attr:thumbTextPadding:2130904160 used because it matches string pool constant th
 Marking attr:thumbTint:2130904161 used because it matches string pool constant th
 Marking attr:thumbTintMode:2130904162 used because it matches string pool constant th
-Marking attr:toggleCheckedStateOnClick:2130904190 used because it matches string pool constant to
-Marking attr:toolbarId:2130904191 used because it matches string pool constant to
-Marking attr:toolbarNavigationButtonStyle:2130904192 used because it matches string pool constant to
-Marking attr:toolbarStyle:2130904193 used because it matches string pool constant to
-Marking attr:toolbarSurfaceStyle:2130904194 used because it matches string pool constant to
-Marking attr:tooltipForegroundColor:2130904195 used because it matches string pool constant to
-Marking attr:tooltipFrameBackground:2130904196 used because it matches string pool constant to
-Marking attr:tooltipStyle:2130904197 used because it matches string pool constant to
-Marking attr:tooltipText:2130904198 used because it matches string pool constant to
-Marking attr:topInsetScrimEnabled:2130904199 used because it matches string pool constant to
-Marking attr:touchAnchorId:2130904200 used because it matches string pool constant to
-Marking attr:touchAnchorSide:2130904201 used because it matches string pool constant to
-Marking attr:touchRegionId:2130904202 used because it matches string pool constant to
-Marking color:tooltip_background_dark:2131034855 used because it matches string pool constant to
-Marking color:tooltip_background_light:2131034856 used because it matches string pool constant to
-Marking dimen:tooltip_corner_radius:2131100426 used because it matches string pool constant to
-Marking dimen:tooltip_horizontal_padding:2131100427 used because it matches string pool constant to
-Marking dimen:tooltip_margin:2131100428 used because it matches string pool constant to
-Marking dimen:tooltip_precise_anchor_extra_offset:2131100429 used because it matches string pool constant to
-Marking dimen:tooltip_precise_anchor_threshold:2131100430 used because it matches string pool constant to
-Marking dimen:tooltip_vertical_padding:2131100431 used because it matches string pool constant to
-Marking dimen:tooltip_y_offset_non_touch:2131100432 used because it matches string pool constant to
-Marking dimen:tooltip_y_offset_touch:2131100433 used because it matches string pool constant to
-Marking drawable:toast_bg:2131165415 used because it matches string pool constant to
-Marking drawable:tooltip_frame_dark:2131165416 used because it matches string pool constant to
-Marking drawable:tooltip_frame_light:2131165417 used because it matches string pool constant to
-Marking id:toggle:2131231162 used because it matches string pool constant to
-Marking id:top:2131231163 used because it matches string pool constant to
-Marking id:topPanel:2131231164 used because it matches string pool constant to
-Marking id:topToBottom:2131231165 used because it matches string pool constant to
-Marking id:touch_outside:2131231166 used because it matches string pool constant to
-Marking layout:toast_custom:2131427462 used because it matches string pool constant to
 Marking attr:updatesContinuously:2130904224 used because it matches string pool constant up
 Marking id:up:2131231178 used because it matches string pool constant up
 Marking attr:queryBackground:2130903927 used because it matches string pool constant query
@@ -4560,7 +4119,16 @@ Marking id:tag_transition_group:2131231138 used because it matches string pool c
 Marking id:tag_unhandled_key_event_manager:2131231139 used because it matches string pool constant tag
 Marking id:tag_unhandled_key_listeners:2131231140 used because it matches string pool constant tag
 Marking id:tag_window_insets_animation_callback:2131231141 used because it matches string pool constant tag
-Marking id:scale:2131231057 used because it matches string pool constant scale
+Marking anim:linear_indeterminate_line1_head_interpolator:2130771997 used because it matches string pool constant line
+Marking anim:linear_indeterminate_line1_tail_interpolator:2130771998 used because it matches string pool constant line
+Marking anim:linear_indeterminate_line2_head_interpolator:2130771999 used because it matches string pool constant line
+Marking anim:linear_indeterminate_line2_tail_interpolator:2130772000 used because it matches string pool constant line
+Marking attr:lineHeight:2130903716 used because it matches string pool constant line
+Marking attr:lineSpacing:2130903717 used because it matches string pool constant line
+Marking attr:linearProgressIndicatorStyle:2130903718 used because it matches string pool constant line
+Marking id:line1:2131230936 used because it matches string pool constant line
+Marking id:line3:2131230937 used because it matches string pool constant line
+Marking id:linear:2131230938 used because it matches string pool constant line
 Marking anim:fragment_fast_out_extra_slow_in:2130771996 used because it matches string pool constant fragment
 Marking animator:fragment_close_enter:2130837507 used because it matches string pool constant fragment
 Marking animator:fragment_close_exit:2130837508 used because it matches string pool constant fragment
@@ -5072,7 +4640,7 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @attr/constraintSetEnd : reachable=false
 @attr/constraintSetStart : reachable=false
 @attr/constraint_referenced_ids : reachable=false
-@attr/constraints : reachable=true
+@attr/constraints : reachable=false
 @attr/content : reachable=true
 @attr/contentDescription : reachable=true
 @attr/contentInsetEnd : reachable=true
@@ -5111,7 +4679,7 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @attr/counterTextAppearance : reachable=false
 @attr/counterTextColor : reachable=false
 @attr/crossfade : reachable=false
-@attr/currentState : reachable=true
+@attr/currentState : reachable=false
 @attr/curveFit : reachable=false
 @attr/customBoolean : reachable=false
 @attr/customColorDrawableValue : reachable=false
@@ -5458,8 +5026,8 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @attr/liftOnScrollColor : reachable=false
 @attr/liftOnScrollTargetViewId : reachable=false
 @attr/limitBoundsTo : reachable=true
-@attr/lineHeight : reachable=false
-@attr/lineSpacing : reachable=false
+@attr/lineHeight : reachable=true
+@attr/lineSpacing : reachable=true
 @attr/linearProgressIndicatorStyle : reachable=true
 @attr/listChoiceBackgroundIndicator : reachable=true
 @attr/listChoiceIndicatorMultipleAnimated : reachable=true
@@ -5775,9 +5343,9 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @attr/state_liftable : reachable=true
 @attr/state_lifted : reachable=true
 @attr/state_with_icon : reachable=true
-@attr/statusBarBackground : reachable=true
-@attr/statusBarForeground : reachable=true
-@attr/statusBarScrim : reachable=true
+@attr/statusBarBackground : reachable=false
+@attr/statusBarForeground : reachable=false
+@attr/statusBarScrim : reachable=false
 @attr/stickyPlaceholder : reachable=false
 @attr/strokeColor : reachable=true
 @attr/strokeWidth : reachable=true
@@ -5932,11 +5500,11 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @attr/titleTextColor : reachable=true
 @attr/titleTextEllipsize : reachable=true
 @attr/titleTextStyle : reachable=true
-@attr/toggleCheckedStateOnClick : reachable=true
-@attr/toolbarId : reachable=true
+@attr/toggleCheckedStateOnClick : reachable=false
+@attr/toolbarId : reachable=false
 @attr/toolbarNavigationButtonStyle : reachable=true
 @attr/toolbarStyle : reachable=true
-@attr/toolbarSurfaceStyle : reachable=true
+@attr/toolbarSurfaceStyle : reachable=false
 @attr/tooltipForegroundColor : reachable=true
 @attr/tooltipFrameBackground : reachable=true
 @attr/tooltipStyle : reachable=true
@@ -6000,11 +5568,7 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @bool/abc_action_bar_embed_tabs : reachable=false
 @bool/abc_config_actionMenuItemAllCaps : reachable=false
 @bool/config_materialPreferenceIconSpaceReserved : reachable=false
-@bool/enable_system_alarm_service_default : reachable=true
-@bool/enable_system_foreground_service_default : reachable=true
-@bool/enable_system_job_service_default : reachable=true
 @bool/mtrl_btn_textappearance_all_caps : reachable=false
-@bool/workmanager_test_configuration : reachable=true
 @color/abc_background_cache_hint_selector_material_dark : reachable=false
     @color/background_material_dark
 @color/abc_background_cache_hint_selector_material_light : reachable=false
@@ -7653,8 +7217,8 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @dimen/design_tab_text_size : reachable=false
 @dimen/design_tab_text_size_2line : reachable=false
 @dimen/design_textinput_caption_translate_y : reachable=true
-@dimen/disabled_alpha_material_dark : reachable=true
-@dimen/disabled_alpha_material_light : reachable=true
+@dimen/disabled_alpha_material_dark : reachable=false
+@dimen/disabled_alpha_material_light : reachable=false
 @dimen/fastscroll_default_thickness : reachable=true
 @dimen/fastscroll_margin : reachable=true
 @dimen/fastscroll_minimum_range : reachable=true
@@ -9041,7 +8605,7 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @drawable/preference_list_divider_material : reachable=false
 @drawable/test_level_drawable : reachable=false
     @color/primary_dark_material_dark
-@drawable/toast_bg : reachable=true
+@drawable/toast_bg : reachable=false
 @drawable/tooltip_frame_dark : reachable=true
     @color/tooltip_background_dark
     @dimen/tooltip_corner_radius
@@ -9264,8 +8828,8 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @id/left : reachable=true
 @id/leftToRight : reachable=true
 @id/legacy : reachable=false
-@id/line1 : reachable=false
-@id/line3 : reachable=false
+@id/line1 : reachable=true
+@id/line3 : reachable=true
 @id/linear : reachable=true
 @id/listMode : reachable=true
 @id/list_item : reachable=true
@@ -9385,7 +8949,7 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @id/save_non_transition_alpha : reachable=false
 @id/save_overlay_view : reachable=true
 @id/sawtooth : reachable=false
-@id/scale : reachable=true
+@id/scale : reachable=false
 @id/screen : reachable=false
 @id/scroll : reachable=false
 @id/scrollIndicatorDown : reachable=false
@@ -9450,7 +9014,7 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @id/startVertical : reachable=false
 @id/staticLayout : reachable=false
 @id/staticPostLayout : reachable=false
-@id/status_bar_latest_event_content : reachable=true
+@id/status_bar_latest_event_content : reachable=false
 @id/stop : reachable=false
 @id/stretch : reachable=false
 @id/submenuarrow : reachable=true
@@ -9490,7 +9054,7 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @id/title : reachable=true
 @id/titleDividerNoCustom : reachable=true
 @id/title_template : reachable=true
-@id/toggle : reachable=true
+@id/toggle : reachable=false
 @id/top : reachable=true
 @id/topPanel : reachable=true
 @id/topToBottom : reachable=true
@@ -9592,7 +9156,7 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @integer/preferences_detail_pane_weight : reachable=true
 @integer/preferences_header_pane_weight : reachable=true
 @integer/show_password_duration : reachable=true
-@integer/status_bar_notification_info_maxnum : reachable=true
+@integer/status_bar_notification_info_maxnum : reachable=false
 @interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0 : reachable=false
 @interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1 : reachable=false
 @interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0 : reachable=false
@@ -10376,7 +9940,7 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @string/searchview_navigation_content_description : reachable=false
 @string/side_sheet_accessibility_pane_title : reachable=true
 @string/side_sheet_behavior : reachable=false
-@string/status_bar_notification_info_overflow : reachable=true
+@string/status_bar_notification_info_overflow : reachable=false
 @string/summary_collapsed_preference_list : reachable=false
 @string/v7_preference_off : reachable=false
 @string/v7_preference_on : reachable=false
@@ -14749,53 +14313,53 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
 @style/Platform_V25_AppCompat : reachable=false
 @style/Platform_V25_AppCompat_Light : reachable=false
 @style/Platform_Widget_AppCompat_Spinner : reachable=false
-@style/Preference : reachable=true
+@style/Preference : reachable=false
     @layout/preference
-@style/PreferenceCategoryTitleTextStyle : reachable=true
+@style/PreferenceCategoryTitleTextStyle : reachable=false
     @attr/preferenceCategoryTitleTextAppearance
     @attr/preferenceCategoryTitleTextColor
-@style/PreferenceFragment : reachable=true
-@style/PreferenceFragmentList : reachable=true
-@style/PreferenceFragmentList_Material : reachable=true
+@style/PreferenceFragment : reachable=false
+@style/PreferenceFragmentList : reachable=false
+@style/PreferenceFragmentList_Material : reachable=false
     @style/PreferenceFragmentList
-@style/PreferenceFragment_Material : reachable=true
+@style/PreferenceFragment_Material : reachable=false
     @style/PreferenceFragment
     @drawable/preference_list_divider_material
     @attr/allowDividerAfterLastItem
-@style/PreferenceSummaryTextStyle : reachable=true
-@style/PreferenceThemeOverlay : reachable=true
+@style/PreferenceSummaryTextStyle : reachable=false
+@style/PreferenceThemeOverlay : reachable=false
     @style/BasePreferenceThemeOverlay
     @attr/preferenceCategoryTitleTextColor
-@style/PreferenceThemeOverlay_v14 : reachable=true
+@style/PreferenceThemeOverlay_v14 : reachable=false
     @style/PreferenceThemeOverlay
-@style/PreferenceThemeOverlay_v14_Material : reachable=true
+@style/PreferenceThemeOverlay_v14_Material : reachable=false
     @style/PreferenceThemeOverlay_v14
-@style/Preference_Category : reachable=true
+@style/Preference_Category : reachable=false
     @style/Preference
     @layout/preference_category
-@style/Preference_Category_Material : reachable=true
+@style/Preference_Category_Material : reachable=false
     @style/Preference_Category
     @layout/preference_category_material
     @attr/allowDividerAbove
     @attr/allowDividerBelow
     @bool/config_materialPreferenceIconSpaceReserved
     @attr/iconSpaceReserved
-@style/Preference_CheckBoxPreference : reachable=true
+@style/Preference_CheckBoxPreference : reachable=false
     @style/Preference
     @layout/preference_widget_checkbox
-@style/Preference_CheckBoxPreference_Material : reachable=true
+@style/Preference_CheckBoxPreference_Material : reachable=false
     @style/Preference_CheckBoxPreference
     @layout/preference_material
     @attr/allowDividerAbove
     @attr/allowDividerBelow
     @bool/config_materialPreferenceIconSpaceReserved
     @attr/iconSpaceReserved
-@style/Preference_DialogPreference : reachable=true
+@style/Preference_DialogPreference : reachable=false
     @style/Preference
-@style/Preference_DialogPreference_EditTextPreference : reachable=true
+@style/Preference_DialogPreference_EditTextPreference : reachable=false
     @style/Preference_DialogPreference
     @layout/preference_dialog_edittext
-@style/Preference_DialogPreference_EditTextPreference_Material : reachable=true
+@style/Preference_DialogPreference_EditTextPreference_Material : reachable=false
     @style/Preference_DialogPreference_EditTextPreference
     @layout/preference_material
     @attr/allowDividerAbove
@@ -14803,30 +14367,30 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
     @attr/singleLineTitle
     @bool/config_materialPreferenceIconSpaceReserved
     @attr/iconSpaceReserved
-@style/Preference_DialogPreference_Material : reachable=true
+@style/Preference_DialogPreference_Material : reachable=false
     @style/Preference_DialogPreference
     @layout/preference_material
     @attr/allowDividerAbove
     @attr/allowDividerBelow
     @bool/config_materialPreferenceIconSpaceReserved
     @attr/iconSpaceReserved
-@style/Preference_DropDown : reachable=true
+@style/Preference_DropDown : reachable=false
     @style/Preference
     @layout/preference_dropdown
-@style/Preference_DropDown_Material : reachable=true
+@style/Preference_DropDown_Material : reachable=false
     @style/Preference_DropDown
     @layout/preference_dropdown_material
     @attr/allowDividerAbove
     @attr/allowDividerBelow
     @bool/config_materialPreferenceIconSpaceReserved
     @attr/iconSpaceReserved
-@style/Preference_Information : reachable=true
+@style/Preference_Information : reachable=false
     @style/Preference
     @layout/preference_information
-@style/Preference_Information_Material : reachable=true
+@style/Preference_Information_Material : reachable=false
     @style/Preference_Information
     @layout/preference_information_material
-@style/Preference_Material : reachable=true
+@style/Preference_Material : reachable=false
     @style/Preference
     @layout/preference_material
     @attr/allowDividerAbove
@@ -14834,22 +14398,22 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
     @attr/singleLineTitle
     @bool/config_materialPreferenceIconSpaceReserved
     @attr/iconSpaceReserved
-@style/Preference_PreferenceScreen : reachable=true
+@style/Preference_PreferenceScreen : reachable=false
     @style/Preference
-@style/Preference_PreferenceScreen_Material : reachable=true
+@style/Preference_PreferenceScreen_Material : reachable=false
     @style/Preference_PreferenceScreen
     @layout/preference_material
     @attr/allowDividerAbove
     @attr/allowDividerBelow
     @bool/config_materialPreferenceIconSpaceReserved
     @attr/iconSpaceReserved
-@style/Preference_SeekBarPreference : reachable=true
+@style/Preference_SeekBarPreference : reachable=false
     @style/Preference
     @layout/preference_widget_seekbar
     @attr/adjustable
     @attr/showSeekBarValue
     @attr/updatesContinuously
-@style/Preference_SeekBarPreference_Material : reachable=true
+@style/Preference_SeekBarPreference_Material : reachable=false
     @style/Preference_SeekBarPreference
     @layout/preference_widget_seekbar_material
     @attr/adjustable
@@ -14858,24 +14422,24 @@ Marking id:fragment_container_view_tag:2131230901 used because it matches string
     @attr/allowDividerBelow
     @bool/config_materialPreferenceIconSpaceReserved
     @attr/iconSpaceReserved
-@style/Preference_SwitchPreference : reachable=true
+@style/Preference_SwitchPreference : reachable=false
     @style/Preference
     @layout/preference_widget_switch
     @string/v7_preference_on
     @string/v7_preference_off
-@style/Preference_SwitchPreferenceCompat : reachable=true
+@style/Preference_SwitchPreferenceCompat : reachable=false
     @style/Preference
     @layout/preference_widget_switch_compat
     @string/v7_preference_on
     @string/v7_preference_off
-@style/Preference_SwitchPreferenceCompat_Material : reachable=true
+@style/Preference_SwitchPreferenceCompat_Material : reachable=false
     @style/Preference_SwitchPreferenceCompat
     @layout/preference_material
     @attr/allowDividerAbove
     @attr/allowDividerBelow
     @bool/config_materialPreferenceIconSpaceReserved
     @attr/iconSpaceReserved
-@style/Preference_SwitchPreference_Material : reachable=true
+@style/Preference_SwitchPreference_Material : reachable=false
     @style/Preference_SwitchPreference
     @layout/preference_material
     @attr/allowDividerAbove
@@ -19286,7 +18850,6 @@ The root reachable resources are:
  attr:colorPrimaryVariant:2130903303
  attr:colorSurface:2130903309
  attr:colorSwitchThumbNormal:2130903319
- attr:constraints:2130903330
  attr:content:2130903331
  attr:contentDescription:2130903332
  attr:contentInsetEnd:2130903333
@@ -19306,7 +18869,6 @@ The root reachable resources are:
  attr:contrast:2130903347
  attr:controlBackground:2130903348
  attr:coordinatorLayoutStyle:2130903349
- attr:currentState:2130903369
  attr:dayInvalidStyle:2130903380
  attr:daySelectedStyle:2130903381
  attr:dayStyle:2130903382
@@ -19531,6 +19093,8 @@ The root reachable resources are:
  attr:layout_scrollFlags:2130903710
  attr:layout_scrollInterpolator:2130903711
  attr:limitBoundsTo:2130903715
+ attr:lineHeight:2130903716
+ attr:lineSpacing:2130903717
  attr:linearProgressIndicatorStyle:2130903718
  attr:listChoiceBackgroundIndicator:2130903719
  attr:listChoiceIndicatorMultipleAnimated:2130903720
@@ -19615,9 +19179,6 @@ The root reachable resources are:
  attr:state_liftable:2130904030
  attr:state_lifted:2130904031
  attr:state_with_icon:2130904032
- attr:statusBarBackground:2130904033
- attr:statusBarForeground:2130904034
- attr:statusBarScrim:2130904035
  attr:strokeColor:2130904037
  attr:strokeWidth:2130904038
  attr:suffixText:2130904050
@@ -19710,11 +19271,8 @@ The root reachable resources are:
  attr:titleTextColor:2130904187
  attr:titleTextEllipsize:2130904188
  attr:titleTextStyle:2130904189
- attr:toggleCheckedStateOnClick:2130904190
- attr:toolbarId:2130904191
  attr:toolbarNavigationButtonStyle:2130904192
  attr:toolbarStyle:2130904193
- attr:toolbarSurfaceStyle:2130904194
  attr:tooltipForegroundColor:2130904195
  attr:tooltipFrameBackground:2130904196
  attr:tooltipStyle:2130904197
@@ -19745,10 +19303,6 @@ The root reachable resources are:
  attr:yearSelectedStyle:2130904252
  attr:yearStyle:2130904253
  attr:yearTodayStyle:2130904254
- bool:enable_system_alarm_service_default:2130968579
- bool:enable_system_foreground_service_default:2130968580
- bool:enable_system_job_service_default:2130968581
- bool:workmanager_test_configuration:2130968583
  color:abc_tint_btn_checkable:2131034131
  color:abc_tint_default:2131034132
  color:abc_tint_edittext:2131034133
@@ -19799,8 +19353,6 @@ The root reachable resources are:
  dimen:design_snackbar_padding_vertical:2131099782
  dimen:design_snackbar_padding_vertical_2lines:2131099783
  dimen:design_textinput_caption_translate_y:2131099789
- dimen:disabled_alpha_material_dark:2131099790
- dimen:disabled_alpha_material_light:2131099791
  dimen:fastscroll_default_thickness:2131099792
  dimen:fastscroll_margin:2131099793
  dimen:fastscroll_minimum_range:2131099794
@@ -19937,7 +19489,6 @@ The root reachable resources are:
  drawable:notification_template_icon_bg:2131165409
  drawable:notification_template_icon_low_bg:2131165410
  drawable:notification_tile_bg:2131165411
- drawable:toast_bg:2131165415
  drawable:tooltip_frame_dark:2131165416
  drawable:tooltip_frame_light:2131165417
  id:BOTTOM_END:2131230721
@@ -20059,6 +19610,8 @@ The root reachable resources are:
  id:layout:2131230932
  id:left:2131230933
  id:leftToRight:2131230934
+ id:line1:2131230936
+ id:line3:2131230937
  id:linear:2131230938
  id:listMode:2131230939
  id:list_item:2131230940
@@ -20111,7 +19664,6 @@ The root reachable resources are:
  id:right_icon:2131231049
  id:right_side:2131231050
  id:save_overlay_view:2131231055
- id:scale:2131231057
  id:search_button:2131231067
  id:search_close_btn:2131231068
  id:search_edit_frame:2131231069
@@ -20132,7 +19684,6 @@ The root reachable resources are:
  id:special_effects_controller_view_tag:2131231105
  id:split_action_bar:2131231108
  id:standard:2131231115
- id:status_bar_latest_event_content:2131231122
  id:submenuarrow:2131231125
  id:submit_area:2131231126
  id:tag_accessibility_actions:2131231129
@@ -20168,7 +19719,6 @@ The root reachable resources are:
  id:title:2131231159
  id:titleDividerNoCustom:2131231160
  id:title_template:2131231161
- id:toggle:2131231162
  id:top:2131231163
  id:topPanel:2131231164
  id:topToBottom:2131231165
@@ -20193,7 +19743,6 @@ The root reachable resources are:
  integer:preferences_detail_pane_weight:2131296321
  integer:preferences_header_pane_weight:2131296322
  integer:show_password_duration:2131296323
- integer:status_bar_notification_info_maxnum:2131296324
  layout:abc_action_bar_title_item:2131427328
  layout:abc_action_menu_item_layout:2131427330
  layout:abc_action_mode_close_item_material:2131427333
@@ -20297,41 +19846,9 @@ The root reachable resources are:
  string:path_password_eye_mask_visible:2131755168
  string:path_password_strike_through:2131755169
  string:side_sheet_accessibility_pane_title:2131755175
- string:status_bar_notification_info_overflow:2131755177
  style:Animation_AppCompat_Tooltip:2131820548
  style:LaunchTheme:2131820829
  style:NormalTheme:2131820850
- style:Preference:2131820865
- style:Preference_Category:2131820866
- style:Preference_Category_Material:2131820867
- style:Preference_CheckBoxPreference:2131820868
- style:Preference_CheckBoxPreference_Material:2131820869
- style:Preference_DialogPreference:2131820870
- style:Preference_DialogPreference_EditTextPreference:2131820871
- style:Preference_DialogPreference_EditTextPreference_Material:2131820872
- style:Preference_DialogPreference_Material:2131820873
- style:Preference_DropDown:2131820874
- style:Preference_DropDown_Material:2131820875
- style:Preference_Information:2131820876
- style:Preference_Information_Material:2131820877
- style:Preference_Material:2131820878
- style:Preference_PreferenceScreen:2131820879
- style:Preference_PreferenceScreen_Material:2131820880
- style:Preference_SeekBarPreference:2131820881
- style:Preference_SeekBarPreference_Material:2131820882
- style:Preference_SwitchPreference:2131820883
- style:Preference_SwitchPreference_Material:2131820884
- style:Preference_SwitchPreferenceCompat:2131820885
- style:Preference_SwitchPreferenceCompat_Material:2131820886
- style:PreferenceCategoryTitleTextStyle:2131820887
- style:PreferenceFragment:2131820888
- style:PreferenceFragment_Material:2131820889
- style:PreferenceFragmentList:2131820890
- style:PreferenceFragmentList_Material:2131820891
- style:PreferenceSummaryTextStyle:2131820892
- style:PreferenceThemeOverlay:2131820893
- style:PreferenceThemeOverlay_v14:2131820894
- style:PreferenceThemeOverlay_v14_Material:2131820895
  style:TextAppearance_AppCompat:2131820972
  style:TextAppearance_AppCompat_Body1:2131820973
  style:TextAppearance_AppCompat_Body2:2131820974
@@ -20504,7 +20021,8 @@ Unused resources are:
  animator:mtrl_fab_transformation_sheet_collapse_spec:2130837536
  animator:mtrl_fab_transformation_sheet_expand_spec:2130837537
  bool:abc_action_bar_embed_tabs:2130968576
- bool:mtrl_btn_textappearance_all_caps:2130968582
+ bool:config_materialPreferenceIconSpaceReserved:2130968578
+ bool:mtrl_btn_textappearance_all_caps:2130968579
  color:abc_background_cache_hint_selector_material_light:2131034113
  color:abc_decor_view_status_guard:2131034117
  color:abc_decor_view_status_guard_light:2131034118
@@ -21151,6 +20669,8 @@ Unused resources are:
  dimen:design_snackbar_extra_spacing_horizontal:2131099778
  dimen:design_tab_scrollable_min_width:2131099786
  dimen:design_tab_text_size_2line:2131099788
+ dimen:disabled_alpha_material_dark:2131099790
+ dimen:disabled_alpha_material_light:2131099791
  dimen:highlight_alpha_material_dark:2131099796
  dimen:highlight_alpha_material_light:2131099797
  dimen:m3_alert_dialog_action_bottom_padding:2131099805
@@ -21562,6 +21082,11 @@ Unused resources are:
  dimen:mtrl_tooltip_arrowSize:2131100394
  dimen:mtrl_tooltip_cornerSize:2131100395
  dimen:mtrl_transition_shared_axis_slide_distance:2131100399
+ dimen:preference_dropdown_padding_start:2131100415
+ dimen:preference_icon_minWidth:2131100416
+ dimen:preference_seekbar_padding_horizontal:2131100417
+ dimen:preference_seekbar_padding_vertical:2131100418
+ dimen:preference_seekbar_value_minWidth:2131100419
  dimen:subtitle_corner_radius:2131100422
  dimen:subtitle_outline_width:2131100423
  dimen:subtitle_shadow_offset:2131100424
@@ -21654,7 +21179,9 @@ Unused resources are:
  drawable:mtrl_switch_thumb_unchecked_pressed:2131165395
  drawable:mtrl_switch_track:2131165396
  drawable:mtrl_switch_track_decoration:2131165397
+ drawable:preference_list_divider_material:2131165413
  drawable:test_level_drawable:2131165414
+ drawable:toast_bg:2131165415
  id:ALT:2131230720
  id:CTRL:2131230723
  id:FUNCTION:2131230724
@@ -21752,8 +21279,6 @@ Unused resources are:
  id:jumpToEnd:2131230929
  id:jumpToStart:2131230930
  id:legacy:2131230935
- id:line1:2131230936
- id:line3:2131230937
  id:ltr:2131230942
  id:m3_side_sheet:2131230943
  id:marquee:2131230944
@@ -21821,6 +21346,7 @@ Unused resources are:
  id:rtl:2131231053
  id:save_non_transition_alpha:2131231054
  id:sawtooth:2131231056
+ id:scale:2131231057
  id:screen:2131231058
  id:scroll:2131231059
  id:scrollIndicatorDown:2131231060
@@ -21865,10 +21391,12 @@ Unused resources are:
  id:startVertical:2131231119
  id:staticLayout:2131231120
  id:staticPostLayout:2131231121
+ id:status_bar_latest_event_content:2131231122
  id:stop:2131231123
  id:stretch:2131231124
  id:switchWidget:2131231127
  id:tabMode:2131231128
+ id:toggle:2131231162
  id:triangle:2131231174
  id:unchecked:2131231175
  id:uniform:2131231176
@@ -21918,6 +21446,7 @@ Unused resources are:
  integer:mtrl_switch_track_viewport_width:2131296316
  integer:mtrl_view_gone:2131296318
  integer:mtrl_view_visible:2131296320
+ integer:status_bar_notification_info_maxnum:2131296324
  interpolator:m3_sys_motion_easing_emphasized:2131361799
  interpolator:m3_sys_motion_easing_emphasized_accelerate:2131361800
  interpolator:m3_sys_motion_easing_emphasized_decelerate:2131361801
@@ -21969,8 +21498,21 @@ Unused resources are:
  layout:mtrl_picker_text_input_date_range:2131427424
  layout:mtrl_search_bar:2131427425
  layout:mtrl_search_view:2131427426
+ layout:preference_category:2131427443
+ layout:preference_category_material:2131427444
+ layout:preference_dialog_edittext:2131427445
+ layout:preference_dropdown:2131427446
+ layout:preference_dropdown_material:2131427447
+ layout:preference_information:2131427448
+ layout:preference_information_material:2131427449
  layout:preference_list_fragment:2131427450
+ layout:preference_material:2131427451
  layout:preference_recyclerview:2131427452
+ layout:preference_widget_checkbox:2131427453
+ layout:preference_widget_seekbar:2131427454
+ layout:preference_widget_seekbar_material:2131427455
+ layout:preference_widget_switch:2131427456
+ layout:preference_widget_switch_compat:2131427457
  layout:support_simple_spinner_dropdown_item:2131427461
  plurals:mtrl_badge_content_description:2131623936
  string:abc_action_bar_home_description:2131755008
@@ -22065,7 +21607,10 @@ Unused resources are:
  string:searchview_clear_text_content_description:2131755173
  string:searchview_navigation_content_description:2131755174
  string:side_sheet_behavior:2131755176
+ string:status_bar_notification_info_overflow:2131755177
  string:summary_collapsed_preference_list:2131755178
+ string:v7_preference_off:2131755179
+ string:v7_preference_on:2131755180
  style:Animation_Design_BottomSheetDialog:2131820549
  style:Animation_Material3_BottomSheetDialog:2131820550
  style:Animation_Material3_SideSheetDialog:2131820551
@@ -22177,6 +21722,7 @@ Unused resources are:
  style:Base_Widget_Material3_TabLayout:2131820808
  style:Base_Widget_Material3_TabLayout_OnSurface:2131820809
  style:Base_Widget_Material3_TabLayout_Secondary:2131820810
+ style:BasePreferenceThemeOverlay:2131820825
  style:CardView_Dark:2131820827
  style:CardView_Light:2131820828
  style:MaterialAlertDialog_Material3:2131820830
@@ -22199,6 +21745,37 @@ Unused resources are:
  style:Platform_MaterialComponents_Light_Dialog:2131820856
  style:Platform_ThemeOverlay_AppCompat_Light:2131820859
  style:Platform_Widget_AppCompat_Spinner:2131820864
+ style:Preference:2131820865
+ style:Preference_Category:2131820866
+ style:Preference_Category_Material:2131820867
+ style:Preference_CheckBoxPreference:2131820868
+ style:Preference_CheckBoxPreference_Material:2131820869
+ style:Preference_DialogPreference:2131820870
+ style:Preference_DialogPreference_EditTextPreference:2131820871
+ style:Preference_DialogPreference_EditTextPreference_Material:2131820872
+ style:Preference_DialogPreference_Material:2131820873
+ style:Preference_DropDown:2131820874
+ style:Preference_DropDown_Material:2131820875
+ style:Preference_Information:2131820876
+ style:Preference_Information_Material:2131820877
+ style:Preference_Material:2131820878
+ style:Preference_PreferenceScreen:2131820879
+ style:Preference_PreferenceScreen_Material:2131820880
+ style:Preference_SeekBarPreference:2131820881
+ style:Preference_SeekBarPreference_Material:2131820882
+ style:Preference_SwitchPreference:2131820883
+ style:Preference_SwitchPreference_Material:2131820884
+ style:Preference_SwitchPreferenceCompat:2131820885
+ style:Preference_SwitchPreferenceCompat_Material:2131820886
+ style:PreferenceCategoryTitleTextStyle:2131820887
+ style:PreferenceFragment:2131820888
+ style:PreferenceFragment_Material:2131820889
+ style:PreferenceFragmentList:2131820890
+ style:PreferenceFragmentList_Material:2131820891
+ style:PreferenceSummaryTextStyle:2131820892
+ style:PreferenceThemeOverlay:2131820893
+ style:PreferenceThemeOverlay_v14:2131820894
+ style:PreferenceThemeOverlay_v14_Material:2131820895
  style:RtlOverlay_Widget_AppCompat_DialogTitle_Icon:2131820898
  style:RtlUnderlay_Widget_AppCompat_ActionButton:2131820911
  style:RtlUnderlay_Widget_AppCompat_ActionButton_Overflow:2131820912
@@ -22894,7 +22471,9 @@ Skipped unused resource res/drawable/mtrl_switch_thumb_unchecked_checked.xml: 12
 Skipped unused resource res/drawable/mtrl_switch_thumb_unchecked_pressed.xml: 636 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/mtrl_switch_track.xml: 1006 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/mtrl_switch_track_decoration.xml: 1144 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-v21/preference_list_divider_material.xml: 480 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/test_level_drawable.xml: 335 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/toast_bg.xml: 670 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-v23/m3_appbar_background.xml: 446 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-v23/m3_popupmenu_background_overlay.xml: 1353 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-v23/m3_radiobutton_ripple.xml: 298 bytes (replaced with small dummy file of size 9 bytes)
@@ -22982,8 +22561,21 @@ Skipped unused resource res/layout/mtrl_picker_text_input_date_range.xml: 3471 b
 Skipped unused resource res/layout/mtrl_search_bar.xml: 643 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/mtrl_search_view.xml: 8244 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-v22/mtrl_search_view.xml: 8331 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_category.xml: 495 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_category_material.xml: 3862 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_dialog_edittext.xml: 2620 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_dropdown.xml: 5586 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_dropdown_material.xml: 1106 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_information.xml: 3898 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_information_material.xml: 4928 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/preference_list_fragment.xml: 1335 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_material.xml: 4753 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/preference_recyclerview.xml: 759 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_widget_checkbox.xml: 626 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_widget_seekbar.xml: 7176 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_widget_seekbar_material.xml: 8255 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_widget_switch.xml: 634 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/preference_widget_switch_compat.xml: 650 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/support_simple_spinner_dropdown_item.xml: 701 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-sw600dp-v13/design_layout_snackbar.xml: 681 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-sw600dp-v13/mtrl_layout_snackbar.xml: 517 bytes (replaced with small dummy file of size 9 bytes)

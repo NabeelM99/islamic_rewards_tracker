@@ -21,13 +21,13 @@ class AlarmScheduler(private val context: Context) {
         private val TASK_TIMES = listOf(6, 12, 18, 0)
         private val DHIKR_TIMES = listOf(5, 13, 16, 19, 20)
         private val DHIKR_MINUTES = listOf(30, 0, 30, 0, 30)
-        private val DUA_TIMES = listOf(7, 18)
-        private val DUA_MINUTES = listOf(0, 30)
+        private val DUA_TIMES = listOf(7, 18, 22, 23)
+        private val DUA_MINUTES = listOf(0, 30, 20, 30)
         
-        // Daily reset notification (1 minute after midnight)
+        // Daily reset notification (exactly at midnight)
         private const val DAILY_RESET_ID = 4000
         private const val DAILY_RESET_HOUR = 0
-        private const val DAILY_RESET_MINUTE = 1
+        private const val DAILY_RESET_MINUTE = 0
     }
     
     private val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager

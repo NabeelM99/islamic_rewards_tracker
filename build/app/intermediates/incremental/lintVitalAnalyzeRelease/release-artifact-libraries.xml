@@ -108,19 +108,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name=":@@:workmanager::release"
-      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\9b51415ea7d0b6b8ca009428a4da83c8\transformed\out\jars\classes.jar;C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\9b51415ea7d0b6b8ca009428a4da83c8\transformed\out\jars\libs\R.jar"
-      resolved="dev.fluttercommunity.workmanager:workmanager:unspecified"
-      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\9b51415ea7d0b6b8ca009428a4da83c8\transformed\out"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"
       jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.8.22\4dabb8248310d833bb6a8b516024a91fd3d275c\kotlin-stdlib-jdk7-1.8.22.jar"
       resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22"/>
@@ -736,19 +723,6 @@
       jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.constraintlayout\constraintlayout-solver\2.0.1\30988fe2d77f3fe3bf7551bb8a8b795fad7e7226\constraintlayout-solver-2.0.1.jar"
       resolved="androidx.constraintlayout:constraintlayout-solver:2.0.1"/>
   <library
-      name="androidx.work:work-runtime:2.8.1@aar"
-      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2fec3cd562ae80740eb6f9dcab436ca5\transformed\work-runtime-2.8.1\jars\classes.jar"
-      resolved="androidx.work:work-runtime:2.8.1"
-      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\2fec3cd562ae80740eb6f9dcab436ca5\transformed\work-runtime-2.8.1"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="androidx.preference:preference:1.2.1@aar"
       jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\89120d04882e497dce91d2a420327379\transformed\preference-1.2.1\jars\classes.jar"
       resolved="androidx.preference:preference:1.2.1"
@@ -866,19 +840,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-service:2.7.0@aar"
-      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\adbc576a3ee2d425ede90710a238ad35\transformed\lifecycle-service-2.7.0\jars\classes.jar"
-      resolved="androidx.lifecycle:lifecycle-service:2.7.0"
-      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\adbc576a3ee2d425ede90710a238ad35\transformed\lifecycle-service-2.7.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="androidx.savedstate:savedstate-ktx:1.2.1@aar"
       jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\34da987e45e9f8645ad9a0b75dfb2413\transformed\savedstate-ktx-1.2.1\jars\classes.jar"
       resolved="androidx.savedstate:savedstate-ktx:1.2.1"
@@ -904,10 +865,6 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
-  <library
-      name="androidx.concurrent:concurrent-futures:1.1.0@jar"
-      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.concurrent\concurrent-futures\1.1.0\50b7fb98350d5f42a4e49704b03278542293ba48\concurrent-futures-1.1.0.jar"
-      resolved="androidx.concurrent:concurrent-futures:1.1.0"/>
   <library
       name="androidx.datastore:datastore-preferences-external-protobuf:1.1.3@jar"
       jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.datastore\datastore-preferences-external-protobuf\1.1.3\ddd0a2d64e3c928359c993d1291e535d5d7fc9a3\datastore-preferences-external-protobuf-1.1.3.jar"
@@ -964,32 +921,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.room:room-runtime:2.5.0@aar"
-      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\fc9915dcc7bba039a661ac165c9743e1\transformed\room-runtime-2.5.0\jars\classes.jar"
-      resolved="androidx.room:room-runtime:2.5.0"
-      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\fc9915dcc7bba039a661ac165c9743e1\transformed\room-runtime-2.5.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.sqlite:sqlite-framework:2.3.0@aar"
-      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\799a0e86c9cd3b232e89c5a29dd80949\transformed\sqlite-framework-2.3.0\jars\classes.jar"
-      resolved="androidx.sqlite:sqlite-framework:2.3.0"
-      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\799a0e86c9cd3b232e89c5a29dd80949\transformed\sqlite-framework-2.3.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="androidx.resourceinspection:resourceinspection-annotation:1.0.1@jar"
       jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.resourceinspection\resourceinspection-annotation\1.0.1\8c21f8ff5d96d5d52c948707f7e4d6ca6773feef\resourceinspection-annotation-1.0.1.jar"
       resolved="androidx.resourceinspection:resourceinspection-annotation:1.0.1"/>
@@ -998,22 +929,9 @@
       jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.collection\collection-ktx\1.1.0\f807b2f366f7b75142a67d2f3c10031065b5168\collection-ktx-1.1.0.jar"
       resolved="androidx.collection:collection-ktx:1.1.0"/>
   <library
-      name="androidx.room:room-common:2.5.0@jar"
-      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.room\room-common\2.5.0\829a83fb92f1696a8a32f3beea884dfc87b2693\room-common-2.5.0.jar"
-      resolved="androidx.room:room-common:2.5.0"/>
-  <library
-      name="androidx.sqlite:sqlite:2.3.0@aar"
-      jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e084357cd4637b68e4ffbe8c32363e88\transformed\sqlite-2.3.0\jars\classes.jar"
-      resolved="androidx.sqlite:sqlite:2.3.0"
-      folder="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\e084357cd4637b68e4ffbe8c32363e88\transformed\sqlite-2.3.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
+      name="androidx.concurrent:concurrent-futures:1.1.0@jar"
+      jars="C:\Users\Nabeel Mohammed\.gradle\caches\modules-2\files-2.1\androidx.concurrent\concurrent-futures\1.1.0\50b7fb98350d5f42a4e49704b03278542293ba48\concurrent-futures-1.1.0.jar"
+      resolved="androidx.concurrent:concurrent-futures:1.1.0"/>
   <library
       name="androidx.window.extensions.core:core:1.0.0@aar"
       jars="C:\Users\Nabeel Mohammed\.gradle\caches\8.10\transforms\9e8700b97f6072552927c74a97c881c8\transformed\core-1.0.0\jars\classes.jar"
